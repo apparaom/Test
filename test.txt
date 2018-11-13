@@ -1,0 +1,5004 @@
+13-09-2017
+==========
+
+14-09-2017
+==========
+http://10.21.151.130/svn/wbcpsrv/branches/wbcp_WB_ACL_CCT_SEP2017_dev/CrmateACLCCTBatch
+
+10.193.106.128/129 -- crsupport/scb123
+
+-XX:PermSize=512m -XX:MaxPermSize=1024m
+
+http://teamsites.sc.com/sites/wbcr/crrethink/the_forum/default.aspx
+
+http://teamsites.sc.com/sites/cr/CreditMate%20Reference%20Docs/Forms/AllItems.aspx
+
+
+==========
+15-09-2017
+==========
+20000074	11000014	CIB_CM
+
+/tmp/app415a/CREDITMATE
+
+
+10000028	10000029	HUSA Maker
+10000038	10000040	HUSA Checker
+
+select * from users_mst where role_id=10000028;
+------------------------------------------------
+1520088	10000028	10000069	Creditmate User
+1518308	10000028	10000069	Creditmate User
+1518317	10000028	10000069	USER NAME OF 10000028
+1524350	10000028	10000069	USER NAME OF 10000028
+1229149	10000028	10000069	USER NAME OF 10000028
+1254414	10000028	10000069	USER NAME OF 10000028
+1456455	10000028	10000069	USER NAME OF 10000028
+1452079	10000028	10000069	USER NAME OF 10000028
+
+
+1386665	10000028	10000069	USER NAME OF 10000028
+1423425	10000028	10000069	USER NAME OF 10000028
+1438130	10000028	10000069	USER NAME OF 10000028
+1444512	10000028	10000069	USER NAME OF 10000028
+1497418	10000028	10000069	USER NAME OF 10000028
+
+
+1029351
+
+==========
+18-09-2017
+==========
+10000038	10000040	HUSA Checker
+-------------------------------------
+select * from users_mst where role_id=10000038;
+===============================================
+1524349	10000038	10000070	Creditmate User
+1320299	10000038	10000070	USER NAME OF 10000038
+1498037	10000038	10000070	USER NAME OF 10000038
+1527387	10000038	10000070	USER NAME OF 10000038
+1493406	10000038	10000070	USER NAME OF 10000038
+1508226	10000038	10000070	USER NAME OF 10000038
+1245134	10000038	10000070	USER NAME OF 10000038
+1379640	10000038	10000070	USER NAME OF 10000038
+1360083	10000038	10000070	USER NAME OF 10000038
+1376502	10000038	10000070	USER NAME OF 10000038
+1378644	10000038	10000070	USER NAME OF 10000038
+1453375	10000038	10000070	USER NAME OF 10000038
+1446842	10000038	10000070	USER NAME OF 10000038
+1453622	10000038	10000070	USER NAME OF 10000038
+
+1444615 
+
+
+==========
+19-09-2017
+==========
+
+P116050
+
+actManageClientDoc.jsp
+
+cr_searchmodal.js
+
+openClientMgtSearch()
+
+
+
+approvalrequestList.jsp
+
+clientManagerDetails.jsp
+
+
+==========
+20-09-2017
+==========
+Completed the TSD of HUSA
+Done the Popup Screen Changes and Shared to Sathish
+
+==========
+21-09-2017
+==========
+PNR	-	4136196146
+SAVITHRI MANGALAGIRI
+1962
+
+smart minds academy
+
+===================================BCA Corporate/BCA RS Buyer/FUNDBCA/FIBCA/RMPBCA/SMEBCA======================================
+   
+   
+>>>>>>>>>>>>>>>C:\Dinesh\CreditMate WorkSpace\Chinese Character_Aug Release\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\action\SetApprovalsAction.java   
+  
+   private boolean sendNotification(List<UserBean> toUsers, String action, BCAScorecardsMainBorrBean mbBean, 
+   SetApprovalsBean objApprovalBean, BCAHeaderBean useLocalHeaderBean ) 
+
+   
+==========
+22-09-2017
+==========
+APPARAO MANGALAGIRI
+154501000610
+IFSC Code: ICIC0001545 
+
+
+==========
+25-09-2017
+==========	
+<!-- Added by Dinesh kumar for Client Manager-Email Notification Change Starts here --> 
+
+<select id="getCMMailDetails" resultMap="getCMMailDetails">
+
+SELECT DISTINCT U.EMAIL_ID
+
+FROM USERS_MST U, WB_CCT_CM_CLNT_MAIN WC
+
+WHERE WC.PEOPLEWISE_ID = U.PEOPLEWISE_ID
+
+AND WC.LEID LIKE #leid#
+
+</select> 
+
+<!-- Added by Dinesh kumar for Client Manager-Email Notification Change Ends here --> 
+
+==========
+26-09-2017
+==========
+connection = DriverManager.getConnection("jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpddfmsa-scan.uk.standardchartered.com)(PORT=1522)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_DEV.uk.standardchartered.com))))", "CRMATE_DEV_02", "CRMATE_DEV_02_123");
+<property name="url" value="jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpddfmsa-scan.uk.standardchartered.com)(PORT=1522)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_DEV.uk.standardchartered.com))))" />
+<property name="username" value="CRMATE_DEV_02" />
+<property name="password" value="CRMATE_DEV_02_123" />
+
+connection = DriverManager.getConnection("jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpdudasa-scan.uk.standardchartered.com)(PORT=1622)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_PT.uk.standardchartered.com))))","CRMATE_DR_01", "CRMATE_DR_01_123");
+
+<property name="url" value="jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpdudasa-scan.uk.standardchartered.com)(PORT=1622)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_PT.uk.standardchartered.com))))" />
+<property name="username" value="CRMATE_DR_01" />
+<property name="password" value="CRMATE_DR_01_123" />
+
+SELECT DISTINCT U.EMAIL_ID
+ FROM  USERS_MST U, WB_CCT_CM_CLNT_MAIN  WC
+ WHERE WC.PEOPLEWISE_ID = U.PEOPLEWISE_ID
+ AND WC.LEID LIKE  #leid#
+
+ 
+EAR					
+LCA
+DCL
+IDR
+BCA Corporate			BCA
+BCA RS Buyer
+FUNDBCA					FUNDBCA
+FIBCA					FIBCA
+RMPBCA					RMPBCA
+EAW
+RDE
+GRDE
+
+
+
+
+
+GOVTBCA
+IGBCA
+SMEBCA
+
+CM_MAIL_CLIENT
+CC COLUMN
+
+
+1156149		----	11157637		-- 1448696
+
+rmDetails = (NotificationDTO)approvalDelegate.getRMDetails(custId,ddwRefNo);
+
+==========
+27-09-2017
+==========
+PP314076705IN
+
+==========
+03-10-2017
+==========
+EAR - EAR_DETAILS    
+IDR - EAR_DETAILS
+DCL - DCL_details
+EAW - EAW_DETAILS
+BCA Corporate
+BCA RS Buyer
+FUNDBCA
+FIBCA
+RMPBCA
+LCA - LCA_DETAILS
+RDE - RDE_DETAILS
+GRDE - RDE_DETAILS 
+
+ACL_CUST_EAR_ACCESS
+RMPBCA_AVAILABLE_CNTRY
+
+SELECT
+COUNT(1) FROM CUSTOMER_EAR_VIEW eaw,V_CR_CUST_TXN cust WHERE
+eaw.LCS_LE_ID= cust.LEID AND cust.CUSTID = #custId#
+
+if count=0 then EAW will be Enable
+
+
+
+THIRDWARE-PF-KDMAL00424870000002325
+
+============
+04-10-2017
+===========
+
+just fill that form and give to Raja kumar 
+he will be available in 11th floor
+
+17817*12=213804
+
+13290*12=199350
+
+14454
+
+( Facility Id : 10545463001 ) : Proposed limits Incl. Marketing Headroom must be valid number. 
+( Facility Id : 10545463001 ) : Please select Bi-lateral / Syndicated Loan 
+
+
+=============
+05-10-2017
+===========
+
+CASE
+    WHEN tmp.NONFIN_FACTOR_ID_MC=5007
+    THEN DECODE(SC_NONFIN_FACTOR_MAP_ID,1,3,3,2,2,1,SC_NONFIN_FACTOR_MAP_ID)
+    ELSE SC_NONFIN_FACTOR_MAP_ID
+  END SC_NONFIN_FACTOR_MAP_ID,
+  
+<!-- <tr >
+					<td colspan="6" style="border: 1px dotted blue;"></td>	
+				</tr> -->
+
+<tr class="bgTbRowBl">
+
+
+<tr align="center" class="bgTbRowWh" height="30">
+
+==========
+06-10-2017
+==========
+
+select * from ACL_ROLE_MST where role_desc like '%CM%';
+
+==========
+09-10-2017
+==========
+8100/-
+
+UAN
+============
+100232163048
+jvhazjro2660
+
+host.endpoint = http://uklvadcrm02a.uk.standardchartered.com:9080/scfb/services/ScoringService
+
+fastrackhost.endpoint = http://uklpaucrm01a.uk.standardchartered.com:9085/CRFastrackInterface/services/FastrackBO
+
+
+
+1116805	--	11162575	--		10525989,10525809,10524989
+
+<bean id="ddwApprovalAction" scope="prototype" class="com.standardchartered.cr.ddw.action.DDWApprovalAction">
+
+<constructor-arg ref="ddwApprovalDelegate"/>
+
+<constructor-arg ref="ddwListOperationsDelegate"/>
+
+<constructor-arg ref="lockUnlockHelper"/>
+
+<constructor-arg ref="infDelegate"/>
+
+<!-- Added by Dinesh kumar for Client Manager-Email Notification Change Starts here --> 
+
+<property name="domainUtil" ref="domainUtil"/>
+
+<!-- Added by Dinesh kumar for Client Manager-Email Notification Change Ends here --> 
+
+</bean>
+
+
+
+Insert into WB_CCT_CM_CLNT_MAIN (SEQ_NO,PEOPLEWISE_ID,LEID,PROSPECT_ID,ROLE_NAME,CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (381,'1330662','12344819-1','-999','CCM','CCM00','ME',to_timestamp('21-SEP-17 10.48.59.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'35001-1');
+Insert into WB_CCT_CM_CLNT_MAIN (SEQ_NO,PEOPLEWISE_ID,LEID,PROSPECT_ID,ROLE_NAME,CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (382,'1476358','11187349-1','0000704660,KL6WTELP','CCM','CCM01','ME',to_timestamp('21-SEP-17 10.48.59.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'35001-1');
+Insert into WB_CCT_CM_CLNT_MAIN (SEQ_NO,PEOPLEWISE_ID,LEID,PROSPECT_ID,ROLE_NAME,CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (383,'1508433','11172413-4','AA00112820','CCM','CCM02','ME',to_timestamp('21-SEP-17 10.48.59.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'35001-1');
+Insert into WB_CCT_CM_CLNT_MAIN (SEQ_NO,PEOPLEWISE_ID,LEID,PROSPECT_ID,ROLE_NAME,CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (384,'1330662','12204604-1','-999','CCM','CCM03','ME',to_timestamp('21-SEP-17 10.48.59.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'35001-1');
+Insert into WB_CCT_CM_CLNT_MAIN (SEQ_NO,PEOPLEWISE_ID,LEID,PROSPECT_ID,ROLE_NAME,CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (385,'1104947','12026323-1','0000114155','CCM','CCM04','ME',to_timestamp('21-SEP-17 10.48.59.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'35001-1');
+Insert into WB_CCT_CM_CLNT_MAIN (SEQ_NO,PEOPLEWISE_ID,LEID,PROSPECT_ID,ROLE_NAME,CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (386,'1190309','11063472-1','AA00077373','CCM','CCM05','ME',to_timestamp('21-SEP-17 10.48.59.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'35001-1');
+Insert into WB_CCT_CM_CLNT_MAIN (SEQ_NO,PEOPLEWISE_ID,LEID,PROSPECT_ID,ROLE_NAME,CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (387,'1360687','13621167-1','-999','CCM','CCM06','ME',to_timestamp('21-SEP-17 10.48.59.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'35001-1');
+Insert into WB_CCT_CM_CLNT_MAIN (SEQ_NO,PEOPLEWISE_ID,LEID,PROSPECT_ID,ROLE_NAME,CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (388,'1463920','11230060-1','AA00012687','CCM','CCM07','ME',to_timestamp('21-SEP-17 10.48.59.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'35001-1');
+Insert into WB_CCT_CM_CLNT_MAIN (SEQ_NO,PEOPLEWISE_ID,LEID,PROSPECT_ID,ROLE_NAME,CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (389,'1290798','13536611-1','0008145673','CCM','CCM08','ME',to_timestamp('21-SEP-17 10.48.59.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'35001-1');
+Insert into WB_CCT_CM_CLNT_MAIN (SEQ_NO,PEOPLEWISE_ID,LEID,PROSPECT_ID,ROLE_NAME,CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (390,'1462182','11222363-1','TL79LTLX','CCM','CCM09','ME',to_timestamp('21-SEP-17 10.48.59.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'35001-1');
+Insert into WB_CCT_CM_CLNT_MAIN (SEQ_NO,PEOPLEWISE_ID,LEID,PROSPECT_ID,ROLE_NAME,CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (391,'2330662','12344819-1','-999','CCM','ARM001','ME',to_timestamp('21-SEP-17 10.53.39.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'35002-1');
+
+
+ CREATE TABLE "CRMATE_DEV_01"."WB_CCT_CM_CLNT_MAIN" 
+   (	"SEQ_NO" NUMBER, 
+	"PEOPLEWISE_ID" VARCHAR2(50 BYTE), 
+	"LEID" VARCHAR2(50 BYTE), 
+	"PROSPECT_ID" VARCHAR2(4000 BYTE), 
+	"ROLE_NAME" VARCHAR2(50 BYTE), 
+	"CM_CODE" VARCHAR2(50 BYTE), 
+	"LOCATION" VARCHAR2(50 BYTE), 
+	"MODIFIED_DATE" TIMESTAMP (6), 
+	"MESSAGE_ID" VARCHAR2(50 BYTE)
+   )
+
+Please complete mandatory fields in the following given screens: 
+Client & Group Facility Summary 
+Large Exposure Directives: Please select only Yes/No for 'Sovereign Group?' under Large Exposure Directive [Client Group Name:GRP NAME 990023603] 
+Large Exposure Directives: Please attach Large Exposure Attachment under Large Exposure Directive [Client Group Name:GRP NAME 990023603] 
+Bca attachments-compliance checklist attachement is mandatory 
+                                           
+										   
+
+==========
+10-10-2017
+==========
+ncpa.cpl
+  10525989 
+--1147332
+Insert into WB_CCT_CM_CLNT_MAIN (SEQ_NO,PEOPLEWISE_ID,LEID,PROSPECT_ID,ROLE_NAME,CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (393,'1147332','11162575-1','-999','CCM','ARM001','ME',to_timestamp('21-SEP-17 10.53.39.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'35002-1');
+Insert into WB_CCT_CM_CLNT_MAIN (SEQ_NO,PEOPLEWISE_ID,LEID,PROSPECT_ID,ROLE_NAME,CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (395,'1192970','11064239-1','-999','CCM','ARM001','ME',to_timestamp('21-SEP-17 10.53.39.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'35002-1');
+commit;
+1192970
+ select * from APP_REQ_WORKFLOW WHERE DOC_REF='10525989';
+ 
+ SELECT * FROM USERS_MST WHERE USER_NAME='10028';--PEOPLEWISE_ID='1476358';
+ 
+ SELECT * FROM acl_usergroup_mst WHERE UGROUP_ID='10028';
+ 
+ SELECT * FROM gcap_main_details;
+ --'11162575';
+ 
+ SELECT * FROM gcap_main_details where USER_CREDIT_TEAM_CODE = 10053;
+ 
+ ===========
+ 11-10-2017
+ ===========
+ select * from CM_MAIL_CLIENT where ref_no='10526011';
+ RS-BUYER
+ ========
+ Uday Kumar, Vellanki [3:09 PM]: 
+select BD.cr_id,cust.custname, cust.leid,cust.SEGMENTCODE,
+cust.DOMICILECOUNTRY, cust.SUBSEGMENTCODE,BD.CREATED_BY, BD.BCA_REF_NO, 
+BD.DOCUMENT_TYPE,BD.BCA_STATUS, LC.LCA_STATUS,BD.Country,cust.GROUPNAME,
+BD.LAST_MOD_DATE, BD.CREATED_DATE,
+BD.BCA_TYPE, BD.document_type
+from  (select * from bca_details where BCA_STATUS ='APPROVED' ) BD 
+LEFT join 
+LCA_DETAILS LC on  BD.BCA_REF_NO = LC.BCA_REF_NO and LC.LCA_STATUS='APPROVED' 
+--and BD.VERSION='4.0'  
+join  v_cr_cust_txn cust  on bd.cr_id = cust.custid 
+and cust.SEGMENTCODE='HV'
+and cust.DOMICILECOUNTRY='MY'
+--and cust.SUBSEGMENTCODE='F3'
+--and BD.BCA_REF_NO=99000523
+and cust.GROUPNAME is  null 
+--and BD.BCA_REF_NO=10456575
+and cust.leid is not null
+order by BD.cr_id desc , BD.LAST_MOD_DATE desc ;
+Uday Kumar, Vellanki [3:24 PM]: 
+-------
+select BD.cr_id,cust.custname, cust.leid,cust.SEGMENTCODE,
+cust.DOMICILECOUNTRY, cust.SUBSEGMENTCODE,BD.CREATED_BY, BD.BCA_REF_NO, 
+BD.DOCUMENT_TYPE,BD.BCA_STATUS, LC.LCA_STATUS,BD.Country,cust.GROUPNAME,
+BD.LAST_MOD_DATE, BD.CREATED_DATE,
+BD.BCA_TYPE, BD.document_type
+from  (select *  from (select bd.* , bd2.cr_id as crd2 from BCA_details bd  LEFT join (select CR_ID from bca_details where BCA_STATUS ='APPROVED') bd2
+on bd.CR_id=bd2.cr_id ) where crd2 is null) BD 
+LEFT join 
+LCA_DETAILS LC on  BD.BCA_REF_NO = LC.BCA_REF_NO and LC.LCA_STATUS='APPROVED' 
+join  v_cr_cust_txn cust  on bd.cr_id = cust.custid 
+--and cust.SEGMENTCODE='K'
+--and cust.DOMICILECOUNTRY='US'
+--and cust.GROUPNAME is  null 
+--and cust.leid ='13480352'
+--and BD.cr_id ='22490983'
+order by BD.cr_id desc , BD.LAST_MOD_DATE desc ;
+
+Insert into WB_CCT_CM_CLNT_MAIN (SEQ_NO,PEOPLEWISE_ID,LEID,PROSPECT_ID,ROLE_NAME,CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (396,'1476358','13662235-1','-999','CCM','ARM001','ME',to_timestamp('21-SEP-17 10.53.39.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'35002-1');
+commit;
+
+1339795		--	13662235		
+1250338
+--1135315
+
+--1152345
+--10025
+--99000361
+
+--10043
+EMAIL ID OF 1256902;EMAIL ID OF 1245981;EMAIL ID OF 1224598;EMAIL ID OF 1420876;EMAIL ID OF 1448696;EMAIL ID OF 1312416;EMAIL ID OF 1190207;EMAIL ID OF 1186843;EMAIL ID OF 1323044;EMAIL ID OF 1520429;EMAIL ID OF 1263290;
+
+
+1245981
+1192970
+
+Illegal whitespace in address in string ``EMAIL ID OF 1339795''
+
+1018945
+
+==========
+12-10-2017
+==========
+9000401
+1135772
+
+https://www.creditmantri.com/share-code/?referral_code=AMIT7938RV
+
+1250338	--	Customer Name : L NAME 11228381 EAR Reference No. : 900070546 1119565
+
+==========
+13-10-2017
+==========
+EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\action\SetApprovalsAction.java
+SetApprovalsAction.java
+sendNotification()
+BusinessDelegate
+BusinessDelegateImpl
+DBCommonDAO
+DBCommonDAOImpl
+BCA_PRP_APP_sqlmap.xml
+
+ACL_JOB_TITLE_MST
+
+Insert into WB_CCT_CM_CLNT_MAIN (SEQ_NO,PEOPLEWISE_ID,LEID,PROSPECT_ID,ROLE_NAME,CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (397,'1476358','11228381-1','-999','CCM','ARM001','ME',to_timestamp('21-SEP-17 10.53.39.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'35002-1');
+commit;
+
+10047
+  900070546 
+  
+  1503969----11253840---10062---900069401--900070549
+  Insert into WB_CCT_CM_CLNT_MAIN (SEQ_NO,PEOPLEWISE_ID,LEID,PROSPECT_ID,ROLE_NAME,CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (398,'1476358','11253840-1','-999','CCM','ARM001','ME',to_timestamp('21-SEP-17 10.53.39.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'35002-1');
+commit;
+
+/CreditRethink/WebContent/WEB-INF/jsp/user/userMaker.jsp
+/CreditRethink/WebContent/js/cr_user.js
+/CreditRethink/src/com/standardchartered/cr/acl/action/UserAction.java
+/CreditRethink/src/com/standardchartered/cr/acl/delegate/UserDelegate.java
+/CreditRethink/src/com/standardchartered/cr/acl/delegate/impl/UserDelegateLocalImpl.java
+/CreditRethink/src/com/standardchartered/cr/acl/service/impl/UserServiceImpl.java
+/CreditRethink/src/com/standardchartered/cr/acl/bo/UserBO.java
+/CreditRethink/src/com/standardchartered/cr/acl/dao/UserDAO.java
+
+==========
+16-10-2017
+==========
+rmi-serilazation
+chosen
+flush
+prc memory
+shadowing
+900070549
+1191828
+
+==========
+17-10-2017
+==========
+LCA - LCA_DETAILS	---	1419545	---	11341164	---
+RDE - RDE_DETAILS	---	1419545	---	11341164	---
+GRDE - RDE_DETAILS 
+CONF-BCA			---	1419545	---	11158626	---
+					---	1419545	--- 12864690	---	10526049	--- 1506556
+					---	1419545	--- 13330410
+					10526029
+SELECT LEID, CMP_ID, PLEDGORID  FROM V_CR_CUST_TXN WHERE CUSTID = 11341164  					
+==========
+19-10-2017
+==========
+1116044
+CONF-BCA			---	1419545	--- 12864690	---	10526049
+
+SELECT COUNT(1) FROM WB_CCT_CM_GRP_MAIN WHERE PROSPECT_ID=#cmpID# AND CMP_ID='-999'
+
+SELECT COUNT(1) FROM WB_CCT_CM_GRP_MAIN WHERE PROSPECT_ID='4008014079' AND CMP_ID='590002233';
+
+select * from v_cr_group_txn where CR_CUST_CMP_ID='590002233';
+
+select * from WB_CCT_CM_GRP_MAIN;
+
+SELECT COUNT(1) FROM WB_CCT_CM_GRP_MAIN WHERE PROSPECT_ID=#cmpID# AND CMP_ID='-999'
+
+==========
+20-10-2017
+==========
+P030592 
+
+GRDE	---	1547445 ---	GRP NAME 990171651	--	8000127010	---	1506556--CustID--33671942--990290791
+					---	GRP NAME 990012322	--	8000127007
+					---  		 990290791  --  8000127011 8000127012 1351225
+					 EMAIL ID OF 1547445 EMAIL ID OF 1506556
+/CreditRethink/src/com/standardchartered/cr/rde/action/RDEApprovalAction.java
+/CreditRethink/src/com/standardchartered/cr/rde/delegate/RDEApprovalDelegate.java
+/CreditRethink/src/com/standardchartered/cr/rde/delegate/impl/RDEApprovalDelegateImpl.java
+/CreditRethink/src/com/standardchartered/cr/rde/dao/RDEApprovalDAO.java
+/CreditRethink/src/com/standardchartered/cr/rde/dao/impl/RDEApprovalDAOImpl.java
+/CreditRethink/src/com/standardchartered/cr/rde/sqlmap/RDE_Approval_Sqlmap.xml
+
+select * from v_cr_group_txn where CR_CUST_CMP_ID='990290791';
+
+SELECT COUNT(1) FROM WB_CCT_CM_GRP_MAIN WHERE PROSPECT_ID=990290791 AND CMP_ID='-999';
+
+select * from WB_CCT_CM_GRP_MAIN;
+
+==========
+23-10-2017
+==========
+
+
+==========
+24-10-2017
+==========
+FUNDBCA---1367752---11176168---10526069
+
+Insert into WB_CCT_CM_GRP_MAIN (SEQ_NO,PEOPLEWISE_ID,CMP_ID,PROSPECT_ID,ROLE_NAME,GRP_CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (4528529,'1408848','-999','990012322','GCM',null,null,to_timestamp('21-SEP-17 07.33.00.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'20813-1');
+Insert into WB_CCT_CM_GRP_MAIN (SEQ_NO,PEOPLEWISE_ID,CMP_ID,PROSPECT_ID,ROLE_NAME,GRP_CM_CODE,LOCATION,MODIFIED_DATE,MESSAGE_ID) values (4528561,'1408848','-999','990012322','GCM',null,null,to_timestamp('21-SEP-17 09.26.43.000000000 AM','DD-MON-RR HH.MI.SS.FF AM'),'20812-1');
+
+SELECT COUNT(1) FROM WB_CCT_CM_GRP_MAIN WHERE PROSPECT_ID=990012322 AND CMP_ID='-999';
+select * from ACL_DOC_CONF_ACCESS order by modified_date desc;
+select * from bca_details where bca_ref_no='10523370';
+
+==========
+25-10-2017
+==========
+
+husa approver	1508226		request # 10146542
+		
+select BCA_FINALIZE from bca_details where BCA_FINALIZE='Y' order by created_date desc;--BCA_FINALIZE, FINALIZE_DATE, 
+
+
+==========
+26-10-2017
+==========
+http://10.21.151.130/svn/wbcpsrv/branches/wbcp_WB_ACL_CCT_SEP2017_dev
+
+http://10.21.151.130/svn/wbcpsrv/branches/wbcp_client_mgr_dev (Need to Merge here)
+
+===========
+27-10-2017
+===========
+
+GB_CM Role - HUSA Changes
+/CreditRethink/WebContent/js/cr_user.js --9510
+
+GB_CM Email-BCA By Dinesh/Sateesh
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\model\CustomerInfoBean.java
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\dao\DBCommonDAO.java
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\dao\impl\DBCommonDAOImpl.java
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\dao\impl\sqlmap\BCA_PRP_APP_sqlmap.xml
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\delegate\impl\BusinessDelegateImpl.java
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\delegate\BusinessDelegate.java
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\action\SetApprovalsAction.java
+
+
+Establishment ID/Name KDMAL0042487000 / THIRDWARE SOLUTION LIMITED
+Member ID/Name KDMAL00424870000002325 / Mr Apparao Mangalagiri
+Office Name (RO)MALAD (KANDIVALI)
+KDMAL00424870000002325 PF NO : MH/42487/2325
+
+					
+
+
+==========
+30-10-2017
+==========
+/CreditRethink/src/com/standardchartered/cr/inf/util/DomainUtil.java
+/CreditRethink/src/com/standardchartered/cr/inf/delegate/InfDelegate.java
+/CreditRethink/src/com/standardchartered/cr/inf/delegate/impl/InfDelegateLocalImpl.java
+/CreditRethink/src/com/standardchartered/cr/inf/service/InfService.java
+/CreditRethink/src/com/standardchartered/cr/inf/service/impl/InfServiceImpl.java
+/CreditRethink/src/com/standardchartered/cr/inf/bo/InfBO.java
+/CreditRethink/src/com/standardchartered/cr/inf/dao/DomainDAO.java
+/CreditRethink/src/com/standardchartered/cr/inf/dao/impl/DomainDAOImpl.java
+/CreditRethink/src/com/standardchartered/cr/inf/dao/impl/sqlmap/DomainSqlMap.xml
+
+EARV1
+=======
+/CreditRethink/WebContent/WEB-INF/webContext.xml
+
+EARV2
+======
+/CreditRethink/src/com/standardchartered/cr/earV2/action/EARV2ApprovalAction.java
+
+IDR
+======
+/CreditRethink/src/com/standardchartered/cr/ear/action/IDRApprovalAction.java
+/CreditRethink/src/com/standardchartered/cr/ear/helper/NotificationHelper.java
+
+
+DCL
+======
+/CreditRethink/src/com/standardchartered/cr/ear/action/DCLApprovalAction.java
+/CreditRethink/src/com/standardchartered/cr/ear/helper/DCLNotificationHelper.java
+
+
+EAW
+=========
+/CreditRethink/src/com/standardchartered/cr/eaw/action/EAWApprovalAction.java
+
+RDE/GRDE
+==========
+/CreditRethink/src/com/standardchartered/cr/rde/action/RDEApprovalAction.java
+/CreditRethink/src/com/standardchartered/cr/rde/delegate/RDEApprovalDelegate.java
+/CreditRethink/src/com/standardchartered/cr/rde/delegate/impl/RDEApprovalDelegateImpl.java
+/CreditRethink/src/com/standardchartered/cr/rde/dao/RDEApprovalDAO.java
+/CreditRethink/src/com/standardchartered/cr/rde/dao/impl/RDEApprovalDAOImpl.java
+/CreditRethink/src/com/standardchartered/cr/rde/sqlmap/RDE_Approval_Sqlmap.xml
+
+/CreditRethink/src/com/standardchartered/cr/rde/helper/NotificationHelper.java
+/CreditRethink/src/com/standardchartered/cr/activity/model/CustomerInfoBean.java
+LCA
+============
+/CreditRethink/src/com/standardchartered/cr/lca/action/LCAApprovalAction.java
+/CreditRethink/src/com/standardchartered/cr/lca/helper/NotificationHelper.java
+
+
+BCA
+=======
+/BCAWeb/src/com/scb/cr/bca/helper/NotificationHelper.java
+
+154501000610
+
+Rajashekar 10th
+
+==========
+31-10-2017
+==========
+
+
+==========
+01-11-2017
+==========
+CreditRethink/src/com/standardchartered/cr/lca/action/LCAApprovalAction.java
+	CreditRethink/WebContent/WEB-INF/webContext.xml
+
+select * from CM_MAIL_CLIENT where doc_type like '%EAR%' order by mail_timestamp desc;
+--select lca_ref_no,created_by,cust_name, lca_status, bca_ref_no, created_date, lca_finalize  from lca_details where lca_finalize ='Y' and lca_status !='APPROVED' order by created_date desc; 
+
+==========
+02-11-2017
+==========
+
+
+==========
+03-11-2017
+==========
+WFH
+
+==========
+06-11-2017
+==========
+BCAWeb Junit Configuration	
+
+==========
+07-11-2017
+==========
+Test Data For ST
+3961029
+
+/BCAWeb/Junit-build-bca.xml
+
+==========
+08-11-2017
+==========
+
+ST URL
+--------
+https://uklpauwas01a.uk.standardchartered.com:1888/CreditRethinkCREUAT/acl/index.action
+
+DB: CRMATE_DR_01
+
+SELECT DISTINCT U.EMAIL_ID
+	FROM  USERS_MST U, WB_CCT_CM_CLNT_MAIN  WC
+	WHERE WC.PEOPLEWISE_ID = U.PEOPLEWISE_ID
+  and LEID LIKE '11162575%'; 
+  
+  select * from WB_CCT_CM_CLNT_MAIN;
+  
+  select * from v_cr_cust_txn where leid='11162575';
+  
+  SELECT LEID, CMP_ID, PLEDGORID  FROM V_CR_CUST_TXN WHERE CUSTID = '10203758';
+
+testGetCMMailDetailsForLeId();
+
+testGetCMMailDetailsForCMPId();
+
+testGetCMMailDetailsForPledgor();
+
+testGetCMMailDetailsIsNullForLeId();
+
+testGetCMMailDetailsIsNotNullForLeId();
+
+testGetCMMailDetailsIsNullForCMPId();
+
+testGetCMMailDetailsForLeId();
+
+25000/-
+6100/-
+
+-XX:PermSize=512m -XX:MaxPermSize=1024m
+
+connection = DriverManager.getConnection("jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpdudasa-scan.uk.standardchartered.com)(PORT=1622)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_PT.uk.standardchartered.com))))","CRMATE_DR_01", "CRMATE_DR_01_123");
+
+
+<property name="url" value="jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpdudasa-scan.uk.standardchartered.com)(PORT=1622)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_PT.uk.standardchartered.com))))" />
+<property name="username" value="CRMATE_DR_01" />
+<property name="password" value="CRMATE_DR_01_123" />
+
+
+/BCAWeb/src/com/scb/cr/bca/action/BCAActions.java
+public String openBCA();
+ 
+==========
+13-11-2017 
+==========
+WFH
+
+==========
+14-11-2017
+==========
+ST URL Verified
+
+==========
+15-11-2017
+==========
+Junit Test Cases for failuers
+
+==========
+16-11-2017
+==========
+Jacoco for BCAWeb
+
+==========
+17-11-2017
+==========
+Preparing Test Data
+
+==========
+20-11-2017
+==========
+Leave
+
+==========
+21-11-2017
+==========
+WFH
+52101144
+3612
+9490610687
+==========
+22-11-2017
+==========
+WFH
+
+*******
+Need to Merge with my working workspace
+
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\com\scb\cr\bca\util\ClientClasificationUtil.java
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\cts\action\CTSApprovalAction.java
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\activity\action\ActivityAction.java
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\screenLabels_en_US.properties
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\screenLabels.properties
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\WebContent\WEB-INF\jsp\activity\actClientManagerScreen.jsp
+
+
+PNR : 6408446678
+
+==========
+23-11-2017
+==========
+Leave
+
+
+==========
+24-11-2017
+==========
+Leave
+
+==========
+27-11-2017
+==========
+WFH
+
+17 12:15:23:448 GMT] 00000407 SystemOut     O Sanction level
+[11/27/17 12:15:23:448 GMT] 00000407 SystemOut     O getGcapStatus
+[11/27/17 12:15:23:448 GMT] 00000407 SystemOut     O getSigTypeC
+[11/27/17 12:15:23:448 GMT] 00000407 SystemOut     O ===Calling getCountGcapSearchResults===
+[11/27/17 12:15:23:448 GMT] 00000407 SystemOut     O  *****gcapSearchBean.getUserName()***********
+[11/27/17 12:15:23:527 GMT] 00000407 GCAPSearchAct E com.standardchartered.cr.gcapv2.action.GCAPSearchAction doGCAPV2Search org.springframework.jdbc.BadSqlGrammarException: SqlMapClient operation; bad SQL grammar []; nested exception is com.ibatis.common.jdbc.exception.NestedSQLException:
+--- The error occurred while applying a parameter map.
+--- Check the countGcapV2SearchResults-InlineParameterMap.
+--- Check the statement (query failed).
+--- Cause: java.sql.SQLSyntaxErrorException: ORA-00904: "GTX"."POLICYEFF_YN": invalid identifier
+
+[11/27/17 12:15:25:830 GMT] 000000c2 LogAdapter    W   DCSV9415W: Received packet larger than configured buffer length 1213486160 from RMM address /10.193.61.20/6159/0. Exception is <null>. A possible port conflict exists.
+
+
+==========
+28-11-2017
+==========
+Verified the Group RDE with multiple CMs.
+Setup the workspace with Latest Source.
+
+RDE
+------
+select * from rde_details where entity_type = 'G' and RDE_FINALIZE is not null and DOC_STATUS = 'IN PREPARATION';
+1164596	--	990004107
+1534530 -- 990000115 -- 8000136182-- 1116624
+1468915
+1465864
+1240000
+
+select * from WB_CCT_CM_GRP_MAIN order by cmp_id; --990000115
+
+select * from CM_MAIL_CLIENT where ref_no='8000136182';
+
+ SELECT EMAIL_ID FROM USERS_MST WHERE PEOPLEWISE_ID in ('1468915','1465864','1240000');
+ 
+ 
+===========
+29-11-2017
+===========
+NEED TO UPDATE
+--------------
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\gm\action\GMFacilityAction.java
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\gm\bo\GMFacilityBO.java
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\gm\dao\GMFacilityDAO.java
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\gm\dao\impl\GMFacilityDAOImpl.java
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\gm\dao\impl\sqlmap\GMSqlMap.xml
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\gm\delegate\GMFacilityDelegate.java
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\gm\delegate\impl\GMFacilityDelegateImpl.java
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\gm\model\NewMoneyDTO.java
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\gm\service\GMFacilityService.java
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\gm\service\impl\GMFacilityServiceImpl.java
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\gm_actions.xml
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\WebContent\WEB-INF\jsp\gm\gmFacility.jsp
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\WebContent\WEB-INF\jsp\gm\gmNewMoneyDetails.jsp
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\WebContent\WEB-INF\jsp\gm\gmProposeApprove.jsp
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\action\SetApprovalsAction.java
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\WebContent\js\setApproval.js
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\WebContent\jsp\BCA\BCAAttachments.jsp
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\WebContent\jsp\BCA\setApproval.jsp
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\WebContent\jsp\BCA\ShowModalDialog.jsp
+
+DONE
+======
+
+Provided Test Data For GTM Team.
+
+TER, SIF(Group) Documents.
+
+select * from SIF_TXN order by created_date desc;
+
+SELECT * from WB_CCT_CM_GRP_MAIN;
+
+select * from cust_to_emp where principal_fam='Y' and BIZ_RULE_RM='Y' and update_status_ind!='D';
+
+select * from users_mst where peoplewise_id='1142343';--='1393510';
+
+select * from ACL_ROLE_MST where role_desc like '%RM%';
+
+SELECT * FROM GAM_VIEW WHERE GROUP_ID = 990258390;
+
+
+==========
+30-11-2017
+==========
+
+
+==========
+01-12-2017
+==========
+RSBUYER
+------------
+
+select BD.cr_id,cust.custname, cust.leid,cust.SEGMENTCODE,
+cust.DOMICILECOUNTRY, cust.SUBSEGMENTCODE,BD.CREATED_BY, BD.BCA_REF_NO, 
+BD.DOCUMENT_TYPE,BD.BCA_STATUS, LC.LCA_STATUS,BD.Country,cust.GROUPNAME,
+BD.LAST_MOD_DATE, BD.CREATED_DATE,
+BD.BCA_TYPE, BD.document_type
+from  (select *  from (select bd.* , bd2.cr_id as crd2 from BCA_details bd  LEFT join (select CR_ID from bca_details where BCA_STATUS ='APPROVED') bd2
+on bd.CR_id=bd2.cr_id ) where crd2 is null ) BD 
+LEFT join 
+LCA_DETAILS LC on  BD.BCA_REF_NO = LC.BCA_REF_NO and LC.LCA_STATUS='APPROVED' 
+join  v_cr_cust_txn cust  on bd.cr_id = cust.custid and cust.leid is not null
+and cust.SEGMENTCODE='K' 
+and BD.CREATED_BY in (select peoplewise_id from cust_to_emp where principal_fam='Y' and BIZ_RULE_RM='Y' and update_status_ind!='D')
+--and cust.DOMICILECOUNTRY='US'
+--and cust.GROUPNAME is  null 
+and cust.leid in (SELECT substr(LEID,1,8) FROM WB_CCT_CM_CLNT_MAIN)
+--and BD.cr_id ='22490983'
+order by BD.cr_id desc , BD.LAST_MOD_DATE desc ;
+
+FIBCA
+==========
+select CT.LEID, BC.CREATED_BY from bca_details BC, V_CR_CUST_TXN CT
+where BC.BCA_STATUS='IN PREPARATION' and BC.BCA_FINALIZE='Y' AND
+BC.CR_ID=CT.CUSTID
+AND CT.SEGMENTCODE='N' AND CT.CUSTSEGMENT = 'Financial Institution'
+and CT.leid in (SELECT substr(LEID,1,8) FROM WB_CCT_CM_CLNT_MAIN)
+order by BC.created_date desc; --L NAME 11232137
+
+select * from bca_details BC, V_CR_CUST_TXN CT
+where BC.BCA_STATUS='IN PREPARATION' and BC.BCA_FINALIZE='Y' AND
+BC.CR_ID=CT.CUSTID
+AND CT.SEGMENTCODE='N' AND CT.CUSTSEGMENT = 'Financial Institution'
+order by BC.created_date desc; 
+
+FUNDBCA
+==========
+
+
+==========
+04-12-2017
+==========
+RS-BUyer, FI, and FUND BCA Test Data has been provided.
+
+==========
+05-12-2017
+==========
+Code Coverage For WEB-BCA
+
+==========
+06-12-2017
+==========
+Java Code Coverage
+
+==========
+07-12-2017
+==========
+Laptop Issue
+
+==========
+08-12-2017
+==========
+Laptop Issue and Workspace Setup.
+
+==========
+11-12-2017
+==========
+SELECT UGROUP_DESC, UGROUP_EMAILID FROM ACL_USERGROUP_MST ACL WHERE ACL.UGROUP_ID='10011';
+
+Your form has been submitted successfully with Interaction ID 1-27121254501. We will get back to you by 14-Dec-2017.
+
+==========
+12-12-2017
+==========
+feedback@mtcbus.org
+C:\Users\1543999\AppData\Roaming\Microsoft\Sticky Notes
+
+==========
+13-12-2017
+==========
+to open network ncpa.cpl
+
+
+==========
+14-12-2017
+==========
+Scoring Enginee
+---------------
+host.endpoint = http://uklvadcrm02a.uk.standardchartered.com:9080/scfb/services/ScoringService
+
+
+SELECT U.PEOPLEWISE_ID, CUST.LEID, WC.PROSPECT_ID, ROLE.ROLE_DESC,U.DOMICILE_CNTRY
+FROM USERS_MST U, WB_CCT_CM_CLNT_MAIN WC, ACL_ROLE_MST ROLE, V_CR_CUST_TXN CUST,
+WB_CCT_CLNT_MAIN WB
+WHERE 
+--CUST.LEID = substr(WC.LEID,1,8) AND
+CUST.LEID = substr(WB.LEID,1,8) AND
+WC.PEOPLEWISE_ID = U.PEOPLEWISE_ID AND U.ROLE_ID=ROLE.ROLE_ID
+--AND WB.PEOPLEWISE_ID = U.PEOPLEWISE_ID
+AND U.DOMICILE_CNTRY = CUST.DOMICILECOUNTRY
+AND U.STATUS='A' AND U.DOMICILE_CNTRY='SG';
+
+SELECT distinct U.PEOPLEWISE_ID, CUST.LEID, WC.PROSPECT_ID, ROLE.ROLE_DESC,U.DOMICILE_CNTRY
+FROM USERS_MST U, WB_CCT_CM_CLNT_MAIN WC, ACL_ROLE_MST ROLE, V_CR_CUST_TXN CUST,
+WB_CCT_CLNT_MAIN WB
+WHERE 
+--CUST.LEID = substr(WC.LEID,1,8) AND
+--CUST.LEID = substr(WB.LEID,1,8) AND
+WC.PEOPLEWISE_ID = U.PEOPLEWISE_ID AND U.ROLE_ID=ROLE.ROLE_ID
+AND WB.PEOPLEWISE_ID = to_char(U.PEOPLEWISE_ID)
+AND U.DOMICILE_CNTRY = CUST.DOMICILECOUNTRY
+AND U.STATUS='A' AND U.DOMICILE_CNTRY='SG'
+AND WB.ACCESS_TYPE='3';
+
+==========
+15-12-2017
+==========
+-XX:PermSize=512m -XX:MaxPermSize=1024m
+
+
+i tried from DR env and GC scorecard is working fine after reverting the Siva's and Production scoring engine file
+
+
+http://10.21.151.130/svn/wbcpsrv/branches/wbcp_gcap3_gav_dev/
+
+
+SELECT DISTINCT
+  U.PEOPLEWISE_ID,
+  CUST.LEID,
+  WC.PROSPECT_ID,
+  ROLE.ROLE_DESC,
+  CUST.DOMICILECOUNTRY
+FROM USERS_MST U,
+  WB_CCT_CM_CLNT_MAIN WC,
+  ACL_ROLE_MST ROLE,
+  V_CR_CUST_TXN CUST,
+  WB_CCT_CLNT_MAIN WB
+WHERE
+  CUST.LEID = substr(WC.LEID,1,8) AND
+  --CUST.LEID = SUBSTR(WB.LEID,1,8) AND
+  WC.PEOPLEWISE_ID = U.PEOPLEWISE_ID AND
+  U.ROLE_ID          = ROLE.ROLE_ID
+AND WB.PEOPLEWISE_ID = TO_CHAR(U.PEOPLEWISE_ID)
+--AND U.DOMICILE_CNTRY = CUST.DOMICILECOUNTRY
+AND U.STATUS         = 'A'
+AND CUST.DOMICILECOUNTRY = 'SG'
+AND WB.ACCESS_TYPE   = '3'
+AND rownum           < 4;
+
+
+==========
+18-12-2017
+==========
+516122319671
+
+Hi LakshmiPriya/Sathish,
+
+Thanks for providing test data as per discussion. Please help to amend below data also in Test Data sheet as it is ask by business and need to send today.
+
+1.	Please add Name and Segment column as well with each LEID already provided for each country.
+
+2.	Please provide URL to check for email notification as well.
+
+3.	Please provide test data for each country given in Test Data earlier for 10 CB clients. 
+	Please ensure that none of the users listed per country are also in the GCT/CCT of the CB Client.
+	
+4.	Please provide test data for non – Client Delivery Model markets. 
+	(2 other markets should be sufficient and also provide User ID’s that can access these clients).
+	
+5.	Please provide 10 group information for 10 people wise ID with one to one mapping.
+
+6.	Please help to provide word document with UAT URL and screen navigation with an example on how users could verify e-mail notifications.
+
+http://10.193.104.44:9080/UAT_MailClientColl/index.jsp
+
+connection = DriverManager.getConnection("jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpdufmsa-scan.uk.standardchartered.com)(PORT=1622)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_UAT.uk.standardchartered.com))))","CRMATE_UAT_03", "CRMATE_UAT_03_123");
+
+1130032	11125167	L NAME 11125167	Financial Institution	Malaysia
+
+select * from ddw_details where ddw_ref_no='3000072458'; 3000072459
+
+SELECT * FROM APP_REQ_WORKFLOW WHERE doc_ref ='3000072458';
+
+1528860	11242394	L NAME 11242394	Global Corporate	UAE
+
+select * from ddw_details where ddw_ref_no='3000072458'; 3000072459
+
+SELECT * FROM APP_REQ_WORKFLOW WHERE doc_ref ='3000072458';
+
+DCL/IDR
+
+1484901 --- 11187475 (EAR/DCL/IDR) --39003145 --- 1144918
+
+==========
+19-12-2017
+==========
+UAN : 100232163048/jvhazjro2660
+
+SELECT WC.PEOPLEWISE_ID,
+  Wc.Cmp_Id,
+  WC.LOCATION
+FROM WB_CCT_CM_GRP_MAIN WC
+JOIN WB_CCT_GRP_MAIN WB
+ON WC.PEOPLEWISE_ID=WB.PEOPLEWISE_ID
+AND Wc.Cmp_Id        =Wb.Cmp_Id
+JOIN USERS_MST U
+ON WB.PEOPLEWISE_ID=to_char (U.PEOPLEWISE_ID)
+WHERE WB.ACCESS_TYPE=3
+AND U.STATUS='A'
+AND WC.LOCATION LIKE 'GB%'
+and Wc.Cmp_Id in (select cmp_id from wb_cct_cm_grp_main group by cmp_id having count(cmp_id) =1);
+
+
+==========
+20-12-2017
+==========
+Commit
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\ear\action\DCLApprovalAction.java
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\ear\action\IDRApprovalAction.java
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\ear\action\IDRApprovalAction.java
+C:\Users\1543999\SVN\GM_CM Final\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\ear\action\DCLApprovalAction.java
+At revision: 10202
+
+044-48
+
+==========
+21-12-2017
+==========
+Please advise on Confidential BCA as to how to check on this using test data for GC Singapore.
+Please advise if FUNDBCA and FIBCA need to be checked using FI segment test data and how to access RMPBCA.
+
+==========
+22-12-2017
+==========
+WAS Server Down and problem of memory.
+
+==========
+26-12-2017
+==========
+Leave
+
+==========
+27-12-2017
+==========
+https://webvpn.capgemini.com/
+
+apparm
+
+1132834 (People Wise Id) --	11245247 (LEID) -- 10567170 (Conf BCA) -- 1277718 (CM Id)
+
+1130032 -- 11006845 -- 1150655
+
+blob, clob
+For SSNB (Score Sheet)
+========================== TEST CASE 32
+SELECT DISTINCT CUST.LEID, WB.PEOPLEWISE_ID
+FROM WB_CCT_CM_CLNT_MAIN WB,
+  V_CR_CUST_TXN CUST,
+  SS_DETAILS SS,
+  cust_to_emp CSTEMP
+WHERE SS.CUST_ID = CUST.CUSTID
+AND SS.SS_TYPE   ='SSNB' AND CUST.DOMICILECOUNTRY='SG'
+AND CUST.LEID    = SUBSTR(WB.LEID,1,8)
+AND CSTEMP.LE_ID = CUST.LEID;
+
+
+select * from cm_mail_client where doc_type like 'DDW%';
+
+select distinct document_type from bca_details;
+
+select * from cust_to_emp where le_id='13354340';
+
+select * from v_cr_cust_txn where custid='17560760'; --leid = '11006845'; -- custid='14334764';
+
+select * from users_mst where peoplewise_id ='1416781';
+
+
+select * from scorecard_txn where SC_MODEL_TYPE='PEF' order by created_date desc;
+
+select *  from oversight_mst order by created_date desc;
+
+select * from ss_details where ss_type like 'SSNB%' order by created_date desc;
+
+select * from users_mst where peoplewise_id='1337666';
+
+
+==========
+28-12-2017
+==========
+Verified test data and Given the Document Details for Client and Group level access.
+
+==========
+29-12-2017
+==========
+Score Card Warning Signals Tab Isuuses.
+
+
+==========
+MM-DD-YYYY
+==========
+01-02-2018
+==========
+ https://portal.medibuddy.in   
+ Username: 72223_FS@Capgemini                                                                   
+ Password: A@prpun1
+ 
+J-UNIT RELATED
+=================
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\Junit-build-bca.xml
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\junit-bcaweb\com\scb\cr\bca\action\test\SetApprovalsActionSuccessTest.java
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\junit-bcaweb\com\scb\cr\bca\action\test\SetApprovalsActionTest.java
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\junit-bcaweb\com\scb\junit\Util\JunitTestSuites.java
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\junit-bcaweb\com\scb\cr\bca\action\test\SetApprovalsActionTest.java
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\Junit-build-bca.xml
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\junit-bcaweb\com\scb\junit\Util\JunitTestSuites.java
+C:\Users\1543999\SVN\GM_CM Final\EBCA_DB_VER2\BCAWeb\junit-bcaweb\com\scb\cr\bca\action\test\SetApprovalsActionSuccessTest.java
+At revision: 10288
+==================
+
+
+==========
+01-03-2018
+==========
+select * from v_cr_cust_txn where leid='11128864';
+
+select * from WB_CCT_CLNT_MAIN where peoplewise_id='1163220' AND leid LIKE '11044336%';
+
+select * from rm_view where emp_name = 'Dattani, Amar';
+
+select * from cust_to_emp where le_id='11299182';
+
+select * from country where CTR_CNTRY_ISO_CODE  like 'AE%';
+
+select * from wb_cct_grp_main where PROSPECT_ID='990187311' and peoplewise_id=1001697;
+
+select * from v_cr_group_txn where CR_CUST_CMP_ID='990259350';
+
+select * from users_mst where peoplewise_id='1528860';
+update users_mst set status='A' where  peoplewise_id='1179400'; commit;
+
+SELECT *
+FROM wb_cct_clnt_main
+WHERE SUBSTR(leid,0,8) IN
+  (SELECT leid
+  FROM v_cr_cust_txn
+  WHERE v_cr_cust_txn.DOMICILECOUNTRY='AE'
+  AND segmentcode                    ='N'
+  )
+AND access_type=3;
+
+
+==========
+01-04-2018
+==========
+SELECT * FROM USERS_MST, WB_CCT_CM_CLNT_MAIN WHERE DOMICILE_CNTRY='SG' AND STATUS='A' AND ROLE_ID='20000074' ORDER BY last_login_datetime DESC;
+SELECT * FROM USERS_MST WHERE PEOPLEWISE_ID='1341543';
+UPDATE ACL_CUST_AUTHOR_TXN SET peoplewise_id='1334645' WHERE CR_CUST_ID='37066634';
+COMMIT;
+INSERT
+INTO ACL_CUST_AUTHOR_TXN
+  (
+    CR_CUST_ID,
+    PEOPLEWISE_ID,
+    AUTHORIZED_BY,
+    MODIFIED_DATE,
+    IS_ARCHIVE,
+    VERSION_NO
+  )
+  VALUES
+  (
+    36918877,
+    1524001,
+    1546678,
+    SYSDATE,
+    'N',
+    1
+  ); COMMIT;
+
+  select  distinct bd.COUNTRY c1, bd.COUNTRY c2 from bca_details bd,APP_REQUEST_ACTIONS_H wf         
+            where  bd.BCA_REF_NO = wf.DOC_REF
+            AND bd.BCA_STATUS = wf.ACTION 
+            AND bd.DOCUMENT_TYPE != 'SMEBCA'
+            AND NVL(IS_RS_BUYER,'N')!='Y'
+            AND bd.BCA_STATUS='APPROVED'            
+            AND   wf.ASSIGNED_TIMESTAMP = (
+                  SELECT MAX(p.ASSIGNED_TIMESTAMP) FROM BCA_DETAILS b, APP_REQUEST_ACTIONS_H p
+                  WHERE b.BCA_REF_NO = p.DOC_REF 
+                  AND b.BCA_STATUS = p.ACTION 
+                  AND p.ACTION = 'APPROVED' 
+                  AND b.DOCUMENT_TYPE != 'SMEBCA'
+                  AND decode(b.version, '1.0',b.SCB_BOOKING_IDENTITY_NAME, b.COUNTRY) = decode(bd.version, '1.0',bd.SCB_BOOKING_IDENTITY_NAME, bd.COUNTRY)
+                  AND b.CR_ID = bd.CR_ID)  
+            AND bd.CR_ID =10169991
+            AND NOT EXISTS (SELECT NULL FROM BCA_DETAILS NB WHERE BD.BCA_REF_NO=NB.BCA_REF_NO AND NB.DOCUMENT_type='FUNDBCA' AND NB.BCA_TYPE='Cancellation')
+            AND NOT EXISTS (select null from lca_details l,lca_bca_details lb 
+            where l.lca_ref_no=lb.lca_ref_no 
+            and lb.bca_Ref_no=to_char(bd.bca_ref_no) 
+            and l.lca_status='APPROVED')
+            order by bd.country; 
+			
+SELECT *
+FROM bca_details
+WHERE bca_status='APPROVED'
+AND country LIKE 'ZA%'
+AND cr_id IN
+  (SELECT custid
+  FROM v_cr_cust_txn
+  WHERE segmentcode  ='N'
+  AND domicilecountry='ZA'
+  )
+ORDER BY created_date DESC;
+
+SELECT * FROM v_cr_cust_txn WHERE leid='11066293';
+
+UPDATE bca_details SET cr_id=10565555 WHERE bca_ref_no=10169991; COMMIT;
+
+select * from rm_view where emp_name='Enelamah, Ijeoma';
+
+select distinct upper(customer_type) from cr_cust_txn c , customer_view v where 
+                                  c.CR_CUST_LE_ID is not null 
+                                  and v.LE_ID=TO_CHAR (c.CR_CUST_LE_ID) 
+                                  and entity_type='C' 
+                                  and NVL (c.CR_CUST_STATUS, 0) != 'INACTIVE'
+                                  AND ( SEGMENT_CODE_VALUE        != 'N' OR (SEGMENT_CODE_VALUE = 'N' AND ORG_TYPE IN ('SA', 'HO')) ) 
+                                  and v.le_id like '' || 11066293 || '%';
+SELECT *
+FROM wb_cct_cm_clnt_main
+WHERE SUBSTR(leid,0,8) IN
+  (SELECT leid
+  FROM v_cr_cust_txn
+  WHERE segmentcode  ='N'
+  AND domicilecountry='ZA'
+  );
+  
+  select * from country where CTR_CNTRY_ISO_CODE  like 'ZA%';
+  
+==========
+01-05-2018  
+==========
+Nadakuditi, Venugopal
+
+==========
+01-08-2018
+==========
+REQ000009145770
+M, Apparao; 
+Sivasamy, Divagar; 
+C, Kannan; 
+Bariki, Krishna; 
+Hariharasubramanian, Srinivasan; 
+Reddy, Sivalinga; 
+Annamalai, Gowrishankar; 
+Kallatamani, Sireesha
+
+==========
+01-09-2018
+==========
+Struts JUnit
+
+==========
+01-10-2018
+==========
+Leave
+
+==========
+01-11-2018
+==========
+Clarifications for UAT
+
+==========
+01-12-2018
+==========
+ MC SCORE CARD  : 11834843 
+ 
+ CONF BCA 		: 10568259
+ 
+ EAR			: 900080587 
+ EAW			: 400003328 
+ 
+ PEOPLW WISE ID : 1466748 LEID : 11066293
+ DDW			: 3000073487
+  
+  PEOPLW WISE ID : 1450504 LEID : 11066293
+  EAR Reference No. : 900080589 
+  1000091539    TER 
+  
+=========
+01-16-2018
+==========
+Leave
+
+==========
+01-17-2018
+==========
+WFH
+
+User ID:kbariki
+Jan_2018
+
+900080591
+
+PSID :	1176885	Customer Name : L NAME 11753978 EAR Reference No. : 900080569
+PSID :	1176885	Customer Name : L NAME 11753978 EAW Reference No. : 400003314  
+
+PSID :	1357461	Customer Name : L NAME 11044336 EAR Reference No. : 900080593 
+PSID :	1357461	Customer Name : L NAME 11044336 EAW Reference No. : 400003337 
+
+PSID :	1279542	Customer Name : L NAME 11242394 EAR Reference No. : 900080574
+PSID :	1279542	Customer Name : L NAME 11242394 EAW Reference No. : 400003338  
+
+ INNDYFHYX1
+ 
+==========
+01-18-2018
+========== 
+DDW: Cannot change tenor and Facility Details (message: Deffer tenor cannot be greater then approved max tenor for the selected facility in request details screen; Facility Details)
+SIF: Limit Type could not be entered
+Used PWID 1408412 and LEID 11359785
+
+passports
+payslips
+statements
+cheque
+pan card
+aadhar
+emp card
+
+set path=C:\Program Files (x86)\Java\jdk1.6.0_23\bin
+set path=C:\Program Files (x86)\Java\jdk1.6.0_26\bin
+
+-Xms768m -Xmx1024m -XX:MaxPermSize=512m
+
+C:\Users\1543999\Desktop\BCAWeb.zip
+
+C:\Users\1543999\Desktop\CreditMate.zip
+
+==========
+01-19-2018
+==========
+ nslookup 'ukwvddsql502a'
+ 
+ C:\Users\1543999\Desktop\eclipse.zip
+ 
+ Dial In -30735771# 6.45 PM
+ 
+ tail -f SystemOut.log
+ 
+ 9 -> 0008006103246 -> ********#
+ 
+ Confidential BCA
+ 1003697	--	Estha
+ 1507297 	--	 Jack
+ 
+ 1520370 -- 11359785 
+ PSID : 1383436 
+LE ID - 11489825 
+App: 1343259
+BCA Ref No : 10580191
+CONF-BCA Reference No : 10580451 
+approver : 1116425
+EAW APPROVER : 1581586
+				1506556
+				80000001
+conf approver : 1524297				
+==========
+01-22-2018
+==========
+Hi Abhishek – I’m using PSID: 1411361.  I can’t type in the LEID (11000217) b/c of the issue below.  This is for the Conf BCA test.
+
+Steps need to do to prepare the DR Environment
+
+SELECT DISTINCT
+  U.PEOPLEWISE_ID,
+  CUST.LEID,
+  WC.PROSPECT_ID,
+  ROLE.ROLE_DESC,
+  CUST.DOMICILECOUNTRY
+FROM USERS_MST U,
+  WB_CCT_CM_CLNT_MAIN WC,
+  ACL_ROLE_MST ROLE,
+  V_CR_CUST_TXN CUST,
+  WB_CCT_CLNT_MAIN WB
+WHERE
+  CUST.LEID = substr(WC.LEID,1,8) AND
+  --CUST.LEID = SUBSTR(WB.LEID,1,8) AND
+  WC.PEOPLEWISE_ID = U.PEOPLEWISE_ID AND
+  U.ROLE_ID          = ROLE.ROLE_ID
+AND WB.PEOPLEWISE_ID = TO_CHAR(U.PEOPLEWISE_ID)
+--AND U.DOMICILE_CNTRY = CUST.DOMICILECOUNTRY
+AND U.STATUS         = 'A'
+AND CUST.DOMICILECOUNTRY = 'SG'
+AND WB.ACCESS_TYPE   = '3'
+AND rownum           < 4;
+
+
+==========
+01-23-2018
+==========
+Enabling Verbose on UAT Environment
+
+FUND BCA TAT call
+
+==========
+01-24-2018
+==========
+UAT_CR_CreditRethink_APP 
+UAT_CR_BCAWeb_APP
+35084901677 
+
+C:\\Users\\1543999\\WrkSpaces\\SVN_GB_CM_FINAL_WrkSpace\\BCAWeb\\WebContent\\WEB-INF\\classes\\com\\scb\\cr\\bca\\resources\\
+
+select created_date from bca_details where BCA_STATUS='IN PREPARATION' AND
+created_date BETWEEN TO_DATE('17/01/2018', 'DD/MM/YYYY') AND TO_DATE('24/01/2018', 'DD/MM/YYYY');
+
+update bca_details set BCA_STATUS='VOID' WHERE  BCA_STATUS='IN PREPARATION' AND
+created_date BETWEEN TO_DATE('17/01/2018', 'DD/MM/YYYY') AND TO_DATE('24/01/2018', 'DD/MM/YYYY');
+COMMIT;
+1459060
+
+==========
+01-25-2018
+==========
+1164040
+
+==========
+01-29-2018
+==========
+1526144
+Feb_2018
+
+==========
+01-30-2018
+==========
+WFH
+HUSA -- 1491917
+
+==========
+01-31-2018
+==========
+DR2 Sanitory Testing
+
+==========
+02-01-2018
+==========
+Sonal Daundkar
+PF Team ( Unit -0)
+Capgemini India Pvt. Ltd
+A-1, Technology Park, MIDC,
+Talwade Pune-411062.
+Maharashtra , India
+
+http://admissions.cvchennai.org/
+
+
+24000
+20000
+20000
+10000
+==========
+02-02-2018
+==========
+09542679790
+1274002
+
+==========
+02-05-2018
+==========
+Please check out code from below branch and also use below schema for local environment set up and development.
+
+Branch : http://10.21.151.130/svn/wbcpsrv/branches/wbcp_ktlo_qua1_dev
+
+DB Schema:  CRMATE_ADF_SIT01
+
+17003211
+
+FAMC011701042353
+
+H78134874
+
+==========
+02-06-2018
+==========
+Core Java
+Adv Java (JSP and Servlets)
+Struts and Hibernate
+Spring
+Design Patterns
+
+guru - 6- 7.30
+bhudha - 7.30 - 9
+mangala - 9 - 10.30
+soma  - 10.30 - 12
+aadhi - 12 - 1.30
+sani - 1.30 - 3
+sukra - 3 - 4.30
+
+
+==========
+02-07-2018
+==========
+WFH
+Verified the Void Email notification
+
+==========
+02-08-2018
+==========
+Verified
+
+CreditMate Enhancements to capture Client Managers static data, directing of e-mail notifications and document workflow and CM Profile 
+
+==========
+02-09-2018
+==========
+04461140024285
+
+https://bitbucket.global.standardchartered.com/projects/CREDAPP
+
+ITRV : A@PRPUN1
+
+==========
+02-10-2018
+==========
+CM Release
+
+git config --global http.proxy 10.142.125.36:8080 
+                              
+git clone http://1543999@stash.uk.standardchartered.com:7990/scm/credapp/creditrethinkncc.git
+git clone http://1543999@stash.uk.standardchartered.com:7990/scm/credapp/ebca_db_ver2.git
+
+==========
+02-12-2018
+==========
+strst 2
+
+==========
+02-13-2018
+==========
+WFH
+Provided the CM PT Heap Dumps to Lakshmi
+
+==========
+02-14-2018
+==========
+Tried For Java WS
+
+TAT Reports Queires
+
+==========
+02-15-2018
+==========
+schemaspy _5.0.0.jar
+
+Cilent Manager Alignment 
+CreditMate Enhancements to capture Client Managers static data, directing of e-mail notifications and document workflow and CM Profile CIB CDM Markets (IN,UK, NG, ZA, US, SG,MY,CN ,HK, AE)
+
+Client Managers can be involved in the document workflow within CreditMate for their portfolio for the documents accessible to the CM Profile
+Creation of CM Profile and migration of CM's to be tagged to a new profile which will give Client Managers access to the following documents – 
+SIF
+SIF for Earmarking of Limits. 
+TER
+DDW
+EAF ( FM&S, admin support only)
+ESRA (admin support only)
+
+Client Managers can view (no initiation/editing) all other credit documents on CreditMate other than the above provided they have access to the Client 
+
+==========
+02-16-2018
+==========
+FUND BCA PHASE 2 WRKSPACE SETUP
+\
+-XX:PermSize=512m -XX:MaxPermSize=1024m
+
+C:\Users\1543999\WrkSpaces\FUND_BCA_PHASE2_DEV\CreditRethink
+
+connection = DriverManager.getConnection("jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpddfmsa-scan.uk.standardchartered.com)(PORT=1522)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_DEV.uk.standardchartered.com))))","CRMATE_ADF_SIT01", "CRMATE_ADF_SIT01_123");
+
+1402454 	---	L NAME 11200407
+
+======================
+GIT
+======================
+
+git init
+
+
+working directory
+index
+repository
+
+when apply git add ( working directory ----> index)
+
+when apply git commit ( index ----> repository)
+
+Git -- A version controll for distubed system
+Git -- internally maintain the three floders ( Wrking Directory, Index and Repository)
+
+git clone url of the git
+
+untracked files
+
+git status
+
+
+git commit -m "Propeer Msg and Jira No"
+
+git push is the final one move from local repositry to Global
+
+
+To check out the child branch (Feautre Branch)
+=============================================
+git checkout feature/Feautre Branch Name
+
+==========
+02-19-2018
+==========
+WFH
+
+==========
+02-20-2018
+==========
+12230/- (Brahma Power Bill CC)
+
+SF BCA - Auto Approval
+========================
+SetApprovalsAction.java  -- 
+private void getActionList(String bCAStatus, BCAHeaderBean localBcaHeaderBean) {
+
+BCA_Webservice_SqlMap.xml  -- 
+<procedure id="webservices.rmwb.autoapprove.check" parameterMap="parameterforAutoAproveCheck" >
+{call PKG_RMWB_FIELD_CHANGE.SP_FIELD_CHANGE_BCA_SEL (?, ?, ?,?)}
+</procedure>
+
+
+
+==========
+02-21-2018
+==========
+17003211
+
+Helpdesk, Clarity
+
+Funds BCA Re-Engineering
+
+SELECT DISTINCT U.EMAIL_ID
+        FROM USERS_MST U,
+        V_CR_CUST_TXN CUST,
+        CUST_TO_EMP E
+        WHERE U.STATUS      ='A'
+        AND CUST.LEID       = E.LE_ID
+        AND CUST.RMCODE     = E.EMP_CODE
+        AND E.PEOPLEWISE_ID = TO_CHAR(U.PEOPLEWISE_ID)
+        AND CUST.LEID       = '$leId$' AND ROWNUM = 1
+		
+Updated: C:\Users\1543999\SVN\Fund_BCA_Phase_2\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\uibfl\dao\impl\sqlmap\BFL_SqlMap.xml 
+ 
+Updated: C:\Users\1543999\SVN\Fund_BCA_Phase_2\CreditRethinkNCC\CreditRethink\WebContent\js\scorecardParentSupportV2.js  
+Updated: C:\Users\1543999\SVN\Fund_BCA_Phase_2\CreditRethinkNCC\CreditRethink\WebContent\js\fiScorecardParentSupportV2.js
+  
+Updated: C:\Users\1543999\SVN\Fund_BCA_Phase_2\CreditRethinkNCC\CreditRethink\WebContent\WEB-INF\jsp\activity\fiActSearchGroup.jsp  
+Updated: C:\Users\1543999\SVN\Fund_BCA_Phase_2\CreditRethinkNCC\CreditRethink\WebContent\WEB-INF\jsp\activity\fiActSearchCustomer.jsp
+  
+Updated: C:\Users\1543999\SVN\Fund_BCA_Phase_2\CreditRethinkNCC\CreditRethink\WebContent\WEB-INF\jsp\scorecard\cre\scorecardParentSupportV2.jsp 
+ 
+Updated: C:\Users\1543999\SVN\Fund_BCA_Phase_2\CreditRethinkNCC\CreditRethink\WebContent\WEB-INF\jsp\scorecard\scorecardParentSupportV2.jsp  
+Updated: C:\Users\1543999\SVN\Fund_BCA_Phase_2\CreditRethinkNCC\CreditRethink\WebContent\WEB-INF\jsp\scorecard\fiScorecardGradeDetails.jsp  
+Updated: C:\Users\1543999\SVN\Fund_BCA_Phase_2\CreditRethinkNCC\CreditRethink\WebContent\WEB-INF\jsp\scorecard\fiScorecardSupportV2.jsp  
+Updated: C:\Users\1543999\SVN\Fund_BCA_Phase_2\CreditRethinkNCC\CreditRethink\WebContent\WEB-INF\jsp\scorecard\fiScorecardSupportBK_Main_V2.jsp  
+Updated: C:\Users\1543999\SVN\Fund_BCA_Phase_2\CreditRethinkNCC\CreditRethink\WebContent\WEB-INF\jsp\scorecard\scoreGradeDetails.jsp  
+		
+Abc Class @Component		
+
+==========
+02-22-2018
+==========
+Updated: C:\Users\1543999\SVN\Fund_BCA_Phase_2\EBCA_DB_VER2\BCAWeb\WebContent\bcaAmendmentLogin.jsp
+
+8098933141
+
+==========
+02-23-2018
+==========
+
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\CreditRethinkNCC\CreditRethink\src\com\standardchartered\cr\gm\action\GMAttachmentAction.java  
+
+http://10.21.151.130/svn/wbcpsrv/branches/wbcp_client_mgr_dev
+
+connection = DriverManager.getConnection("jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpdudasa-scan.uk.standardchartered.com)(PORT=1622)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_PT.uk.standardchartered.com))))","CRMATE_PT_01", "CRMATE_PT_01_123");
+
+
+<property name="url" value="jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpdudasa-scan.uk.standardchartered.com)(PORT=1622)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_PT.uk.standardchartered.com))))" />
+<property name="username" value="CRMATE_PT_01" />
+<property name="password" value="CRMATE_PT_01_123" />
+
+==========
+02-24-2018
+==========
+IDR-CUST-RM
+==========
+SELECT 	DISTINCT 	C.CUSTNAME CUST_NAME,
+ 							rm.EMP_NAME RMNAME, 
+                      		CNTY.CTR_CNTRY_NAME CTR_CNTRY_NAME, 
+                      		um.EMAIL_ID EMAIL_ID
+                FROM   V_CR_CUST_TXN C,		 
+              	COUNTRY CNTY,
+              	rm_view rm,
+              	users_mst um
+       	WHERE  	C.CUSTID ='$custId$'
+               and rm.EMP_CODE = C.RMCODE
+              	and rm.EMP_NAME = C.RMNAME
+				and rm.country_code ||'/'||orgn_code = c.RM_BOOKING_LOCATION 
+				and rm.STV_STD_CODE_VALUE = um.PEOPLEWISE_ID(+)
+              	and CNTY.ctr_cntry_iso_code = rm.country_code
+				
+IDR-GAM-RM
+==========
+SELECT          
+	            VG.CR_CUST_GROUP_NAME CUST_NAME,
+		        VG.CR_CUST_GROUP_GAMNAME RMNAME, 
+		        CNTY.CTR_CNTRY_NAME CTR_CNTRY_NAME, 
+	            um.EMAIL_ID EMAIL_ID
+      	FROM 	V_CR_GROUP_TXN VG,
+		        COUNTRY CNTY,
+		        RM_view rm,
+		        users_mst um
+	    WHERE   VG.CR_CUST_ID = '$custId$'
+			    and rm.EMP_CODE = VG.CR_CUST_GROUP_GAMCODE
+			    and rm.STV_STD_CODE_VALUE = um.PEOPLEWISE_ID(+)
+			    and CNTY.ctr_cntry_iso_code = rm.COUNTRY_CODE
+			    AND CNTY.CTR_CNTRY_ISO_CODE = VG.CR_CUST_GROUP_GAMCOUNTRY
+			    and rownum =1				
+				
+DDW-RM
+=======
+SELECT 	DISTINCT 	C.CUSTNAME CUST_NAME,
+ 							rm.EMP_NAME RMNAME, 
+                      		CNTY.CTR_CNTRY_NAME CTR_CNTRY_NAME, 
+                      		DECODE ((SELECT COUNT (*)
+                  FROM rm_notification_discard_mst
+                 WHERE doc_type = 'DDW'
+                   AND bookinglocation = SUBSTR (ddw.booking_location, 0, 2)
+                   AND rm_domicile =  cnty.ctr_cntry_iso_code
+                   AND rm_codestart = SUBSTR (emp_code, 0, 1)
+                   AND notification_required = 'N'),
+               0, um.email_id,
+               NULL
+              ) email_id
+       	FROM   V_CR_CUST_TXN C, ddw_details ddw,
+              	COUNTRY CNTY,
+              	rm_view rm,
+              	users_mst um
+       	WHERE  	C.CUSTID =#custId#
+       			and ddw.ddw_ref_no=#ddwRefNo#
+              	and rm.EMP_CODE = C.RMCODE
+              	and rm.EMP_NAME = C.RMNAME
+				and rm.country_code ||'/'||orgn_code = c.RM_BOOKING_LOCATION 
+				and rm.STV_STD_CODE_VALUE = um.PEOPLEWISE_ID(+)
+              	and CNTY.ctr_cntry_iso_code = rm.country_code
+
+919941456183
+
+==========
+02-26-2018
+==========
+ 
+USER ID	LEID		ROLE	Client Manager	   1375681@sc.com
+1137664	11062411	GB_CM	Y	 
+
+EAR : 900084071		-- 1116642
+
+			
+IDR : 900084072			
+
+DCL : 39004144
+
+EAW : 400004944
+
+EAF : 79115763
+
+SIF : 11000493615
+	: 11000831665
+	
+MPA : 2000033834	
+	
+==========
+02-27-2018
+==========
+CM_MAIL_CLIENT
+Insta -- 13.8 24 Months	--	9998 -- 236000
+Jumbo -- 15   24 Months	--  9698 -- 232736
+
+1274002	 -- 11313330-1 WITHOUT RM BKG LOCATION
+IDR -- 900084073	-- 1274002@sc.com
+
+BCA -- 10581159
+SetApprovalsAction.java:4726
+
+USER ID	LEID		
+1137664	11062411
+BCA -- 10581160
+
+N - SEGMENT ONLY USER ACESS THEY SHOULD HAVE FUND ACCESS
+FINANCIAL SUBSEGMENTS P5, P6 AND P11.
+
+==========
+02-28-2018
+==========
+1519981 --  1375681
+
+1256111 --		L NAME 11225153	--	10581162 (CONF)
+
+1402774	--		L NAME 11150616		
+
+select * from bca_details  where 
+--BCA_FUND_VERSION is not null and 
+BCA_FINALIZE = 'Y' and BCA_STATUS = 'IN PREPARATION' AND DOCUMENT_TYPE = 'FUNDBCA' order by created_date desc;
+
+1577728 -- 	13697030
+
+1192186 -- 11034140 -- 10581164 (FI)
+
+==========
+03-01-2018
+==========
+10000
+500
+6150
+HDFH12 
+1514742 -- L NAME 11332364  -- 10577702--FUND BCA 1526144@sc.com
+
+8428575931
+
+1441138@sc.com
+
+SELECT PEOPLEWISE_ID FROM ACL_DOC_CONF_ACCESS WHERE CONFIDENTIAL_ACCESS='Y' AND DOCUMENT_ID=10576897
+AND PEOPLEWISE_ID=1522383; -- 1526144
+
+SELECT DISTINCT LEID, CMP_ID,PLEDGORID,RM_BOOKING_LOCATION,DOMICILECOUNTRY  FROM V_CR_CUST_TXN WHERE CUSTID = ?     
+2018-03-01 15:01:31,732 DEBUG [java.sql.PreparedStatement] - {pstm-102585} Executing Statement:       SELECT DISTINCT LEID, CMP_ID,PLEDGORID,RM_BOOKING_LOCATION,DOMICILECOUNTRY  FROM V_CR_CUST_TXN WHERE CUSTID = ?     
+2018-03-01 15:01:31,732 DEBUG [java.sql.PreparedStatement] - {pstm-102585} Parameters: [10485111]
+2018-03-01 15:01:31,732 DEBUG [java.sql.PreparedStatement] - {pstm-102585} Types: [java.lang.String]
+2018-03-01 15:01:31,868 DEBUG [java.sql.ResultSet] - {rset-102586} ResultSet
+2018-03-01 15:01:31,869 DEBUG [java.sql.ResultSet] - {rset-102586} Header: [LEID, CMP_ID, PLEDGORID, RM_BOOKING_LOCATION, DOMICILECOUNTRY]
+2018-03-01 15:01:31,869 DEBUG [java.sql.ResultSet] - {rset-102586} Result: [11225153, AA00020837, 0, AE/SCDF, MA]
+2018-03-01 15:01:35,168 DEBUG [java.sql.Connection] - {conn-102587} Connection
+2018-03-01 15:01:35,169 DEBUG [java.sql.Connection] - {conn-102587} Preparing Statement:       SELECT DISTINCT C.BKG_LOCTN_CODE   || '\'   || C.ORGN_CODE AS LOCATION FROM CUST_TO_EMP C,   BCA_CLIENT_ACNT_PROF B WHERE C.BKG_LOC_DESC = B. RM_BOOKING_LOC AND B.BCA_REF_NO     =  ? AND ROWNUM =1      
+2018-03-01 15:01:35,170 DEBUG [java.sql.PreparedStatement] - {pstm-102588} Executing Statement:       SELECT DISTINCT C.BKG_LOCTN_CODE   || '\'   || C.ORGN_CODE AS LOCATION FROM CUST_TO_EMP C,   BCA_CLIENT_ACNT_PROF B WHERE C.BKG_LOC_DESC = B. RM_BOOKING_LOC AND B.BCA_REF_NO     =  ? AND ROWNUM =1      
+2018-03-01 15:01:35,170 DEBUG [java.sql.PreparedStatement] - {pstm-102588} Parameters: [10581162]
+2018-03-01 15:01:35,170 DEBUG [java.sql.PreparedStatement] - {pstm-102588} Types: [java.lang.String]
+2018-03-01 15:01:35,308 DEBUG [java.sql.ResultSet] - {rset-102589} ResultSet
+2018-03-01 15:01:35,309 DEBUG [java.sql.ResultSet] - {rset-102589} Header: [LOCATION]
+2018-03-01 15:01:35,309 DEBUG [java.sql.ResultSet] - {rset-102589} Result: [AE\SCBL]
+DomainDAOImpl  >>>>> getCMMailDetails() >>> LeId ::::: 11225153
+DomainDAOImpl  >>>>> getCMMailDetails() >>> cmpId ::::: AA00020837
+DomainDAOImpl  >>>>> getCMMailDetails() >>> location ::::: AE\SCBL
+DomainDAOImpl  >>>>> getCMMailDetails() >>> LeId ::::: 11225153
+2018-03-01 15:01:53,755 DEBUG [java.sql.Connection] - {conn-102590} Connection
+2018-03-01 15:01:53,756 DEBUG [java.sql.Connection] - {conn-102590} Preparing Statement:     SELECT DISTINCT U.PEOPLEWISE_ID,U.EMAIL_ID  FROM  USERS_MST U, WB_CCT_CM_CLNT_MAIN  WC  WHERE WC.PEOPLEWISE_ID = U.PEOPLEWISE_ID                AND        LEID LIKE ?                           AND         LOCATION LIKE ?                 
+2018-03-01 15:01:53,757 DEBUG [java.sql.PreparedStatement] - {pstm-102591} Executing Statement:     SELECT DISTINCT U.PEOPLEWISE_ID,U.EMAIL_ID  FROM  USERS_MST U, WB_CCT_CM_CLNT_MAIN  WC  WHERE WC.PEOPLEWISE_ID = U.PEOPLEWISE_ID                AND        LEID LIKE ?                           AND         LOCATION LIKE ?                 
+2018-03-01 15:01:53,757 DEBUG [java.sql.PreparedStatement] - {pstm-102591} Parameters: [11225153%, AE\SCBL]
+2018-03-01 15:01:53,757 DEBUG [java.sql.PreparedStatement] - {pstm-102591} Types: [java.lang.String, java.lang.String]
+2018-03-01 15:01:53,905 DEBUG [java.sql.ResultSet] - {rset-102592} ResultSet
+principalCMMailIDList  >>>>> 0
+confflag  >>>>> CONF
+
+SELECT COUNT(1) FROM ACL_DOC_CONF_ACCESS WHERE CONFIDENTIAL_ACCESS='Y' AND PEOPLEWISE_ID=? AND DOCUMENT_ID=?         
+2018-03-01 15:33:44,511 DEBUG [java.sql.PreparedStatement] - {pstm-103002} Parameters: [1441138, 10576897]
+
+
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\action\FacilityDetailsAction.java  
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\dao\impl\sqlmap\BCA_Header_Bean_SqlMap.xml  
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\WebContent\jsp\BCA\facility\facilityDetails.jsp  
+
+==========
+03-02-2018
+==========
+08095692020 -- vaishnavi
+
+==========
+03-05-2018
+==========
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\action\FacilityDetailsAction.java  
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\WebContent\js\screen_swap.js  
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\WebContent\jsp\layout\FUNDBCA_LeftNav.jsp  
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\WebContent\jsp\BCA\facility\facilityDetails.jsp  
+
+SetApprovalsAction
+finalizeBCA()
+<procedure id="webservice.validate.bca" parameterMap="inputParameterForBCAValidation" >
+	{call PKG_VALIDATE_BCA_FINALIZE_DT.	 (?, ?,?,?,?)}
+</procedure>
+
+CREATE TABLE Employee(
+   EMPID   INT NOT NULL AUTO_INCREMENT,
+   EMPNAME VARCHAR(20) NOT NULL,
+   EMPAGE  INT NOT NULL,
+   SALARY BIGINT NOT NULL,
+   ADDRESS VARCHAR(20) NOT NULL
+   PRIMARY KEY (ID)
+);
+
+==========
+03-06-2018
+==========
+4762154568
+v_fibcav4
+1191629 -- 10567116
+
+call PKG_VALIDATE_BCA_FINALIZE_DT.SP_VALIDATE_BCA (?, ?,?,?,?)}
+2018-03-06 17:59:29,753 DEBUG [java.sql.PreparedStatement] - {pstm-100847} Parameters: [10567116, Y, ]
+
+==========
+03-07-2018
+==========
+select * from bca_details  where 
+--BCA_FUND_VERSION is not null and 
+BCA_FINALIZE = 'Y' and BCA_STATUS = 'APPROVED' AND DOCUMENT_TYPE = 'FUNDBCA' 
+AND VERSION = '4.0' order by created_date desc;
+
+4142304455
+
+==========
+03-08-2018
+==========
+7975/-
+6_MAR_08_2018_7975
+
+==========
+03-09-2018
+==========
+K SRI LAKSHMI
+SBIN0020871
+062086710271
+130+192985+252045
+
+10625
+5785
+
+==========
+03-12-2018
+==========
+LEAVE
+
+==========
+03-13-2018
+==========
+LEAVE
+
+==========
+03-14-2018
+==========
+REQ000009957005 
+
+CRMATE_OAT_01
+uklpdudasa-scan.uk.standardchartered.com
+1622
+CRMATE_PT.uk.standardchartered.com
+
++91 9944 5454 30
+
+==========
+03-15-2018
+==========
+connection = DriverManager.getConnection("jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpdudasa-scan.uk.standardchartered.com)(PORT=1622)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_PT.uk.standardchartered.com))))","CRMATE_OAT_01", "CRMATE_OAT_01_123");
+
+<property name="url" value="jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpdudasa-scan.uk.standardchartered.com)(PORT=1622)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_PT.uk.standardchartered.com))))" />
+		<property name="username" value="CRMATE_OAT_01" />
+		<property name="password" value="CRMATE_OAT_01_123" />
+
+j2eesatya@gmail.com
+
+L NAME 11273936 	--	1519215  -- FUND 10571361 	-- APPVR --1357769
+
+https://jira.global.standardchartered.com/issues/?filter=79251 
+https://jira.global.standardchartered.com/secure/RapidBoard.jspa?rapidView=16638&view=planning.nodetail&epics=visible 
+
+ALTER TABLE scorecard_parent_supp_txn
+ADD LAST_APPROVED_RATING varchar2(45 BYTE);
+
+ALTER TABLE SCORECARD_TXN
+  ADD LAST_APPROVED_RATING varchar2(45 BYTE);
+  
+  9398673510
+  
+Please complete mandatory fields in the following given screens: 
+( Facility Id : 1013860301 ) : Please select Islamic Facility. 
+
+==========
+03-16-2018
+==========
+WFH
+L NAME 11224396		--	1521686		--	10571301
+
+1566363
+1553637
+
+==========
+03-19-2018
+==========
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\dao\impl\sqlmap\BCA_Header_Bean_SqlMap.xml  
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\action\BCAAttachmentsAction.java  
+
+
+jdk1.8.0_45.zip
+Eclipse Neon 4.6.7z
+
+Please complete mandatory fields in the following given screens: 
+Client & Group Details - Client Details 
+
+==========
+03-20-2018
+==========
+
+alter table
+   table_name
+drop column
+   col_name1; 
+   
+CSA field is mandatory if facility type is Cat2. 
+
+==========
+03-21-2018
+==========
+Leave
+
+==========
+03-22-2018
+==========
+update scorecard_txn set CREATED_DATE = sysdate, MODIFIED_DATE = sysdate, SC_APPROVED_DATE = SYSDATE where scorecard_seq_id = '11740427';
+
+1324448	--	11128482 --	10571444	--	APPVR	-- 1325783
+
+you need to have your method name starting "test" in order for Junit to pick you testcase. 
+
+==========
+03-23-2018
+==========
+Find out some issue while doing 3 to 4 Interim
+
+==========
+03-24-2018
+==========
+Scrpt supprt
+
+
+==========
+03-26-2018
+==========
+Leave
+
+==========
+03-27-2018
+==========
+Leave
+
+==========
+03-28-2018
+==========
+WFH
+
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\action\CoBorrowersAction.java  
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\action\SetApprovalsAction.java  
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\WebContent\jsp\BCA\BCABasicInfo\BCAV4\ISDAInfoV4.jsp  
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\WebContent\jsp\BCA\otherTermsAndConditions.jsp  
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\WebContent\jsp\layout\FUNDBCA_LeftNav.jsp  
+
+
+==========
+03-29-2018
+==========
+WFH
+
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\dao\impl\sqlmap\BCA_Attachments_SqlMap.xml  
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\dao\impl\sqlmap\BCA_Header_Bean_SqlMap.xml  
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\src\com\scb\cr\bca\resources\messages.properties  
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\WebContent\jsp\BCA\BCABasicInfo\BCAV4\ISDAInfoV4.jsp  
+Updated: C:\Users\1543999\SVN\FUND_BCA_PHASE_2_DEV\EBCA_DB_VER2\BCAWeb\WebContent\jsp\layout\FUNDBCA_LeftNav.jsp  
+
+
+
+
+
+
+==========
+04-02-2018
+==========
+1309639		--	11218379 	-- 12762249		--	L NAME 11181627
+1410913		--	L NAME 11211324
+
+TERHomePageAction
+terStartup.jsp
+
+terCreation
+CUST GROUP GAMNAME OF 11758779 
+--getCustomerTypeNonBorrower
+select distinct upper(customer_type) from cr_cust_txn c , customer_view v where 
+		  c.CR_CUST_LE_ID is not null 
+		  and v.LE_ID=TO_CHAR (c.CR_CUST_LE_ID) 
+		  and entity_type='C' 
+		  and NVL (c.CR_CUST_STATUS, 0) != 'INACTIVE'
+		  AND ( SEGMENT_CODE_VALUE        != 'N' OR (SEGMENT_CODE_VALUE = 'N' AND ORG_TYPE IN ('SA', 'HO')) ) 
+		  and v.le_id like '' || #leid# || '%'
+                                                   
+												   
+5241 9300 8409 4008		
+
+==========
+04-03-2018
+==========
+https://bitbucket.global.standardchartered.com/projects/CREDAPP/repos/creditrethinkncc/browse
+
+https://1543999@bitbucket.global.standardchartered.com/scm/credapp/creditrethinkncc.git				
+
+1290528
+1447630						
+
+BCA_APPROVER_SEGMENT_DETAILS
+BCA_SEG_CAT3
+GCAP_CA_SEGMENT
+SCORECARD_SEGMENT_MAPPING
+
+select * from gcap_lov where GROUP_ID = 103 and version_no = 1;
+
+==========
+04-04-2018
+==========
+SELECT c.CUSTNAME  AS CUSTNAME,
+  c.CUSTSEGMENT    AS CUSTSEGMENT,
+  c.CUSTSUBSEGMENT AS CUSTSUBSEGMENT,
+  c.RMCODE         AS RMCODE,
+  c.RMNAME         AS RMNAME,
+  sci.CREDIT_GRADE AS CREDIT_GRADE,
+  c.GROUPNAME,
+  c.DOMICILECOUNTRY,
+  c.SEGMENTCODE    AS SEGMENTCODE,
+  c.SUBSEGMENTCODE AS SUBSEGMENTCODE
+FROM V_CR_CUST_TXN c,
+  V_CR_CUST_BCA sci
+WHERE c.CUSTID   = '14160166'
+AND sci.CUSTID(+)=c.CUSTID;    
+
+ 1000091583 
+ 
+ACL_UGROUP_USER_MAPPING 
+
+SELECT * FROM acl_role_mst WHERE ROLE_ID=10000095; FOR CREATING THE CAD OR TCAD
+ 1447630 (CRATOR) -- 1520429 (CAD) --1290528 (APPRVR)
+					 1152323
+ 
+ SELECT * FROM BCA_DETAILS WHERE SCORECARD_ID IN (SELECT SCORECARD_SEQ_ID FROM crms_scorecard) ORDER BY CREATED_DATE DESC;
+
+1372729	--	L NAME 13698229 -- 10566676 (BCA REF) -- SCORECARD --11809750	 
+
+044-25341923  
+
+==========
+04-05-2018
+==========
+GM
+-----
+1410913 -- GRP NAME 990000494 -- 1493737 (score card appprver) GM Ref -- 6000169407 -- 1150686 (GM APPRR)
+
+CAD 30000051556 
+
+-XX:PermSize=512m -XX:MaxPermSize=1024m
+
+1567519
+
+CAD QUERY
+============
+SELECT DISTINCT um.PEOPLEWISE_ID,
+  um.USER_NAME,
+  um.COIN_NO,
+  arm.ROLE_DESC,
+  gmd.SIGNATORY_TYPE,
+  CASE
+    WHEN(NVL(gmd.ISCANCELLED,'N')='Y')
+    THEN 'Inactive'
+    ELSE gmd.GCAP_STATUS
+  END                AS GCAP_STATUS,
+  ctr.CTR_CNTRY_NAME AS DOMICILE_CNTRY,
+  (SELECT SANCTION_LEVEL
+  FROM gcap_sanction_level
+  WHERE sanction_key=GMD.SANCTION_LEVEL
+  ) AS SANCTION_LEVEL,
+  gmd.GCAP_CAD_ID
+FROM USERS_MST um,
+  GCAP_CAD_DETAILS gmd,
+  ACL_ROLE_MST arm ,
+  COUNTRY ctr,
+  gcap_cad_txn gtx
+WHERE um.PEOPLEWISE_ID       = gmd.PEOPLEWISE_ID(+)
+AND um.ROLE_ID               =arm.ROLE_ID
+AND ctr.CTR_CNTRY_ISO_CODE   = um.DOMICILE_CNTRY
+AND gmd.gcap_cad_id          = gtx.gcap_cad_id(+)
+AND um.PEOPLEWISE_ID         = TRIM(1520429)
+AND TRIM(gmd.SIGNATORY_TYPE) = TRIM('C')
+AND (gtx.policyeff_yn       IS NULL
+OR gtx.policyeff_yn          = 'N')
+ORDER BY upper(USER_NAME) ASC; 
+
+gCAPValidationFlag
+
+==========
+04-06-2018
+==========
+http://10.21.151.130/svn/wbcpsrv/branches/wbcp_fund_bca_dev/GCAP_SCRIPTS/DBScripts
+
+//GAV changes - GCAP Phase 3 - To check whether the document is validated or not - Start
+
+
+C:\Users\1543999\WrkSpaces\GCAP_PHASE_3_TER_DEV_OLD_DHANA\CreditRethink\WebContent\WEB-INF\jsp\ter\terApproval.jsp
+C:\Users\1543999\WrkSpaces\GCAP_PHASE_3_TER_DEV_OLD_DHANA\CreditRethink\WebContent\WEB-INF\jsp\ter\facilityDetailsV2.jsp
+
+C:\Users\1543999\WrkSpaces\GCAP_PHASE_3_TER_DEV_OLD_DHANA\CreditRethink\src\com\standardchartered\cr\ter\sqlmap\TER_Approval_Sqlmap.xml
+C:\Users\1543999\WrkSpaces\GCAP_PHASE_3_TER_DEV_OLD_DHANA\CreditRethink\src\com\standardchartered\cr\ter\sqlmap\TER_Sqlmap.xml
+
+C:\Users\1543999\WrkSpaces\GCAP_PHASE_3_TER_DEV_OLD_DHANA\CreditRethink\src\com\standardchartered\cr\ter\model\TerApprovalsAuditBean.java
+C:\Users\1543999\WrkSpaces\GCAP_PHASE_3_TER_DEV_OLD_DHANA\CreditRethink\src\com\standardchartered\cr\ter\model\TERHeaderBean.java
+
+
+C:\Users\1543999\WrkSpaces\GCAP_PHASE_3_TER_DEV_OLD_DHANA\CreditRethink\src\com\standardchartered\cr\ter\delegate\TERApprovalDelegate.java
+
+C:\Users\1543999\WrkSpaces\GCAP_PHASE_3_TER_DEV_OLD_DHANA\CreditRethink\src\com\standardchartered\cr\ter\delegate\impl\TERApprovalDelegateImpl.java
+
+C:\Users\1543999\WrkSpaces\GCAP_PHASE_3_TER_DEV_OLD_DHANA\CreditRethink\src\com\standardchartered\cr\ter\dao\TERApprovalDAO.java
+
+C:\Users\1543999\WrkSpaces\GCAP_PHASE_3_TER_DEV_OLD_DHANA\CreditRethink\src\com\standardchartered\cr\ter\dao\impl\TERApprovalDAOImpl.java
+
+C:\Users\1543999\WrkSpaces\GCAP_PHASE_3_TER_DEV_OLD_DHANA\CreditRethink\src\com\standardchartered\cr\ter\action\TERApprovalAction.java
+
+GCAPValidationAction
+
+gcapvalidation.xml
+
+TER
+========
+1350562 -- L NAME 13665751
+
+1470312 -- 13352252 -- Appr 1253005
+
+==========
+04-09-2018
+==========
+1470312 -- 13352252 -- Appr 1253005
+GCAP_LOV
+GCAPValidationAction
+1253005
+CAD Crfeator and Apprver
+======================
+1290528
+1447630	
+
+TO VERIFY CAD OR TCAD
+======================
+SELECT ITEM_CODE
+  ||'#'
+  ||ITEM_NAME AS CalabelAndValue
+FROM (
+  (SELECT DISTINCT LOV.ITEM_NAME AS ITEM_NAME,
+    LOV.ITEM_CODE                AS ITEM_CODE
+  FROM GCAP_LOV LOV,
+    GCAP_TCAD_DELEGATEE_TXN TXN,
+    GCAP_TCAD_TXN TTXN,
+    GCAP_TCAD_DELEGATOR_TXN DTXN,
+    GCAP_CAD_TXN CTXN
+  WHERE GROUP_ID               = 103
+  AND LOV.VERSION_NO           = TXN.CA_SEGMENT_VERSION
+  AND TTXN.GCAP_TCAD_ID        =TXN.GCAP_TCAD_ID
+  AND TTXN.GCAP_TCAD_ID        =DTXN.GCAP_TCAD_ID
+  AND DTXN.GCAP_TCAD_ID        =TXN.GCAP_TCAD_ID
+  AND CTXN.GCAP_CAD_ID         =DTXN.DELEGATOR_GCAP_TCAD_ID
+  AND CTXN.status              ='EFFECTIVE'
+  AND TXN.STATUS               ='Active'
+  AND NVL(TXN.ISCANCELLED,'N')!='Y'
+  AND TTXN.policyeff_yn        ='N'
+  AND ('#'
+    ||REPLACE(TXN.CASEGMENTS, ' ', '')
+    ||'#') LIKE '%#'
+    ||LOV.ITEM_CODE
+    ||'#%'
+  AND TXN. DELEGATEE_ID = 1253005
+  AND TXN.CASEGMENTS   IS NOT NULL
+  )
+UNION
+  (SELECT DISTINCT LOV.ITEM_NAME AS ITEM_NAME,
+    LOV.ITEM_CODE                AS ITEM_CODE
+  FROM GCAP_LOV LOV,
+    GCAP_CAD_DELEGATEE_TXN TXN,
+    GCAP_CAD_TXN CTXN
+  WHERE GROUP_ID          = 103
+  AND LOV.VERSION_NO      = TXN.CA_SEGMENT_VERSION
+  AND CTXN.GCAP_CAD_ID    =TXN.GCAP_CAD_ID
+  AND NVL(ISCANCELLED,'N')='N'
+  AND CTXN.status         ='EFFECTIVE'
+  AND CTXN.policyeff_yn   ='N'
+  AND ('#'
+    ||REPLACE(TXN.CA_SEGMENTS, ' ', '')
+    ||'#') LIKE '%#'
+    ||LOV.ITEM_CODE
+    ||'#%'
+  AND TXN. peoplewise_id = 1253005
+  AND TXN.CA_SEGMENTS   IS NOT NULL
+  ))
+ORDER BY ITEM_CODE 
+
+==========
+04-10-2018
+==========
+gcapvalidation.xml
+
+select ter.TER_REF_NO,ter.cust_id, bca.BCA_REF_NO,bca.client_credit_grade, crms.SCORECARD_SEQ_ID,
+ter.cust_crg, custb.credit_grade, crms.loc_crg, crms.int_crg , ter.created_date
+from 
+ter_details ter,
+bca_details bca, 
+crms_scorecard crms,
+V_CR_CUST_BCA custb
+where ter.BCA_REF_NO = bca.BCA_REF_NO
+and custb.custid = ter.cust_id
+and bca.scorecard_id = crms.SCORECARD_SEQ_ID
+and bca.bca_status = 'APPROVED'
+order by ter.created_date desc;
+
+1000077304	10215438	10457299		11376805	9B	6B	9B	7B	29-APR-16
+select * from V_CR_CUST_TXN where custid='10215438';
+1344322 -- 11179642 -- 1000091595
+
+==========
+04-11-2018
+==========
+1506743 -- GRP NAME 990137811  -- 6000169467 -- 1525338  -- 1210261
+
+https://1543999@bitbucket.global.standardchartered.com/scm/credapp/creditrethinkncc.git
+
+https://1543999@bitbucket.global.standardchartered.com/scm/credapp/ebca_db_ver2.git
+
+select * from GCAP_CAD_DELEGATEE_TXN
+
+==========
+04-12-2018
+==========
+1420876
+
+GM:
+----
+gmProposeApprove.jsp
+
+showCadTcadlist
+
+function validateCadTcad(){}
+
+GMSubmitAction.java - submitGMAction()
+
+1220934
+
+//GAV changes - GCAP Phase 3 - check and update flag for, GAV is done? in param gavStatus - Start
+			boolean gcapValidationFlag = false;
+			gcapValidationFlag = gmDTO.isGcap3Flag() && (null != sessionUser.getNonGSAMUser() && !"".equalsIgnoreCase(sessionUser.getNonGSAMUser()) && "Y".equalsIgnoreCase(sessionUser.getNonGSAMUser())) ? true : false;
+			if( gcapValidationFlag){
+				System.out.println("Getting gav status flag");
+				try {
+					boolean gavBeanList =  gmSubmitDelegate.getGavStatus("getGAVFlag", gmID);
+					if(gavBeanList ){
+						gavStatus = "1";
+					}else{
+						gavStatus = "0";
+					}
+				
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				System.out.println("Is GAV done already?=>"+gavStatus+" :::(0-not yet,1-done)");
+			}
+			if(gcapValidationFlag && "1".equals(gavStatus)){
+				exceptionList = gmSubmitDelegate.getGCAPValidationDetails("getGCAPValExcList", gmID);
+			}
+			//GAV changes - GCAP Phase 3 - check and update flag for, GAV is done? in param gavStatus - End
+
+==========
+GM
+==========			
+1181807  --- 	GRP NAME 990064686  --- GM REF NO	6000169487	 -- 1466936 (APPRVR)  1253005 (APPRVER)  1194526
+
+==========
+04-13-2018
+==========
+FSD Key Notes
+--------------
+1) TER document can be approved by approver having effective CAD/TCAD profile with signatory type ‘A’ / ‘B’ / ‘C’.
+	
+Try to identify the Facility Fields where its going inserting
+
+Excess Requested of CAT1 & CAT2
+Excess Requested of CAT3 & Controll 
+Max Tenor Requested For (days) value among all existing CAT1, CAT2, CAT3 and Control
+Customer CRG
+
+TER
+===========
+1482145 -- L NAME 11223983 -- 1000091508 -- 1567519 (APPARVER)
+
+SELECT SCORECARD_ID,
+  CMS_MODEL_TYPE,
+  CRMS_MODEL_TYPE,
+  SEGMENTCODE  AS CLIENT_SEGMENT,
+  SUBSEGMENTCODE AS CLIENT_SUB_SEGMENT,
+  NVL2(CRMS_MODEL_TYPE, 'Y', 'N') AS IS_CRMS
+FROM (SELECT UNIQUE SCORECARD_ID AS SCORECARD_ID,
+		(SELECT SC_MODEL_TYPE FROM SCORECARD_TXN WHERE SCORECARD_SEQ_ID = B.SCORECARD_ID ) AS CMS_MODEL_TYPE,
+		(SELECT LOC_SC_SEG_TYPE FROM CRMS_SCORECARD WHERE SCORECARD_SEQ_ID = B.SCORECARD_ID) AS CRMS_MODEL_TYPE,
+		T2.SEGMENTCODE     AS SEGMENTCODE,
+		T2.SUBSEGMENTCODE AS SUBSEGMENTCODE
+	FROM TER_DETAILS T1,
+    BCA_DETAILS B,
+    V_CR_CUST_TXN T2
+  WHERE T2.CUSTID  = T1.CUST_ID
+  AND B.BCA_REF_NO = T1.BCA_REF_NO
+  AND B.SCORECARD_ID IS NOT NULL
+  AND T1.TER_REF_NO         = #gmID#);
+  
+  SELECT UNIQUE NULL             AS SCORECARD_ID,
+  'SOVERIGN'                   AS CMS_MODEL_TYPE,
+  NULL                         AS CRMS_MODEL_TYPE,
+  T2.SEGMENTCODE               AS CLIENT_SEGMENT,
+  T2.SUBSEGMENTCODE            AS CLIENT_SUB_SEGMENT,
+  'N'                          AS IS_CRMS
+FROM TER_DETAILS T1, V_CR_CUST_TXN T2, BCA_DETAILS B
+WHERE T2.CUSTID  = T1.CUST_ID
+AND B.BCA_REF_NO = T1.BCA_REF_NO
+AND B.SCORECARD_ID IS NULL
+AND T1.TER_REF_NO  = 6000169487;
+
+==========
+04-16-2018
+==========
+gcap2_credit_auth_data 
+
+No effective CAD/TCAD profile available for 'CIB - Corporate and NBFI/CIB - Corporate and NBFI/CIB - NBFI/CIB - NBFI' segment. However, if the approval falls in any of exception scenario listed below, then please select the appropriate reason and proceed accordingly.
+
+==========
+04-17-2018
+==========
+Case 3
+
+==========
+04-18-2018
+==========
+2018-04-18 11:33:24,772 DEBUG [java.sql.Connection] - {conn-100367} Preparing Call: {call PKG_GCAP_VALIDATION.PROC_GCAP_VALIDATION (?,?,?,?,?,?,?,?)}
+2018-04-18 11:33:24,772 DEBUG [java.sql.PreparedStatement] - {pstm-100368} Executing Statement: {call PKG_GCAP_VALIDATION.PROC_GCAP_VALIDATION (?,?,?,?,?,?,?,?)}
+2018-04-18 11:33:24,773 DEBUG [java.sql.PreparedStatement] - {pstm-100368} Parameters: [TER, 1000091508, 30000051567, CAD, 6]
+
+Test1
+BEGIN
+BEGIN
+Test2
+Details for CAT2
+CATEGORY_TYPE:-TER_CAT2_EXCESS_REQUESTED   =>1000
+CATEGORY_TYPE:-TER_CAT2_LIMIT_AMT   =>5000
+CATEGORY_TYPE:-TER_CAT2_OUTSTANDING_AMT   =>1000
+CATEGORY_TYPE:-TER_MAX_TENOR   =>
+Details for TOTALCAT12
+CATEGORY_TYPE:-TER_MAX_TENOR   =>
+CATEGORY_TYPE:-TER_TOTALCAT12_EXCESS_REQUESTED   =>1000
+CATEGORY_TYPE:-TER_TOTALCAT12_LIMIT_AMT   =>5000
+CATEGORY_TYPE:-TER_TOTALCAT12_OUTSTANDING_AMT   =>1000
+Test3
+Test4
+CA_SEGMENT_GCAP_VALID:-6
+V_MATRIX_TYPE_CODE:-10163V_MATRIX_VERSION:-1
+No Data available for given Gcap Cad Id....330000051567ORA-01403: no data found
+
+==========
+04-19-2018
+==========
+select * from gcap_approval_excp;
+
+CASE 1: NO EXP
+CASE 2: GAV -> EXP
+                              FIN: 3A(C) -> CG Failure
+                              OTH: 3A(A) -> CG Failure
+CASE 3: 
+                              FIN: 3A(D) -> CASeg Failure
+                              FIN: 4A(E) -> SC Mapping Failure
+                              OTH: 3A(B) -> CASeg Failure
+
+
+ 
+ 	 	Mismatch	   
+ 	 	CG	Segment	SC	   
+Segment	O	a	b	 	   
+ 	N	c	d	e	 
+	
+==========
+04-20-2018
+==========
+Case 3 with NON-FI Segment
+==========================
+1293449		--	12022244 (GC -- K) -- BCA REF NO : 10560962 SC REF NO : 11785912 TER REF NO : 1000091601 APPRVER : 1002343
+	
+SELECT PEOPLEWISE_ID ,
+  USER_NAME AS approver
+FROM USERS_MST USERS,
+  ACL_ROLE_MST ROLEMST
+WHERE USERS.ROLE_ID = ROLEMST.ROLE_ID
+AND USERS.STATUS   != 'D'
+AND USERS.ROLE_ID  IN ('10000047','10000045','10000049','10000046','10000083','10000084','10000090','10000048','10000041','20000069','20000070','20000071','20000072','20000074')
+AND UPPER(ROLEMST.ROLE_ID) LIKE '20000070'
+AND UPPER(USER_NAME) LIKE '%%'
+AND PEOPLEWISE_ID LIKE '1002343'
+AND (USERS.USER_TYPE = 'W'
+OR USERS.USER_TYPE   ='WC'
+OR USERS.USER_TYPE   ='A'
+OR USERS.USER_TYPE   ='B');
+
+SCORECARD-MAPPING
+===================================
+SELECT DISTINCT CLNT_GROUP_SEGMENT
+FROM SCORECARD_SEGMENT_MAPPING
+WHERE CLIENT_SEGMENT        = 'K'
+AND IS_CRMS                 = 'N'
+AND SCORECARD_MODEL_CODE    = 'LC'
+AND (CLNT_SUB_SEGMENT_CODE IS NULL
+OR CLNT_SUB_SEGMENT_CODE    = 'K3') ;
+
+SELECT UNIQUE MP.caseg_matching,
+  DL.peoplewise_id delegateeid,
+  DL.name delegateename,
+  (SELECT sanction_level
+  FROM GCAP_SANCTION_LEVEL
+  WHERE sanction_key=DL.sanction_level
+  ) delegateedesg,
+  DTL.gcap_cad_id gcap_cad_id,
+  'CAD' cadtype,
+  NVL(DR.delegator_id,'') delegatorid,
+  NVL(DR.name,'') delegatorname,
+  (SELECT NVL(SANCTION_LEVEL,'')
+  FROM GCAP_SANCTION_LEVEL
+  WHERE sanction_key=DR.sanction_level
+  ) delegatordesg,
+  '' tcadProfSeqId
+FROM gcap_cad_txn DTL
+LEFT JOIN gcap_cad_delegator_txn DR
+ON (DR.gcap_cad_id=DTL.gcap_cad_id),
+  gcap_cad_delegatee_txn DL ,
+  (SELECT ca_SEGMENT AS caseg_matching
+  FROM gcap_clnt_ca_seg_mapping
+  WHERE client_segment_code  ='K'
+  AND client_group_fisegment = '3'
+  AND CA_SEG_EFFECTIVE_DATE IN
+    (SELECT MAX(CA_SEG_EFFECTIVE_DATE) AS effectiveDate
+    FROM gcap_clnt_ca_seg_mapping
+    WHERE TO_CHAR(CA_SEG_EFFECTIVE_DATE, 'yyyymmdd') < TO_CHAR(sysdate,'yyyymmdd')
+    AND client_segment_code                          = 'K'
+    AND client_group_fisegment                       = '3'
+    GROUP BY client_segment_code
+    )
+  ) MP
+WHERE DTL.gcap_cad_id                    =DL.gcap_cad_id
+AND dl.peoplewise_id                     =1002343
+AND TO_CHAR(sysdate,'yyyymmdd')         >= TO_CHAR(dl.effective_date, 'yyyymmdd')
+AND TO_CHAR(dl.expiry_date, 'yyyymmdd') >= TO_CHAR(sysdate,'yyyymmdd')
+AND DTL.status                           = 'EFFECTIVE'
+AND DL.SIGNATORY_TYPE                   IN ('A', 'B', 'C')
+AND REGEXP_LIKE (MP.caseg_matching, REPLACE(REPLACE(CA_SEGMENTS,' ',''),'#','|'))
+AND NVL(DTL.policyeff_yn,'N') = 'N';
+
+==================================
+SELECT UNIQUE '' AS caseg_matching,
+  DL.peoplewise_id delegateeid,
+  DL.name delegateename,
+  (SELECT sanction_level
+  FROM GCAP_SANCTION_LEVEL
+  WHERE sanction_key=DL.sanction_level
+  ) delegateedesg,
+  DTL.gcap_cad_id gcap_cad_id,
+  'CAD' cadtype,
+  NVL(DR.delegator_id,'') delegatorid,
+  NVL(DR.name,'') delegatorname,
+  (SELECT NVL(SANCTION_LEVEL,'')
+  FROM GCAP_SANCTION_LEVEL
+  WHERE sanction_key=DR.sanction_level
+  ) delegatordesg,
+  '' tcadProfSeqId
+FROM gcap_cad_txn DTL
+LEFT JOIN gcap_cad_delegator_txn DR
+ON (DR.gcap_cad_id=DTL.gcap_cad_id),
+  gcap_cad_delegatee_txn DL
+WHERE DTL.gcap_cad_id                    =DL.gcap_cad_id
+AND dl.peoplewise_id                     = 1002343
+AND TO_CHAR(sysdate,'yyyymmdd')         >= TO_CHAR(dl.effective_date, 'yyyymmdd')
+AND TO_CHAR(dl.expiry_date, 'yyyymmdd') >= TO_CHAR(sysdate,'yyyymmdd')
+AND DTL.status                           = 'EFFECTIVE'
+AND DL.SIGNATORY_TYPE                   IN ('A', 'B', 'C')
+AND NVL(DTL.policyeff_yn,'N')            = 'N';  
+
+==========
+04-23-2018
+==========
+NON-FI SEGMENT
+NON-FI GAV scorecard to CA segment mappings
+
+==========
+04-24-2018
+==========
+FI SEGMENT
+FI GAV scorecard to CA segment mappings
+1482145 -- L NAME 11223983 -- 1000091508 -- 1567519 (APPARVER)
+1143420 -- L NAME 11000046 -- 1000091602 --- APPRVER : 1002343 new bca 10571647 
+
+==========
+04-25-2018
+==========
+TER_CASE_IV : 
+---------------
+1143420 -- L NAME 11000046 -- 1000091603 --- APPRVER : 1567519 1002343 new bca 10571647 
+
+==========
+04-26-2018
+==========
+LEAVE
+
+==========
+04-27-2018
+==========
+LEAVE
+
+==========
+04-30-2018
+==========
+LEAVE
+
+==========
+05-02-2018
+==========
+********Need to check with Xavier *****
+<select id= "getDefualtExcpListByCodes"  resultMap="gcapApprExcpBO" parameterClass="java.util.Map">
+
+<select id="getClientGroupSegment" resultClass="java.lang.String" parameterClass="java.util.Map">
+
+==========
+05-03-2018
+==========
+PROC_GCAP_TER_VALIDATION
+
+==========
+05-04-2018
+==========
+PROC_GCAP_TER_VALIDATION
+
+==========
+05-07-2018
+==========
+1002343	--	
+1000091601	30000051578
+call PKG_GCAP_VALIDATION.PROC_GCAP_VALIDATION (?,?,?,?,?,?,?,?,?)
+TER, 1000091601, 30000051578, CAD, 1
+
+TER, 1000091602, 30000051578, CAD, 2
+
+==========
+05-08-2018
+==========
+TER-GAV CG CLARIFICATION FROM POLIREDDY
+
+This TER exceeds your delegated authorities for below values. Select Justification for Exceeding Authorities.
+•	Sum of “Excess Requested” of CAT1 & CAT2 facilities including manually added facilities in TER.
+•	Sum of “Excess Requested” of CAT3 and Control facilities including manually facilities added in TER.
+•	Greatest “Max Tenor Requested For (days)” value among all existing CAT1, CAT2, CAT3 and Control facilities in TER
+
+==========
+05-09-2018
+==========
+1327152 -- LEID 13119228  -- SC ID 11868304 -- BCA 10580991 
+
+1258501 -- GRP ID GRP NAME 990021766 --	6000173088 -- APPRVR 1451575
+
+==========
+05-10-2018
+==========
+connection = DriverManager.getConnection("jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpdudasa-scan.uk.standardchartered.com)(PORT=1622)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_PT.uk.standardchartered.com))))","CRMATE_OAT_01", "CRMATE_OAT_01_123");
+
+connection = DriverManager.getConnection("jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpdudasa-scan.uk.standardchartered.com)(PORT=1622)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_PT.uk.standardchartered.com))))","CRMATE_OAT_01", "CRMATE_OAT_01_123");
+
+connection = DriverManager.getConnection("jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpddfmsa-scan.uk.standardchartered.com)(PORT=1522)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_DEV.uk.standardchartered.com))))", "CRMATE_DEV_02", "CRMATE_DEV_02_123");
+<property name="url" value="jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpddfmsa-scan.uk.standardchartered.com)(PORT=1522)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_DEV.uk.standardchartered.com))))" />
+<property name="username" value="CRMATE_DEV_02" />
+<property name="password" value="CRMATE_DEV_02_123" />
+
+==========
+05-11-2018
+==========
+JOINS 
+----- 
+
+1 Inner join (Simple join) 
+2 Left outer join (Left join) 
+3 Right outer join (Right join) 
+4 Full Outer Join (Full join) 
+5 Self join 
+
+1) 
+SELECT columns 
+FROM table1 [INNER] JOIN table2 
+ON table1.column = table2.column; 
+
+SELECT columns 
+FROM table1, table2 
+WHERE table1.column = table2.column; 
+
+2) 
+SELECT columns 
+FROM table1 LEFT [OUTER] JOIN table2 
+ON table1.column = table2.column; 
+
+SELECT columns 
+FROM table1, table2 
+WHERE table1.column = table2.column(+);
+
+3) 
+SELECT columns 
+FROM table1 RIGHT [OUTER] JOIN table2 
+ON table1.column = table2.column; 
+
+SELECT columns 
+FROM table1, table2 
+WHERE table1.column(+) = table2.column; 
+
+4) 
+SELECT columns 
+FROM table1 FULL [OUTER] JOIN table2 
+ON table1.column = table2.column;
+
+GM APPRVR 1141084
+=================
+1258501 -- GRP ID -- GRP NAME 990021766 -- GM ID --	6000169507  -- APPRVR 1451575 1253005 -- 1245981
+		   GRP ID -- GRP NAME 990021766	-- GM ID -- 6000166911
+		   
+		   GRP ID -- GRP NAME 990025531 -- GM ID -- 6000167168	-- APPRVR 1141084 APPRVR 1002343
+		   
+		   Global Corporate AND Local Corporate
+
+select PEOPLEWISE_ID , USER_NAME as approver      from USERS_MST USERS, ACL_ROLE_MST ROLEMST      where  USERS.ROLE_ID = ROLEMST.ROLE_ID     AND USERS.STATUS !='D'                AND USERS.ROLE_ID in ('10000047','10000045','10000049','10000046','10000083','10000084','20000070','20000071','20000072')                      AND     UPPER(ROLEMST.ROLE_ID) LIKE ?          AND     UPPER(USER_NAME) LIKE ?            AND     PEOPLEWISE_ID like ?                               AND                 (USERS.USER_TYPE  = 'W' OR USERS.USER_TYPE ='WC' OR USERS.USER_TYPE ='A' OR USERS.USER_TYPE ='B') 
+
+[10000041, %%, 1567519]
+
+==========
+05-14-2018
+==========
+CROP - 28524 (DB PROCEDURE VALIDATION AGAINST THE SELECTED PROCEDURE 
+
+==========
+05-15-2018
+==========
+28,778.00
+
+DB PROCEDURE VALIDATION.
+
+AFTER DB PROCEDURE VALIDATION LISTING OF JUSTIFICATION FOR EXCEEDING AUTHORITES.
+
+EXCEPTION SUB LISTING (For GM and Ter) : 
+
+PDF CHANGES : 4 days
+
+SIGNATOR HISTORY IN VIEW AND PDF. 1 day
+
+AFTER FINAL SUBMISSION ON WHICH CASE ITS HAS BEEN FALL DOWN. 1 day
+
+==========
+05-16-2018
+==========
+JILANI SHAIK -- jilan.shaik@gmail.com	--	22 Mar 2018	--	18032385635
+Ref No : 4290
+1253005 -- 1000091594 1470312 --  
+PDF Changes
+
+==========
+05-17-2018
+==========
+PDF Changes with Exception List
+
+--EXCEPTION SUB LISTING (For GM and Ter).
+
+PDF : GAV Propose approve screen CHANGES 1
+
+PDF : SIGNATOR HISTORY changes 1
+
+Application : SIGNATOR HISTORY- Show GCAp profile details 1
+
+CASE 3 Scenario FOR listing approval exception - gav 1
+
+Case 4 Scenario FOR listing approval exception - gav 1
+
+Store CG validated in GAV approval Details (2)
+
+Show the validated CG in the Sign. History based on the GAV Scenario(Case 2/3/4) (2)
+
+Unit Testing for Ter document Application & PDF for CASE 1, 2, 3 & 4 (5)
+
+Junit for GAV functionalities
+
+<update id="gavCase" parameterClass="java.util.Map" >
+  	update doc_prop_app_audit set gav_case=#gavCase# where DOC_REF_NO=#gmID#
+</update>
+
+GMSubmitAction.java
+
+ALTER TABLE TER_PROP_APP_AUDIT ADD GAV_CASE VARCHAR2(20 BYTE);
+
+ALTER TABLE TER_PROP_APP_AUDIT ADD CRGVALUE  VARCHAR2(50);
+
+==========
+05-18-2018
+==========
+TER	--	1482145	--	1000091508
+
+==========
+05-21-2018
+==========
+TER --	1327152 --	13119228 -- 1000091605	--	APPVR 1002343 1567519
+
+1143420 -- L NAME 11000046 --1000091606
+I have applied for the PF transfer to my previous organization to my current organization. I have received one sms from PF office by saying my transfer application has been completed successfully, but the amount is not settled to my current PF account. For this, here I am applying this grievance to get the annexure on this.
+
+Thank you.
+
+1000091603
+1000091508
+Exceptions for Approval
+
+Did the Workspace Setup of GAV2.
+
+As part of our analysis while doing the computation the validation record is not inserting in back end.
+
+ACL_FAP_ACTION_MAP_MST
+
+==========
+05-22-2018
+==========
+May 2 2000/-  Ref No : 6503706152
+GAV-CASE 2 Flag insertion
+
+==========
+05-23-2018
+==========
+Webpage error details
+
+1561591 -- L NAME 12022244	--	1000091601 -- 
+
+AFTER SELECTING THE EXCEPTION LIST OR AVAILABLE CAD/TCAD LIST, SUPPOSE IF WE R DONE SUPPORTED FOR LOCAL BOARD.
+
+THEN AGAIN CAD/TCAD VALIDATION HAS TO DO OR NOT.
+
+==========
+05-24-2018
+==========
+Final Class
+Final variables with out setters and have to be intialize in consturts and provide the getters
+If using any mutable objects clone them while assigning
+make sure to use always return the clone copy
+
+GAV-CASE II Showing of the Diff Exception List
+
+Two CADS Refresh Functionality
+
+With TCAD Functionality
+
+CRG Related Work Flow Updation
+
+Unit Testing for Ter document Application & PDF for CASE 1, 2, 3 & 4 (5)
+
+Junit for GAV functionalities
+
+==========
+05-25-2018
+==========
+GAV-CASE II Showing of the Diff Exception List
+
+Two CADS Refresh Functionality
+
+With TCAD Functionality
+
+CRG Related Work Flow Updation
+
+Unit Testing for Ter document Application & PDF for CASE 1, 2, 3 & 4 (5)
+
+Junit for GAV functionalities
+
+==========
+05-28-2018
+==========
+6330
+
+CRG value for GM
+
+==========
+05-29-2018
+==========
+CRG Value for TER Implementation
+
+1143420 -- L NAME 11000046 -	1000091607
+1202090
+
+1293449		--	12022244 (GC -- K) -- BCA REF NO : 10560962 SC REF NO : 11785912 TER REF NO : 1000091608 APPRVER : 1144918
+
+==========
+05-30-2018
+==========
+{call PKG_GCAP_VALIDATION.PROC_GCAP_VALIDATION (?,?,?,?,?,?,?,?,?)}
+2018-05-30 13:06:47,734 DEBUG [java.sql.PreparedStatement] - {pstm-100860} Parameters: [TER, , 30000051583, CAD, 5]
+
+ALTER TABLE TER_PROP_APP_AUDIT ADD CRGVALUE VARCHAR2(50);
+CRGVALUE                VARCHAR2(50)
+
+GC
+======
+1327152 -- 	L NAME 13119228 -- 1567519 (APPRVR) 1000091609 1002343
+1309639	--	L NAME 12762249 -- 1000091610		
+1372729	--	L NAME 11271720	-- 1000091611 -- 1135315
+1372729	--	L NAME 13698229 -- 10566676 (BCA REF) -- SCORECARD --11809750 1152323
+Select
+		Prop_Audit.Doc_Type,Prop_Audit.Doc_Ref_No,Prop_Audit.Signatory_Coin_No,Prop_Audit.Signatory_Comments,Prop_Audit.Action,Prop_Audit.Action_By || '('||User_Name||')' Action_By,Prop_Audit.Action_Time,Nvl(Prop_Audit.Reasonid,0) Reasonid,Prop_Audit.Reason
+		,(Select Ugroup_Desc || ' ('|| Ugroup_Id ||')' From Acl_Usergroup_Mst Where Ugroup_Id=Prop_Audit.On_Behalf_Of) On_Behalf_Of
+			,PROP_AUDIT.GCAP_PROF_ID as CAD_TCAD_REF_ID, (case when PROP_AUDIT.GCAP_SUB_SEQ_ID is not null then 'TCAD' else 'CAD' end) as GCAP_PROFILE_TYPE 
+			,(Select Sanction_Level From Gcap_Sanction_Level Where Sanction_Key=Prop_Audit.Sanction_Level) As Cad_Tcad_Sanctlevel
+		    ,PROP_AUDIT.GCAP_SUB_SEQ_ID as TCAD_SEQ_ID
+		    ,(Case When Substr(Prop_Audit.Action_By, -8, 7) Is Not Null And Delegator_Name Is Not Null 
+		    and DELEGATOR_NAME != 'NA' then substr(prop_audit.ACTION_BY, -8, 7) || ' ('|| DELEGATOR_NAME ||')'  else PROP_AUDIT.DELEGATOR_NAME end)  as TCAD_DELEGATOR_NAME
+		    ,(case when PROP_AUDIT.GCAP_SUB_SEQ_ID is not null then 
+			(select CA_SEGMENT_VERSION from GCAP_TCAD_DELEGATEE_TXN where GCAP_TCAD_ID = PROP_AUDIT.GCAP_PROF_ID and rownum=1)
+			Else (Select Ca_Segment_Version From Gcap_Cad_Delegatee_Txn Where Gcap_Cad_Id = Prop_Audit.Gcap_Prof_Id And Rownum=1) End) 
+			Template_Version,
+            Prop_Audit.CRGVALUE
+		from DOC_PROP_APP_AUDIT PROP_AUDIT ,users_mst u 
+		Where
+		PROP_AUDIT.DOC_REF_NO=#docRef# and PROP_AUDIT.DOC_TYPE=#moduleType#
+		And U.Peoplewise_Id = Prop_Audit.Action_By
+   		order by ACTION_TIME desc
+		
+==========
+05-31-2018
+==========
+UPDATE TER_PROP_APP_AUDIT   SET     ( CAD_TCAD_REF_ID,       CAD_TCAD_SANCTLEVEL,       CRGVALUE)  =     (SELECT GCAP_CAD_ID,       SANCTION_LEVEL,       ?     FROM GCAP_CAD_DETAILS     WHERE GCAP_CAD_ID = ?     )   WHERE TER_REF_NO = ?   AND ACTION_BY    = ?   AND ACTION_TIME  =     (SELECT MAX(ACTION_TIME)     FROM TER_PROP_APP_AUDIT     WHERE TER_REF_NO = ?     AND ACTION_BY    = ?     )  
+2018-05-31 11:01:24,914 DEBUG [java.sql.PreparedStatement] - {pstm-100457} Parameters: [9A, 30000051566, 1000091605, 1567519, 1000091605, 1567519]		
+
+Entering method: moveWorkflowHistory
+2018-05-31 15:40:51,449 INFO [com.standardchartered.cr.ter.dao.impl.TERApprovalDAOImpl] - from moveWorkflowHistory method of TERApprovalDAOImpl class==========>1000091610
+2018-05-31 15:40:52,978 DEBUG [java.sql.Connection] - {conn-101133} Connection
+2018-05-31 15:40:52,978 DEBUG [java.sql.Connection] - {conn-101133} Preparing Statement:   BEGIN    insert into APP_REQUEST_ACTIONS_H (DOC_REF,ACTION,ASSIGNED_BY,ASSIGNED_TO,ASSIGNED_TIMESTAMP)      select DOC_REF,ACTION,ASSIGNED_BY,ASSIGNED_TO,ASSIGNED_TIMESTAMP from APP_REQ_WORKFLOW where DOC_REF='1000091610';       UPDATE  TER_DETAILS      SET  LAST_MODIFIED_DATE = SYSDATE      WHERE  TER_REF_NO = '1000091610';        END;  
+2018-05-31 15:40:52,979 DEBUG [java.sql.PreparedStatement] - {pstm-101134} Executing Statement:   BEGIN    insert into APP_REQUEST_ACTIONS_H (DOC_REF,ACTION,ASSIGNED_BY,ASSIGNED_TO,ASSIGNED_TIMESTAMP)      select DOC_REF,ACTION,ASSIGNED_BY,ASSIGNED_TO,ASSIGNED_TIMESTAMP from APP_REQ_WORKFLOW where DOC_REF='1000091610';       UPDATE  TER_DETAILS      SET  LAST_MODIFIED_DATE = SYSDATE      WHERE  TER_REF_NO = '1000091610';        END;  
+2018-05-31 15:40:52,980 DEBUG [java.sql.PreparedStatement] - {pstm-101134} Parameters: []
+2018-05-31 15:40:52,980 DEBUG [java.sql.PreparedStatement] - {pstm-101134} Types: []
+2018-05-31 15:40:53,323 INFO [com.standardchartered.cr.ter.dao.impl.TERApprovalDAOImpl] - moveWorkflowHistory ending====>
+
+<update id="updateWorkflowForTer">
+	BEGIN
+	 	update APP_REQ_WORKFLOW set ACTION=#actionval#,STATUS=#status#,ASSIGNED_BY=#assignedBy#
+	 	<isNotEqual prepend=", " property="assignedTo"  compareValue="-1">
+	 		ASSIGNED_TO=#assignedTo#
+		</isNotEqual>
+		<isEqual prepend=", " property="assignedTo"  compareValue="-1">
+	 		ASSIGNED_TO=null
+		</isEqual>
+	 	,ASSIGNED_TIMESTAMP=to_date(#assignTime:VARCHAR#,'DD/MM/YYYY HH:MI:SS AM') where DOC_REF=#terRefNo#;
+		<include refid="UpdateLastModifiedDate.terRefNo"/>
+    END;
+	</update>
+	
+from updateComments==============>
+2018-05-31 15:45:50,887 DEBUG [java.sql.Connection] - {conn-101154} Connection
+2018-05-31 15:45:50,889 DEBUG [java.sql.Connection] - {conn-101154} Preparing Statement:   BEGIN   update TER_PROP_APP set SIGNATORY_COMMENTS=' PROPOSED 1309639,31/05/2018,15:38:48 1567519 1567519',SIGNATORY_COIN_NO='' where TER_REF_NO='1000091610';       UPDATE  TER_DETAILS      SET  LAST_MODIFIED_DATE = SYSDATE      WHERE  TER_REF_NO = '1000091610';        END;  
+2018-05-31 15:45:50,890 DEBUG [java.sql.PreparedStatement] - {pstm-101155} Executing Statement:   BEGIN   update TER_PROP_APP set SIGNATORY_COMMENTS=' PROPOSED 1309639,31/05/2018,15:38:48 1567519 1567519',SIGNATORY_COIN_NO='' where TER_REF_NO='1000091610';       UPDATE  TER_DETAILS      SET  LAST_MODIFIED_DATE = SYSDATE      WHERE  TER_REF_NO = '1000091610';        END;  
+2018-05-31 15:45:50,891 DEBUG [java.sql.PreparedStatement] - {pstm-101155} Parameters: []
+2018-05-31 15:45:50,891 DEBUG [java.sql.PreparedStatement] - {pstm-101155} Types: []
+2018-05-31 15:45:51,187 INFO [com.standardchartered.cr.ter.dao.impl.TERApprovalDAOImpl] - updateComments done==============>
+2018-05-31 15:45:51,187 DEBUG [com.standardchartered.cr.ter.dao.impl.TERApprovalDAOImpl] - Exiting method: updateComments
+2018-05-31 15:45:51,188 DEBUG [com.standardchartered.cr.ter.delegate.impl.TERApprovalDelegateImpl] - Exiting method: updateComments
+
+BEGIN   update TER_PROP_APP set SIGNATORY_COMMENTS='  PROPOSED 1309639,31/05/2018,15:38:48  1567519 1567519 APPROVED 1567519,31/05/2018,18:42:52 test',SIGNATORY_COIN_NO='' where TER_REF_NO='1000091610';       UPDATE  TER_DETAILS      SET  LAST_MODIFIED_DATE = SYSDATE      WHERE  TER_REF_NO = '1000091610';        END;  
+
+==========
+06-01-2018
+==========
+Crg Value in Signature History
+
+1372729	--	L NAME 11271720	-- 1000091611 -- 1135315
+
+https://www.olx.in/item/2011-tvs-scooty-30000-kms-ID1kF829.html#838fd623c8
+
+https://www.olx.in/item/2014-tvs-others-10000-kms-ID1kwVUZ.html#5c2555bbc0
+
+==========
+06-04-2018
+==========
+{call PKG_GCAP_VALIDATION.PROC_GCAP_VALIDATION (?,?,?,?,?,?,?,?,?)}
+2018-06-04 17:30:37,218 DEBUG [java.sql.PreparedStatement] - {pstm-103174} Parameters: [TER, 1000091611, 30000051580, CAD, 3]
+
+TER --	1327152 --	13119228 -- 1000091612	--	APPVR 1002343 1567519
+
+==========
+06-05-2018
+==========
+{call PKG_GCAP_VALIDATION.PROC_GCAP_VALIDATION (?,?,?,?,?,?,?,?,?)}
+2018-06-05 12:55:28,368 DEBUG [java.sql.PreparedStatement] - {pstm-101664} Parameters: [TER, 1000091612, 30000051584, CAD, 1]
+
+EARV2
+SCORFECARD ---> MODEL
+LIB
+
+==========
+06-06-2018
+==========
+WFH
+
+==========
+06-07-2018
+==========
+1) Code Merging
+2) Code Check in
+3) Junit Test Cases
+
+==========
+06-08-2018
+==========
+C:\Users\1543999\GIT_V3\creditrethinkncc_gav_v3\src\com\standardchartered\cr\ter\action\TERApprovalAction.java
+
+C:\Users\1543999\WrkSpaces\GAV_V3_MERGERD_GCAP_PHASE_3_TER_DEV\CreditRethink\src\com\standardchartered\cr\ter\sqlmap\TER_Sqlmap.xml
+
+C:\Users\1543999\GIT_V3\creditrethinkncc_gav_v3\src\gcapvalidation.xml
+
+C:\Users\1543999\GIT_V3\creditrethinkncc_gav_v3\src\com\standardchartered\cr\ter\dao\impl\TERApprovalDAOImpl.java
+
+C:\Users\1543999\GIT_V3\creditrethinkncc_gav_v3\src\com\standardchartered\cr\ter\dao\TERApprovalDAO.java
+
+C:\Users\1543999\GIT_V3\creditrethinkncc_gav_v3\src\com\standardchartered\cr\ter\delegate\impl\TERApprovalDelegateImpl.java
+
+C:\Users\1543999\GIT_V3\creditrethinkncc_gav_v3\src\com\standardchartered\cr\ter\delegate\TERApprovalDelegate.java
+
+C:\Users\1543999\GIT_V3\creditrethinkncc_gav_v3\src\com\standardchartered\cr\ter\model\TerApprovalsAuditBean.java
+
+C:\Users\1543999\GIT_V3\creditrethinkncc_gav_v3\src\com\standardchartered\cr\ter\model\TERHeaderBean.java
+
+C:\Users\1543999\GIT_V3\creditrethinkncc_gav_v3\src\com\standardchartered\cr\ter\sqlmap\TER_Approval_Sqlmap.xml
+
+C:\Users\1543999\GIT_V3\creditrethinkncc_gav_v3\src\screenLabels.properties
+
+C:\Users\1543999\GIT_V3\creditrethinkncc_gav_v3\WebContent\WEB-INF\jsp\gm\gmProposeApprove.jsp	
+
+C:\Users\1543999\GIT_V3\creditrethinkncc_gav_v3\src\com\standardchartered\cr\gcapv3\action\GCAPValidationAction.java
+
+C:\Users\1543999\GIT_V3\creditrethinkncc_gav_v3\src\com\standardchartered\cr\gcapv3\dao\impl\sqlmap\GCAP3_Validation_SqlMap.xml 
+(	<select id="getClientGroupSegment" resultClass="java.lang.String" parameterClass="java.util.Map">
+		SELECT DISTINCT CLNT_GROUP_SEGMENT FROM SCORECARD_SEGMENT_MAPPING )
+		
+C:\Users\1543999\GIT_V3\creditrethinkncc_gav_v3\src\com\standardchartered\cr\gcapv3\dao\impl\GCAPValidationDAOImpl.java
+(Need to verify the ShowCADTCADDetails)
+
+C:\Users\1543999\GIT_V3\creditrethinkncc_gav_v3\src\com\standardchartered\cr\gcapv3\dao\GCAPValidationDAO.java
+
+C:\Users\1543999\WrkSpaces\GAV_V3_MERGERD_GCAP_PHASE_3_TER_DEV\CreditRethink\src\com\standardchartered\cr\gcapv3\delegate\impl\GCAPValidationDelegateImpl.java
+
+C:\Users\1543999\WrkSpaces\GAV_V3_MERGERD_GCAP_PHASE_3_TER_DEV\CreditRethink\src\com\standardchartered\cr\gcapv3\delegate\GCAPValidationDelegate.java
+
+==========
+06-11-2018
+==========
+	https://jenkins.global.standardchartered.com/job/CREDAPP/job/creditrethinkncc/
+	
+==========
+06-12-2018
+==========
+
+	 Unit Test Report For Scorecard
+	 
+	 Jacoco Coverage Report (Scorecard)
+	 
+	 <copy todir="${build.dir}/WEB-INF/classes/com/scb/cr/bca/resources">
+<fileset dir="${src}/com/scb/cr/bca/resources">
+<include name="*.properties" /> 
+</fileset>
+</copy>
+
+
+java.util.MissingResourceException: Can't find bundle for base name com/scb/cr/bca/resources/BCAConfig, locale en_US
+
+==========
+06-13-2018
+==========
+Unit Test Report For TER
+	 
+Jacoco Coverage Report (TER)
+SHOwCADTCad List For Ter
+==========================
+when(sqlClientMock.queryForObject("getGCAPScorecardDtlsForTer","1000091612" )).thenReturn(gcapScorecardDtls);
+when(sqlClientMock.queryForObject("getClientGroupSegment", paramMap)).thenReturn("2");
+
+Have to Implement For CadOrTCadValidation
+
+==========
+06-14-2018
+==========
+Unit Test Report For TER
+	 
+Jacoco Coverage Report (TER)
+SHOwCADTCad List For Ter
+==========================
+
+==========
+06-18-2018
+==========
+1002343 APPRVR -- CASE3FI, 1000091607
+
+==========
+06-19-2018
+==========
+TCAD Creation
+Verify the work flow
+
+1567519 APPRVR -- CASE2, 1000091612 TCAD---40000051194 
+1253005
+
+The Credit Authorities delegated is higher than the delegator's authorities for TCAD Record ID(s) 1242. Please amend. 
+
+
+abcdghdfacdbfa
+
+bacd
+
+5523 6503 0255 5684
+05-21
+953
+1577
+
+SELECT excp_code,
+  excp_desc,
+  excp_comments,
+  (
+  CASE
+    WHEN excp_code = 'GEX8'
+    THEN 'Y'
+    ELSE 'N'
+  END) comment_yn,
+  IS_DEFAULT
+FROM GCAP_APPROVAL_EXCP
+WHERE excp_code IN ( 'GEX5', 'GEX7', 'GEX8', 'GEX1' )
+ORDER BY disp_order ASC; 
+
+==========
+06-20-2018
+==========
+https://uklpauwas01a.uk.standardchartered.com:1889/CreditRethinkSMEUAT/acl/index.action
+CRMATE_DEV_02
+
+
+(CROP-31175) System check on: TER whether allows to add facilities other than CAT1, CAT2 & CAT3
+1522912	--	L NAME 11118466 -- -10562004 (bca) --10562004001 bcafc 1000093166001 (Ter FC)
+1000093166 (Ter)
+
+select * from bca_details bca, BCA_FCLTY_DETAILS bcafc where bca.BCA_REF_NO=bcafc.BCA_REF_NO and bcafc.CATEGORY like 'CAT4%' order by approved_date desc;
+
+[TER, 1000091612, 30000051584, CAD, 1]
+
+select excp_code, excp_desc, excp_comments, (case when excp_code = 'GEX8' then 'Y' else 'N' END) comment_yn, IS_DEFAULT from GCAP_APPROVAL_EXCP
+	  where is_default=#excpCode# OR is_default='ALL' order by disp_order asc
+select excp_code, excp_desc, excp_comments, (case when excp_code = 'GEX8' then 'Y' else 'N' END) comment_yn, IS_DEFAULT from GCAP_APPROVAL_EXCP where excp_code in    ('GEX5', 'GEX7', 'GEX8', 'GEX1') order by disp_order asc;  	  
+	  
+==========
+06-21-2018
+==========
+JUNIT FOR CAD/TCAD VALIDATION
+
+TCAD VERIFICATION
+select                unique                                     MP.caseg_matching,                                            DL.DELEGATEE_ID delegateeid,                      DL.DELEGATEE_NAME delegateename,                      (select sanction_level from GCAP_SANCTION_LEVEL where sanction_key=DL.sanction_level) delegateedesg,                       DTL.gcap_tcad_id gcap_cad_id,                      'TCAD' cadtype,                      DR.delegator_id delegatorid,                      DR.name delegatorname,                      DR.sanction_level delegatordesg,                      gcap_tcad_delegatee_id tcadProfSeqId       from       gcap_tcad_txn dtl,gcap_tcad_delegator_txn dr, gcap_tcad_delegatee_txn dl, GCAP_CAD_TXN cad                     , (select  ca_SEGMENT as caseg_matching               from gcap_clnt_ca_seg_mapping where client_segment_code=?                AND client_group_fisegment = ?               and CA_SEG_EFFECTIVE_DATE IN (select max(CA_SEG_EFFECTIVE_DATE) as effectiveDate                from gcap_clnt_ca_seg_mapping where to_char(CA_SEG_EFFECTIVE_DATE, 'yyyymmdd') < to_char(sysdate,'yyyymmdd')                 AND client_segment_code = ?                AND client_group_fisegment = ?               group by client_segment_code)) MP              where DTL.gcap_tcad_id=DL.gcap_tcad_id AND DR.gcap_tcad_id=DL.gcap_tcad_id AND dr.delegator_gcap_tcad_id= cad.gcap_cad_id       AND dtl.status='EFFECTIVE'       AND to_char(sysdate,'yyyymmdd') >= to_char(dl.effective_date, 'yyyymmdd')        AND to_char(dl.expiry_date, 'yyyymmdd') >= to_char(sysdate,'yyyymmdd')       AND CAD.status='EFFECTIVE'       AND dl.delegatee_id=?       AND dl.DOC_TYPE not in ('Remove')       AND dtl.gcap_status not in ('Inactive')         AND (dl.ISCANCELLED not in('Y') or dl.ISCANCELLED is null )                AND REGEXP_LIKE (MP.caseg_matching, REPLACE(REPLACE(dl.CASEGMENTS,' ',''),'#','|'))                AND NVL(DTL.policyeff_yn,'N') = 'N'  
+2018-06-21 11:56:56,799 DEBUG [java.sql.PreparedStatement] - {pstm-100425} Parameters: [N, 3, N, 3, 1253005]	
+
+CAD/TCAD VERIFICATION
+=====================
+select
+	unique
+	
+	DL.peoplewise_id delegateeid,
+	DL.name delegateename,
+		(select sanction_level from GCAP_SANCTION_LEVEL where sanction_key=DL.sanction_level) delegateedesg, 
+	DTL.gcap_cad_id gcap_cad_id,
+	'CAD' cadtype,
+	nvl(DR.delegator_id,'') delegatorid,
+	nvl(DR.name,'') delegatorname,
+		(select nvl(SANCTION_LEVEL,'') from GCAP_SANCTION_LEVEL where sanction_key=DR.sanction_level) delegatordesg, 
+	'' tcadProfSeqId
+	from gcap_cad_txn DTL left join
+	gcap_cad_delegator_txn DR on (DR.gcap_cad_id=DTL.gcap_cad_id), gcap_cad_delegatee_txn DL
+	
+	where DTL.gcap_cad_id=DL.gcap_cad_id
+		AND dl.peoplewise_id=#peoplewiseId# 
+		AND to_char(sysdate,'yyyymmdd') >= to_char(dl.effective_date, 'yyyymmdd') 
+		AND to_char(dl.expiry_date, 'yyyymmdd') >= to_char(sysdate,'yyyymmdd') AND DTL.status = 'EFFECTIVE'
+	AND DL.SIGNATORY_TYPE='C' 
+	
+	AND NVL(DTL.policyeff_yn,'N') = 'N';  
+	
+==========
+06-22-2018
+==========
+WFH
+
+QualitativeAction
+insertFINonFinancialData() 	
+
+1445910
+1484189	--	11217536
+10030320 
+
+insertNonFinancialData
+FN_GCS_STD_NORM_SCORE
+
+==========
+06-26-2018
+==========
+https://uklvadcrm02a.uk.standardchartered.com:9051/CreditRethink_ST2/acl/index.action
+ADF_sit01
+1180980 -- L NAME 11063373 -- TER 1000094685 BCA : 10598988
+Temporary excess is not permitted for FI Customer having multiple booking location
+
+SELECT *
+FROM 
+ter_details td,
+ter_bca_details tbca,
+bca_details bca
+WHERE 
+td.ter_ref_no = tbca.ter_ref_no and
+(tbca.bca_ref_no) = TO_CHAR(bca.bca_ref_no)
+AND bca.DOCUMENT_type   ='FUNDBCA'
+AND bca.version         ='4.0';
+
+select * from bca_details bca where DOCUMENT_type   ='FUNDBCA'
+AND bca.version         ='4.0' order by approved_date desc;
+
+==========
+06-27-2018
+==========
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\WebContent\WEB-INF\jsp\ter\terApproval.jsp
+
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\ter\sqlmap\TER_Sqlmap.xml
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\ter\sqlmap\TER_Approval_Sqlmap.xml
+
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\ter\model\TERHeaderBean.java
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\ter\model\TerApprovalsAuditBean.java
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\ter\delegate\TERApprovalDelegate.java
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\ter\delegate\impl\TERApprovalDelegateImpl.java
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\ter\dao\TERApprovalDAO.java
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\ter\dao\impl\TERApprovalDAOImpl.java
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\ter\action\TERApprovalAction.java (*******)
+
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\gcapv3\delegate\GCAPValidationDelegate.java 				(CCCCC)
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\gcapv3\delegate\impl\GCAPValidationDelegateImpl.java 		(CCCCC)
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\gcapv3\dao\GCAPValidationDAO.java							(CCCCC)
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\gcapv3\dao\impl\GCAPValidationDAOImpl.java				(CCCCC)
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\gcapv3\dao\impl\sqlmap\GCAP3_Validation_SqlMap.xml		(CCCCC)
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\gcapv3\action\GCAPValidationAction.java					(CCCCC)
+
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\gcapv2\action\GcapCadApprovalAction.java
+
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\gcapvalidation.xml
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\screenLabels.properties
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\screenLabels_en_US.properties
+
+==========
+06-28-2018
+==========
+CROP-31698
+===========
+As per below logic, can understand – only for Scorecard type other than 2/3/4/5/6/7, CLNT_FIN_APP_CG referred.
+
+Can you check and confirm CG logic used at Creditmate end to publish to “V_CM_SCI_BCA_MST” for BSCD_FINAL_APPROVED_CRG and BSCD_PERSONAL_GRADE CG fields.
+
+==========
+06-29-2018
+==========
+setPersonalBorrowersGrade
+
+==========
+07-02-2018
+==========
+DDW PDF
+1496971 -- L NAME 11312389
+
+select * from gcap_approval_excp; -- master 
+
+select * from gcap_gav_validation_config; -- Mapping table
+
+DDW
+=======
+1384566 -- L NAME 11005455
+1496971 -- L NAME 11312389 -- 1135315 (APPRVR)
+
+2018-07-02 19:38:39,606 ERROR [org.apache.struts2.dispatcher.Dispatcher] - Could not find action or result
+There is no Action mapped for namespace /gcapvalidation and action name showCadTcadListRDEDDW. - [unknown location]
+
+ SqlMapClient operation; bad SQL grammar []; nested exception is com.ibatis.common.jdbc.exception.NestedSQLException: --- The error occurred in com/standardchartered/cr/ddw/sqlmap/DDW_Sqlmap.xml. --- The error occurred while applying a parameter map. --- Check the getDDWHeader-InlineParameterMap. --- Check the statement (query failed). --- Cause: java.sql.SQLSyntaxErrorException: ORA-00923: FROM keyword not found where expected 
+ 
+==========
+07-03-2018
+==========
+1565425 --  L NAME 13332535
+3000077228 (ADF_SIT_01)
+DDW ATTACHMENTS AND REQ DETAILS
+
+==========
+07-04-2018
+==========
+WebContent/WEB-INF/jsp/gm/gmFacility.jsp
+src/com/standardchartered/cr/gm/dao/impl/sqlmap/GMSqlMap.xml
+src/screenLabels.properties
+src/screenLabels_en_US.properties
+
+src/com/standardchartered/cr/gm/action/GMFacilityAction.java
+src/com/standardchartered/cr/gm/dao/impl/sqlmap/GMSqlMap.xml
+
+SELECT
+  (SELECT
+    CASE
+      WHEN (D.CREATED_DATE     >= FC.DEPLOYED_TIME
+      OR (D.LAST_MODIFIED_DATE >= FC.DEPLOYED_TIME
+      AND D.DOC_STATUS          ='APPROVED')
+      OR (D.CREATED_DATE        < FC.DEPLOYED_TIME
+      AND D.DOC_STATUS NOT     IN ('APPROVED','VOID','DECLINED')))
+      THEN 'true'
+      ELSE 'false'
+    END
+  FROM CR_FUNCTION_CONTROLLER FC
+  WHERE FC.FUNCTION_REF='DDW_GAV_VAL'
+  ) gavFlag
+FROM DDW_DETAILS D
+WHERE D.DDW_REF_NO='3000073463';
+
+3000073462		1496971
+
+select APPROVAL_EXCPS from DDW_GCAP_APPROVAL_DTL where ddw_ref_no=3000073462;
+
+SELECT (q'[']'
+  || REPLACE(APPROVAL_EXCPS, ',',''',''')
+  || q'[']') AS EXCP_CODE
+FROM DDW_GCAP_APPROVAL_DTL
+WHERE DDW_REF_NO=3000073462;
+
+select (q'[']' || replace(APPROVAL_EXCPS, ',',''',''') || q'[']') as EXCP_CODE from DDW_GCAP_APPROVAL_DTL where DDW_REF_NO="+terRefNo
+
+SELECT EXCP_CODE,
+  APPROVAL_EXCPS,
+  EXCP_DESC,
+  DGAD.EXCP_COMMENTS
+FROM DDW_GCAP_APPROVAL_DTL DGAD,
+  GCAP_APPROVAL_EXCP GAE
+WHERE DDW_REF_NO=3000073462
+AND EXCP_CODE  IN ('DDWEXCP2');
+
+String Query = "select EXCP_CODE, APPROVAL_EXCPS, EXCP_DESC, DGAD.EXCP_COMMENTS from DDW_GCAP_APPROVAL_DTL DGAD, GCAP_APPROVAL_EXCP GAE	where DDW_REF_NO="+terRefNo+" and EXCP_CODE in";
+
+
+==========
+07-05-2018
+==========
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\WebContent\WEB-INF\jsp\gcapv2\tempCADelegationView.jsp
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\WebContent\WEB-INF\jsp\gcapv2\tempCADelegation.jsp
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\screenLabels.properties
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\gm\dao\impl\sqlmap\GMSqlMap.xml
+C:\Users\1543999\GIT\GAV_V4\creditrethinkncc\src\com\standardchartered\cr\gm\dao\impl\GMFacilityDAOImpl.java (COMMENT)
+
+==========
+07-06-2018
+==========
+Creditmate Code Merged From BCA Fund BCA to GAV4
+
+==========
+07-09-2018
+==========
+other pdf changes ---- GAV_V4_MERGERD_GCAP_PHASE_3_TER_DEV
+
+select * from doc_prop_app_audit where doc_ref_no=3000073462;
+
+SELECT DOC_REF_NO, SIGNATORY_COIN_NO, SIGNATORY_COMMENTS,
+		   ACTION, ACTION_BY || '('||user_name||')' ACTION_BY, ACTION_TIME, nvl(REASONID,0) REASONID,
+       (select ugroup_desc || ' ('|| ugroup_id ||')' from ACL_USERGROUP_MST where UGroup_id=ON_BEHALF_OF)ON_BEHALF_OF,
+		   GCAP_PROF_ID,
+		   GCAP_SUB_SEQ_ID,
+		   CASE when GCAP_SUB_SEQ_ID is not null then 'TCAD' 
+		   when GCAP_PROF_ID is not null then 'CAD' 
+		   else '' END as gcap_prof_type,
+		   DELEGATOR_NAME,
+       SANCTION.sanction_level,
+		  (case when GCAP_SUB_SEQ_ID is not null then 
+			(select CA_SEGMENT_VERSION from GCAP_TCAD_DELEGATEE_TXN where GCAP_TCAD_ID = GCAP_PROF_ID and rownum=1)
+			else (select CA_SEGMENT_VERSION from GCAP_CAD_DELEGATEE_TXN where GCAP_CAD_ID = GCAP_PROF_ID and rownum=1) end) 
+			TEMPLATE_VERSION
+      FROM DOC_PROP_APP_AUDIT PROP_AUDIT,GCAP_SANCTION_LEVEL SANCTION, USERS_MST U
+        WHERE DOC_REF_NO='3000073462'    
+        AND SANCTION.SANCTION_KEY(+)= PROP_AUDIT.SANCTION_LEVEL	
+        AND U.PEOPLEWISE_ID = PROP_AUDIT.ACTION_BY
+    order by ACTION_TIME desc;
+	
+1565425 --  L NAME 13332535	1152323
+
+==========
+07-10-2018
+==========
+https://artifactory.global.standardchartered.com/artifactory/maven-release/com/sc/creditmate/CreditRethinkLatest/feature/GAV_V4/18/CreditRethink.war
+
+connection = DriverManager.getConnection("jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpddfmsa-scan.uk.standardchartered.com)(PORT=1522)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_DEV.uk.standardchartered.com))))","CRMATE_DEV_01", "CRMATE_DEV_01_123");
+
+Steps
+
+
+1565425 --  L NAME 13332535	1152323
+
+==========
+07-11-2018
+==========
+	
+CROP-30555 PDF signatory history change
+
+Additional scope:
+a) Inclusion of CAT5 in GAV
+b) While deriving TER GAV Tenor value (max tenor) - along with tenor of each facility, Start date and end date duration of each facility to be considered.
+
+EXCESS_REQUESTED,LIMIT_CAT_VALUE,TER_REF_NO,LIMIT_AMT,OUTSTANDING_AMT,MAX_TENOR)
+(5678,			'CAT5',			1000091585,	100000,		100000,			null);
+
+com/standardchartered/cr/gter/sqlmap/GTER_Sqlmap.xml
+ O exception is=========>SqlMapClient operation; bad SQL grammar []; nested exception is com.ibatis.common.jdbc.exception.NestedSQLException:   
+--- The error occurred in com/standardchartered/cr/ter/sqlmap/TER_Approval_Sqlmap.xml.  
+--- The error occurred while applying a parameter map.  
+--- Check the selectProposeApprovalAudit.select-InlineParameterMap.  
+--- Check the statement (query failed).  
+--- Cause: java.sql.SQLSyntaxErrorException: ORA-00904: "P"."CRGVALUE": invalid identifier
+
+==========
+07-12-2018
+==========
+WFH
+DDW JUNIT
+E LEARNING COMPLETED
+
+==========
+07-13-2018
+==========
+DDW JUNIT LIST CAD/TCAD DETAILS
+CODE MERGE OF JENKINS
+
+==========
+07-16-2018
+==========
+GAV case#2 – Where it exceeds delegated authority:
+
+•   As per GM delegation 
+•   TER used for earmarking between limit categories or from headroom, instead of SIF. 
+•   Formalisation of approval by higher authority 
+•   Approval based on 'Dual Approval' Sanctioning point
+•   Others
+
+GAV case#3 -- no matching CA profile for CG/segment/scorecard:
+•   Formalisation of approval by higher authority 
+•   Approval based on 'Dual Approval' Sanctioning point
+•   Others
+
+GAV case#4 scorecard mismatch (FI):
+•   Approved based on NBFI Credit Authorities 
+•   Approved based on FI/Government Credit Authorities 
+•   Approved based on Corporate Credit Authorities 
+•   Approval based on 'Dual Approval' Sanctioning point
+•   Others
+
+==========
+07-17-2018
+==========
+CAT5
+==========
+1470762 -- L NAME 13474293 -- 1000095944 (TER) -- 1135315 (APRVR)
+1411651 -- L NAME 11045850
+
+SELECT *
+FROM ter_details ter,
+  bca_details bcd,
+  ter_facility_details fcl,
+  bca_fclty_details bcfcl
+WHERE ter.BCA_REF_NO=bcd.BCA_REF_NO
+AND bcfcl.BCA_REF_NO=bcd.BCA_REF_NO
+AND ter.TER_REF_NO  =fcl.TER_REF_NO
+AND CATEGORY LIKE '%CAT5%'
+ORDER BY 1 DESC;
+
+==========
+07-18-2018
+==========
+1000095945 30000051071
+
+==========
+07-19-2018
+==========
+C:\Users\1543999\WrkSpaces\GAV_V4_MERGERD_GCAP_PHASE_3_TER_DEV\OtherPDF\src (DDW and TER PDF Changes)
+
+==========
+07-20-2018
+==========
+CASE
+	WHEN FN_GAV_CONTROLLER_FLAG(dd.created_date,'DDW_GAV_VAL','','')= 'TRUE' AND
+	vc.SEGMENTCODE IN ('A','E','K','N','S','MM','ME','HV') 
+	THEN
+	1
+	ELSE
+	0
+	END GCAP3_FLAG
+
+===========
+	
+==========
+07-23-2018
+==========
+CROP : 333597 
+CAT/TCAD LIST FOR CASE 3 AND CASE 4
+
+==========
+07-24-2018
+==========
+<property name="url" value="jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpddfmsa-scan.uk.standardchartered.com)(PORT=1522)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_DEV.uk.standardchartered.com))))" />
+		<property name="username" value="CRMATE_DEV_01" />
+		<property name="password" value="CRMATE_DEV_01_123" />
+
+<property name="url" value="jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpdudasa-scan.uk.standardchartered.com)(PORT=1622)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_PT.uk.standardchartered.com))))" />
+		<property name="username" value="CRMATE_OAT_01" />
+		<property name="password" value="CRMATE_OAT_01_123" />		
+		
+People Wise Id : 1565425		LEID	13332535	TER 1000095943		apparover 1407919
+
+==========
+07-25-2018
+==========
+WFH
+
+select count(*) as ter_flag from  TER_GCAP_APPROVAL_DETAILS where ter_ref_no = ?  
+
+INSERT INTO  TER_PROP_APP_AUDIT      
+(TER_REF_NO,SIGNATORY_COIN_NO, SIGNATORY_COMMENTS,ACTION,ACTION_BY,ACTION_TIME,REASONID,PDF_ATTACHMENT_ID,on_behalf_of)           ,CAD_TCAD_REF_ID         ,GCAP_PROFILE_TYPE              ,CAD_TCAD_SANCTLEVEL                       )        VALUES       (?,?,?,?,?,?,?,?,?           ,?           ,?                 ,?                              )    
+2018-07-25 18:24:11,832 DEBUG [java.sql.PreparedStatement] - {pstm-102005} Parameters: [1000095947, 0, gavStatus gavStatus, APPROVED, Creditmate User (1407919), 2018-07-25 18:21:40.468, , 1521435, null, 30000050894, CAD, Senior Credit Officer (SCO) /Band 4]
+2018-07-25 18:24:11,832 DEBUG [java.sql.PreparedStatement] - {pstm-102005} Types: [java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.sql.Timestamp, java.lang.String, java.lang.String, null, java.lang.Long, java.lang.String, java.lang.String]
+
+
+INSERT INTO TER_GCAP_APPROVAL_DETAILS (TER_REF_NO, GCAP_PROF_ID, TER_APPROVER_ID, GCAP_PROF_TYPE, TCAD_SEQ_ID, APPROVER_EXP_CODE, APPROVER_EXP_COMMENTS) VALUES     (?, ?, ?, ?, ?, ?, ?)  
+2018-07-25 20:13:26,791 DEBUG [java.sql.PreparedStatement] - {pstm-100838} Parameters: [1000095949, 30000050894, Creditmate User (1407919), CAD, null, GEX240,GEX8, 1407919 1407919]
+2018-07-25 20:13:26,791 DEBUG [java.sql.PreparedStatement] - {pstm-100838} Types: [java.lang.String, java.lang.String, java.lang.
+
+==========
+07-26-2018
+==========
+WFH
+
+select TER_REF_NO, u.COIN_NO SIGNATORY_COIN_NO, SIGNATORY_COMMENTS,      ACTION, ACTION_BY, ACTION_TIME, nvl(REASONID,0) REASONID  ,(select ugroup_desc || ' ('|| ugroup_id ||')' from ACL_USERGROUP_MST where UGroup_id=ON_BEHALF_OF) ON_BEHALF_OF    ,CAD_TCAD_REF_ID, GCAP_PROFILE_TYPE, CAD_TCAD_SANCTLEVEL, TCAD_SEQ_ID, TCAD_DELEGATOR_NAME  ,(case when p.GCAP_PROFILE_TYPE='CAD' then (select CA_SEGMENT_VERSION from GCAP_CAD_DELEGATEE_TXN where GCAP_CAD_ID = p.CAD_TCAD_REF_ID and rownum=1) else (select CA_SEGMENT_VERSION from GCAP_TCAD_DELEGATEE_TXN where GCAP_TCAD_ID = p.CAD_TCAD_REF_ID and rownum=1) end) TEMPLATE_VERSION  ,p.CRGVALUE   from TER_PROP_APP_AUDIT p, users_mst u         where p.TER_REF_NO= '1000095950'        and u.PEOPLEWISE_ID = nvl( substr(p.ACTION_BY, -8, 7), p.ACTION_BY )      order by ACTION_TIME desc       
+
+
+==========
+07-27-2018
+==========
+Leave
+
+==========
+07-30-2018
+==========
+select 	CASE	WHEN FN_GAV_CONTROLLER_FLAG(dd.created_date,'DDW_GAV_VAL','','')= 'TRUE' AND
+	vc.SEGMENTCODE IN ('A','E','K','N','S','MM','ME','HV') 
+	THEN
+	1
+	ELSE
+	0
+	END GCAP3_FLAG
+FROM DDW_DETAILS dd, V_CR_CUST_TXN vc
+		WHERE DD.CUST_ID = VC.CUSTID(+)
+		AND dd.DDW_REF_NO = '3000078584'
+		AND ROWNUM = 1;
+		
+		
+cd logpath
+ls -lrt
+tail -f logfile name
+		
+GEX5 --> TEX1 
+		--> TEX2
+GEX7 --> TEX3
+		--> TEX4
+GEX240 -- > TEX5
+GEX8 --> TEX6
+
+GEX5 --> TEX1 		--> GEX5
+		--> TEX2	--> GEX250
+GEX7 --> TEX3		--> GEX255
+		--> TEX4    --> GEX245
+GEX240 -- > TEX5    --> GEX240
+GEX8 --> TEX6		--> GEX8  
+
+1	As per GM delegation 
+2	TER used for earmarking between limit categories or from headroom, instead of SIF. 
+3	Formalisation of approval by higher authority 
+4	Intragroup Limit Application and hence capped at CCO.
+5	Approval based on 'Dual Approval' Sanctioning point
+6	Others
+
+==========
+07-31-2018
+==========
+feature/creditrethink_projrestart3dot2_sep2018 
+
+/tmp/app415a/CG12/07312018
+/tmp/app415a/CG12/07312018
+
+/IBM/websphere/apps/UAT_BCA_CreditRethink_APP.ear/CreditRethink.war/WEB-INF/classes/com/standardchartered/cr/ter/sqlmap/
+
+/IBM/websphere/apps/UAT_BCA_CreditRethink_APP.ear/CreditRethink.war/WEB-INF/jsp/ter/
+
+https://10.198.36.169:9043/selfservice/menu/home
+
+Moving of the Loose Files
+
+1) Create Temp Folder and Move all the loose files
+2) Give Full Access for that Folder (777)
+3) Create To and From File paths
+
+/tmp/app415a/CG12/08132018
+
+/IBM/websphere/apps/UAT_BCA_CreditRethink_APP.ear/CreditRethink.war/WEB-INF/jsp/ter/
+==========
+08-01-2018
+==========
+People Wise Id : 1565425		LEID	13332535	TER 1000095943		apparover 1407919
+
+/mpa_shared/PDF_BATCHES
+
+/OtherPDF/src/com/scb/ddw/dto/DDWPropAppBean.java
+/OtherPDF/src/com/scb/ddw/action/GenerateDDWPDF.java
+/OtherPDF/src/com/scb/ter/action/GenerateTERV2PDF.java
+/OtherPDF/src/com/scb/ter/dto/TERPropAppBean.java
+/OtherPDF/src/com/scb/util/ITextPdfUtil.java
+
+/OtherPDF/DDWSQLQueries.properties
+/OtherPDF/TERSQLQueries.properties
+
+ ps -ef | grep PDF
+ kill -9 29681
+ 
+ ./Start_OtherDocs.sh
+ OraclePdf_CR.log
+
+ 
+ select excp_code, excp_desc, excp_comments, (case when excp_code = 'GEX8' then 'Y' else 'N' END) comment_yn, IS_DEFAULT from GCAP_APPROVAL_EXCP    where is_default='B' OR is_default='ALL' order by disp_order asc    
+ 
+ SELECT (
+  CASE
+    WHEN EXCP_CODE='GEX8'
+    THEN (EXCP_DESC
+      ||': '
+      ||APPROVER_EXP_COMMENTS)
+    ELSE EXCP_DESC
+  END) EXCP_DESC
+FROM TER_GCAP_APPROVAL_DETAILS TGAD,
+  GCAP_APPROVAL_EXCP GAE
+WHERE ter_ref_no='1000095953'
+AND APPROVER_EXP_CODE LIKE '%'
+  ||EXCP_CODE
+  ||'%'
+ORDER BY EXCP_CODE; 
+
+==========
+08-02-2018
+==========
+ 990003141  990001521 
+ 
+ CROP-15810
+ 
+ <dynamic prepend="where emp_id IN ">
+<iterate property="emp_ids" open="('" close="')" conjunction=",  ">
+     #emp_ids[]#
+</iterate>
+</dynamic>
+
+==========
+08-03-2018
+==========
+select disp_order, excp_code, excp_desc, excp_comments, (case when excp_code = 'GEX8' then 'Y' else 'N' END) comment_yn, IS_DEFAULT from GCAP_APPROVAL_EXCP
+	  where excp_code='GEX255'
+    UNION
+    select disp_order, excp_code, excp_desc, excp_comments, (case when excp_code = 'GEX8' then 'Y' else 'N' END) comment_yn, IS_DEFAULT from GCAP_APPROVAL_EXCP    where is_default='B' OR is_default='ALL'
+	
+ALTER TABLE GM_FACILITY DROP COLUMN INTERNAL_CG;
+ALTER TABLE AGM_FACILITY DROP COLUMN INTERNAL_CG;	
+
+select ENABLE_SIP_LIMITS, NVL(GROUP_SIP_NOTIONAL_LIMITS,0) as SIP_LIMITS from bca_details bd, SIP_DETAILS SD
+        where BD.bca_ref_no =IN_BCA_NUMBER and BD.bca_ref_no=SD.bca_ref_no(+)
+		
+==========
+08-07-2018
+==========
+315
+cro cco
+208
+34620
+
+1135315 -- 1167295
+		 ( 30000051080
+		 
+select * from DOC_PDF_ORC_GEN where doc_ref=30000051080;
+
+==========
+08-08-2018
+==========
+WFH
+990003141
+990255292
+select * from gm_txn where SIP_LIMIT_ENABLED is not null and GRP_SGMNT ='K' order by 1 desc;
+
+select * from gm_txn gm, bca_details bd, SIP_DETAILS SD
+        where SIP_LIMIT_ENABLED is not null and GRP_SGMNT ='K' and
+        gm.BCA_REF_ID=BD.bca_ref_no 
+       and BD.bca_ref_no=SD.bca_ref_no(+) order by 1 desc;
+       
+select * from v_cr_group_txn where cr_cust_id=11648245;    
+select * from APP_REQ_WORKFLOW WHERE DOC_REF='3000078603';
+DDW : 1498121 1289177
+
+==========
+08-09-2018
+==========
+1370657 -- 990153331
+
+==========
+08-10-2018
+==========
+1241018 
+1135315 -- 1117399
+As part of our analysis, we have identified that the user which has been selected is the CTMU role user. So as per the existing code its allowing us to select the user who is having null coin.
+
+SELECT bca.CREATED_BY,BCA.CUSTOMER_NAME,
+   bca.bca_ref_no,
+  bca.SCORECARD_ID,
+  bca.DOCUMENT_TYPE,
+  bca.created_date
+FROM bca_details bca,
+  CRMS_SCORECARD sc,
+  V_CR_CUST_TXN CUST
+WHERE 
+sc.CR_CUST_ID=CUST.custid and
+sc.SCORECARD_SEQ_ID=bca.scorecard_id
+AND bca.BCA_FINALIZE     = 'Y'
+AND bca.BCA_STATUS       = 'APPROVED'
+--AND bca.DOCUMENT_TYPE    = 'FIBCA'
+AND cust.SEGMENTCODE = 'N'
+ORDER BY bca.created_date DESC;
+
+SELECT bca.CREATED_BY,
+  cust.LEID,
+  cust.SEGMENTCODE,
+  bca.bca_ref_no,
+  bca.SCORECARD_ID,
+  sc.SC_MODEL_TYPE,
+  bca.created_date
+FROM bca_details bca,
+  scorecard_txn sc,
+  v_cr_cust_txn cust
+WHERE sc.SCORECARD_SEQ_ID=bca.scorecard_id
+AND sc.CR_CUST_ID        =cust.CUSTID
+AND bca.BCA_FINALIZE     = 'Y'
+AND bca.BCA_STATUS       = 'APPROVED'
+AND bca.DOCUMENT_TYPE    = 'FUNDBCA'
+AND cust.SEGMENTCODE = 'N'
+--AND sc.SC_MODEL_TYPE='PEF'
+ORDER BY bca.created_date DESC;
+
+==========
+08-13-2018
+==========
+Case#2
+Login ID 1472331
+LE ID 11084595
+Approver ID 1228454
+
+09515402132
+CROP-34820
+34768
+CROP-34839
+
+public pension fund client segment
+other
+1350562 -- 6000173627 -GM
+
+This GM exceeds your delegated authorities for below values. Select Justification for Exceeding Authorities.
+
+Facility Details - Maximum of 'Max Tenor Requested For' among all existing CAT1 & 2 facilities should not be greater than CAD/TCAD#30000051078 field Tenor(Days).
+
+http://10.193.61.17:4440/user/login 
+username: 1523761
+pass: 1523761
+
+https://10.198.36.169:9043/selfservice/menu/home
+
+https://10.198.36.169:9043/selfservice/menu/home
+1525787
+Hariprasad19894#
+
+/tmp/app415a/CG12/08132018
+
+/IBM/websphere/apps/UAT_BCA_CreditRethink_APP.ear/CreditRethink.war/WEB-INF/jsp/ter/
+
+http://10.20.166.89:4440/user/login 
+
+1464063/1464063
+
+==========
+08-14-2018
+==========
+BCA Ref# 10607865
+RM# 1208814
+Approver# 1378293
+990068474 == 1350562
+As part of our ealirer analysis, we have identified its job issue, that pdf job is not up. Then we make it up and generated some of the GM pdfs, thats why assigned it back. 
+
+---FI SEgment 
+
+1484474 1008010934 3 -999
+1453334 1008010934 3 -999
+1330084 1008010690 3 -999
+1336116 1008003685 3 -999
+1271772 1008010690 3 -999
+
+
+1351545 1008033085 3 -999
+1351545 1008033088 3 -999
+1351545 1008033090 3 -999
+
+----------------------------
+---Corp ---
+1161464 1008040063 3
+1471881 1008040063 3
+1580841 1008040063 3
+1510838 1008037972 3
+1417068 1008037972 3
+
+---FI SEgment 
+1484474 1008033524 3
+1385129 1008039987 3
+1523732 1008033524 3
+1556059 1008035558 2
+1556059 1008036766 2 
+
+
+---Corp SEgment - Group 
+
+1199857 0000180010 3
+1195095 0000237686 3
+1018737 0000636926 3
+1018737 0000654761 3
+
+1326653 -- L NAME 11001906 -- 10607845 -- 1582253
+
+1208814	--	L NAME 11196082	--	10607865
+
+BCA_ATTACHMENTS where bca_ref_no=10607865 and UNUSED_ATT_TYPE='SS_PDF';
+
+==========
+08-16-2018
+==========
+TER
+=======
+34630
+34683
+34682
+1350562 -- 6000173627 -GM
+
+1199857(Creditmate User 1199857)
+
+PDF_FILE_PATH=/mpa_shared/PDF_BATCHES/CRMATE_DEV_01/temp/
+
+The Client/GM segment does not match the scorecard type
+
+GCAP_AUTO_VAL_ERROR_DTL
+gcap_approval_excp
+gcap_gav_validation_config
+1258044 -- 1000095966
+
+==========
+08-17-2018
+==========
+chella.durai@tcs.com
+
+xaviar.sundar@gmail.com
+
+hyacinth.sathya@capgemini.com
+
+Khushboo Dange(86638_FS),Muktha Jayashree Dhandayuthapani(50813_FS)
+
+==========
+08-20-2018
+==========
+feature/creditrethink_ktlo_q3_sep
+feature/bcaweb_ktlo_q3_sep
+
+September 8th branch.
+
+CROP-35492
+dnr$mar@run@5
+
+call PKG_GCAP_VALIDATION.PROC_GCAP_VALIDATION (?,?,?,?,?,?,?,?,?)}
+2018-08-20 13:20:14,301 DEBUG [java.sql.PreparedStatement] - {pstm-100433} Parameters: [TER, 1000095970, 30000051104, CAD, 6]
+
+UPDATE "CRMATE_DEV_01"."GCAP_AUTO_VAL_ERROR_DTL" SET ERROR_DESC = 'Greatest/longest ''Max Tenor Requested For (days)'' or ''End Date - Start Date'' duration days among all existing CAT1, CAT2, CAT3, Control  & CAT5 facilities in TER.' WHERE ROWID = 'AC2nEYACMAAG10uAAC' AND ORA_ROWSCN = '12584771191561'
+
+Commit Successful
+
+==========
+08-21-2018
+==========
+1379384 	--	1000095978
+Creditmate User 1585038 (1585038)
+
+Creditmate User 1117372 (1117372)
+1455604 -- 13636513
+Creditmate User 1117372 (1117372)
+
+connection = DriverManager.getConnection("jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpdudasa-scan.uk.standardchartered.com)(PORT=1622)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_PT.uk.standardchartered.com))))","CRMATE_DR_01", "CRMATE_DR_01_123");
+
+
+<property name="url" value="jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpddfmsa-scan.uk.standardchartered.com)(PORT=1522)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_DEV.uk.standardchartered.com))))" />
+		<property name="username" value="CRMATE_DEV_01" />
+		<property name="password" value="CRMATE_DEV_01_123" />
+		
+<property name="url" value="jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpdudasa-scan.uk.standardchartered.com)(PORT=1622)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_PT.uk.standardchartered.com))))" />
+		<property name="username" value="CRMATE_DR_01" />
+		<property name="password" value="CRMATE_DR_01_123" />		
+
+		BCA_PRP_APP_sqlmap.xml
+		
+==========
+08-22-2018
+==========
+1208814 --- 11196082		
+1565425 --- L NAME 13332535
+
+1000095971,
+1000095959,
+1000095973,
+1000095966,
+1000095968,
+1000095979,
+1000095980,
+1000095960,
+1000095962,
+1000095979,
+1000095970,
+1000095966,
+1000095976
+
+==========
+08-23-2018
+==========
+Leave
+
+==========
+08-24-2018
+==========
+Leave
+
+==========
+08-27-2018
+==========
+CROP-36016
+Approved Korea Scorecard BCA : 10596757
+login : 1370887
+TER : 1000094692
+Prposer : 1117372
+L NAME 13504152 / GRP NAME 990279734 
+30000051087
+
+CROP-36077   3000077249 
+1277633 -- 13699463 -- 1003014
+CROP-35995
+
+1287133 -- L NAME 11031088 -- SUPPORTED -- 1194741 1228454 1258044
+
+L NAME 13654335 -- 1580485  BCA REF NO 10599691
+
+10580696 10599653
+
+Control - Client facility limit amount should not be greater than Group facility limit. 
+
+==========
+08-28-2018
+==========
+1402027 -- 1576434
+
+( Facility Id : 10599685030 ) : Please select/enter valid Deal ID 
+( Facility Id : 10599685033 ) : Please select/enter valid Deal ID 
+( Facility Id : 10599685037 ) : Please select/enter valid Deal ID 
+( Facility Id : 10599685029 ) : Please select/enter valid Deal ID 
+( Facility Id : 10599685032 ) : Please select/enter valid Deal ID 
+( Facility Id : 10599685026 ) : Please select valid Outer Limit Id 
+
+The TER exceeds your delegated authority for the below. Please select justifications to proceed:
+
+CAT1 & CAT2 facilities
+CAT3 & Control facilities
+CAT5 facilities
+Tenor (Max Tenor / Start-End Dates)
+
+Please complete mandatory fields in the following given screens: 
+Please complete mandatory fields in the Attachments screen: 
+BCA Attachments-Cover Note Attachment 
+BCA Attachments-Acct Plan Attachment 
+BCA Attachments-Finance MFA Spreads Attachment 
+BCA Attachments-BCA Part2 Analysis Attachment 
+Wrong Way Risk - Main Borrower 
+Bca attachments-Compliance checklist attachment is mandatory 
+
+SET DEFINE OFF;
+UPDATE GCAP_AUTO_VAL_ERROR_DTL SET error_desc='CAT1 & CAT2 facilities' WHERE error_code = 'GAVE13';
+UPDATE GCAP_AUTO_VAL_ERROR_DTL SET error_desc='CAT3 & Control facilities' WHERE error_code = 'GAVE14';
+UPDATE GCAP_AUTO_VAL_ERROR_DTL SET error_desc='Tenor (Max Tenor / Start-End Dates)' WHERE error_code = 'GAVE16';
+UPDATE GCAP_AUTO_VAL_ERROR_DTL SET error_desc='CAT5 facilities' WHERE error_code = 'GAVE15';
+COMMIT;
+
+1.	3 set of Korean Clients – must have Approved BCAs
+CG populated/refreshed from SCI should be CRMS scorecard.
+Evidence of Local CG and Internal CG.
+
+2.	3 clients -  BCA must be approved.
+Bad cases Client CG 12C or above ( for raising TER)
+
+3.	Fund BCA - 5 set of Client data – segment P5/P6 
+
+4.	CRR test data for testing
+
+
+SELECT V_CR.LEID,
+  BCA.CREATED_BY,
+  BCA.COUNTRY,BCA.BCA_REF_NO, V_BCA.CREDIT_GRADE, LOC_CRG, INT_CRG, BCA.CREATED_DATE,
+  BCA.APPROVED_DATE
+FROM BCA_DETAILS BCA,
+  CRMS_SCORECARD CRMS,
+  v_CR_cust_txn V_CR,
+  V_CR_CUST_BCA V_BCA,
+  users_mst UM
+WHERE BCA.SCORECARD_ID =CRMS.scorecard_seq_id
+AND V_CR.custid          = crms.cr_cust_id
+AND V_CR.LEID = V_BCA.LEID
+--AND BCA.APPROVED_DATE IS NOT NULL
+AND BCA.BCA_STATUS     ='APPROVED'
+AND (V_CR.domicilecountry ='KR' OR BCA.COUNTRY='KR/SCFB-SOUTH KOREA')
+AND UM.peoplewise_id   =BCA.CREATED_BY
+AND UM.STATUS          ='A'
+ORDER BY BCA.CREATED_DATE DESC;
+
+select BCA.CREATED_BY,bca.CUSTOMER_NAME, bca.BCA_REF_NO from bca_details bca, V_CR_CUST_BCA v_bca, users_mst um
+where V_BCA.CREDIT_GRADE = '12C' AND BCA.BCA_STATUS        ='APPROVED'
+and bca.created_by = um.peoplewise_id and um.status='A'
+and bca.CR_ID=v_bca.CUSTID ORDER BY BCA.CREATED_DATE DESC;
+
+https://jira.global.standardchartered.com/browse/CROP-36416?filter=102790&jql=project%20%3D%20CROP%20AND%20issuetype%20%3D%20Defect%20AND%20status%20in%20(Open%2C%20%22In%20Analysis%22%2C%20%22Ready%20For%20Analysis%22%2C%20%22Awaiting%20Resolution%22)%20AND%20affectedVersion%20%3D%202018.CreditMate.GAV.Rel3.1%20ORDER%20BY%20created%20DESC
+
+==========
+08-29-2018
+==========
+CROP : 36080
+1476822 13725094
+
+SELECT ATTACHMENT_ID,
+  DDW_REF_NO,
+  ATTACHMENT_NAME,
+  DESCRIPTION,
+  ATTACHMENT,
+  CREATED_BY,
+  TO_CHAR(CREATED_DATE,'DD/MM/YYYY') AS CREATED_DATE,
+  ATTACHMENT_TYPE
+FROM DDW_ATTACHMENTS
+WHERE DDW_REF_NO   =3000077247 AND 
+ATTACHMENT_TYPE='GENERAL'; 
+
+==========
+08-30-2018
+==========
+CROP-36535
+CROP-36505
+hasInprepRelationship
+
+==========
+08-31-2018
+==========
+PT Test Data
+--------------
+PDF_FILE_PATH=/mpa_shared/PDF_BATCHES/CRMATE_DR_01/OTHERDOCS_PDF/temp/
+CROP-36081
+
+CROP-36710
+CROP-36506
+
+CROP-36708
+1479282 --12758389 -- 1000094695
+1019-0200-0507-1662
+
+select * from TER_GCAP_APPROVAL_DETAILS;
+
+select BCA_REF_NO, CUSTOMER_NAME, created_by, enable_sip_limits  from bca_details where enable_sip_limits='Yes' and DOCUMENT_TYPE = 'FIBCA'
+and BCA_STATUS       = 'APPROVED' order by created_date desc;
+
+==========
+09-01-2018
+==========
+ /prd/isis/husa/oracleFILAPDFProcStatus.log
+ 
+ 1565425 -- 13503875 -- 3000077278
+ 
+ 
+ 3000077246 -- 1478622
+ 
+ 1117372 (ter approval)
+ TERApprovalAction
+ GCAPValidationDAOImpl
+ 
+==========
+09-02-2018
+==========
+CROP-36506
+
+==========
+09-03-2018
+==========
+ 1000094710 -- 	1141084 (apprvr)	--
+ 
+ 1000094718	30000050558 1141084
+ 
+ SELECT MAX(TNR) FROM (
+SELECT (
+  CASE
+    WHEN MAX_TENOR_TYPE='MONTH'
+    THEN GREATEST(NVL(MAX_TENOR, 0)*30, TO_NUMBER(EXCESS_TO-EXCESS_FROM))
+    WHEN MAX_TENOR_TYPE='YEAR'
+    THEN GREATEST(NVL(MAX_TENOR, 0)*365, TO_NUMBER(EXCESS_TO-EXCESS_FROM))
+    WHEN MAX_TENOR_TYPE='DAY'
+    THEN TO_NUMBER(MAX_TENOR)
+    WHEN MAX_TENOR_TYPE IS NULL
+    THEN TO_NUMBER(EXCESS_TO-EXCESS_FROM)
+    ELSE 0
+  END) AS TNR
+FROM TER_FACILITY_DETAILS
+WHERE ter_ref_no= 1000094709);
+
+==========
+09-04-2018
+==========
+11061711
+PT Test Data
+
+==========
+09-05-2018
+==========
+1545091 -- 11234881
+
+Creditmate User 1117372 (1117372) 1160976
+1206840 -- 11737140
+
+NEED TO CHECK
+=================
+TCAD 1000094842
+Creditmate User 1476368 (1476368) LEID L NAME 11226068 APPRVER -1010819 1010819
+
+==========
+09-06-2018
+==========
+WFH
+CROP-37162
+update TER_PROP_APP_AUDIT   set   (CAD_TCAD_REF_ID,   TCAD_SEQ_ID,   TCAD_DELEGATOR_NAME,   CAD_TCAD_SANCTLEVEL,   CRGVALUE) =   (select   dtl.gcap_tcad_id,   dl.gcap_tcad_delegatee_id,   dr.delegator_id ||'(' || dr.name || ')' AS delegator_name,   dl.sanction_level sanction_level,    ?   from   gcap_tcad_txn dtl,gcap_tcad_delegator_txn dr, gcap_tcad_delegatee_txn dl   where DTL.gcap_tcad_id=DL.gcap_tcad_id AND DR.gcap_tcad_id=DL.gcap_tcad_id   AND dl.delegatee_id=?   AND dl.gcap_tcad_id =?   AND dl.gcap_tcad_delegatee_id = ?)   where TER_REF_NO = ? and action_by =? AND action_time =   (select max(action_time) from TER_PROP_APP_AUDIT where TER_REF_NO =   ? and action_by = ?)  
+
+11A, Creditmate User (1010819), 40000050246, 605, 1000094842, Creditmate User (1010819), 1000094842, Creditmate User (1010819)
+
+11A, 1010819, 40000050246, 605, 1000095541, 1010819, 1000095541, Creditmate User (1010819)
+
+==========
+09-07-2018
+==========
+WFH
+
+==========
+09-10-2018
+==========
+CRMATE_PT_01
+CRMATE_PT_01_123
+uklpdudasa-scan.uk.standardchartered.com
+1622
+CRMATE_PT.uk.standardchartered.com
+
+1377020
+13714576
+964
+CROP - 37162
+
+2.Group
+  select s.SPREAD_ID,s.SP_DENOMINATION,s.SP_ANNUALIZED_SALES,v.CR_CUST_CMP_ID,v.CR_CUST_GROUP_SEGMENT from  spread_txn s, v_cr_group_txn v
+where v.CR_CUST_ID=s.cr_cust_id
+and v.CR_CUST_GROUP_DOMICILE='SG' 
+and v.CR_CUST_ISICCODE is not null;
+
+3.Prospect
+   select * from v_cr_cust_txn where leid is null and pledgorid is null and cmp_id is not null  ;
+
+4.                            Group Prospect
+select * from cr_cust_txn where ENTITY_TYPE='G' and CR_CUST_GROUP_STATUS='Prospect';
+
+5.   pledgor for customer
+select * from v_cr_cust_txn where leid is null and pledgorid is not null 
+
+6.  Prospect Pledgor
+
+select * from v_cr_cust_txn where leid is null and pledgorid is not null and cmp_id is not null
+and segmentcode='ME' and DOMICILECOUNTRY='SG';
+
+(CASE WHEN GCAP_PROFILE_TYPE='CAD' THEN (SELECT SANCTION.SANCTION_LEVEL AS SANCTION_LEVEL FROM gcap_cad_delegatee_txn CAD, GCAP_SANCTION_LEVEL SANCTION  WHERE GCAP_CAD_ID  = CAD_TCAD_REF_ID AND SANCTION.SANCTION_KEY(+)=CAD.SANCTION_LEVEL  AND rownum = 1) ELSE (SELECT SANCTION.SANCTION_LEVEL AS SANCTION_LEVEL FROM gcap_tcad_delegatee_txn TCAD, GCAP_SANCTION_LEVEL SANCTION WHERE GCAP_TCAD_ID = CAD_TCAD_REF_ID AND SANCTION.SANCTION_KEY(+)=CAD_TCAD_SANCTLEVEL AND GCAP_TCAD_DELEGATEE_ID  = TCAD_SEQ_ID AND rownum = 1) END) CAD_TCAD_SANCTLEVEL,
+
+==========
+09-11-2018
+==========
+Changes in Approver Signature History
+1323455
+1524244	13688841
+1490083	11063155
+
+==========
+09-12-2018
+==========
+DR roll back
+
+==========
+09-13-2018
+==========
+Holiday - Vinayaka Chavithi
+
+
+==========
+09-14-2018
+==========
+WFH
+
+==========
+09-17-2018
+==========
+WFH
+
+==========
+09-18-2018
+==========
+crop-33725
+------------------
+
+CROP-37539
+1378461 -- L NAME 13603582
+1373820 13717112 10604495 
+
+Client & Group Facility summary – Weighted Average CRG (internal) field is mandatory
+
+Weighted Average CRG (internal) field is mandatory
+CROP-37646
+CROP-37647
+
+select * from gav_bca_rule_txn where bca_ref_no=10604470;
+
+select * from gcap_approval_excp;
+
+https://uklpauwas01a.uk.standardchartered.com:1888/CreditRethinkCREUAT/acl/index.action
+
+git clone master branch url
+
+cd ebca_db_ver2 EBCA_DB_VER2
+
+git checkout Branch name
+
+
+
+git status
+
+git add .
+
+git commit -m "CROP-1234 :  message"
+
+git push
+
+6119569351
+
+==========
+09-19-2018
+==========
+CROP-37846
+
+1370392	13569733	10604504
+
+Please enter a numeric value for CAT 4 CRL in the Group Facility Summary Table. 
+
+==========
+09-20-2018
+==========
+DriverManager.getConnection("jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpdufmsa-scan.uk.standardchartered.com)(PORT=1622)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_UAT.uk.standardchartered.com))))",
+				"CRMATE_UAT_03", "crmate_uat_03_123");
+				
+UPDATE BCA_CLNT_GRP_FCLTY_SUMMARY SET
+		GAV_GM_INTERNAL_WACG =
+		#gmWACGInternalGAV# WHERE BCA_REF_NO =
+		#bcaRefNum#
+		AND CFS_GFS_TYPE = 'GFS'				
+		
+src/com/scb/cr/bca/action/FacilitySummaryAction.java
+
+src/com/scb/cr/bca/action/SetApprovalsAction.java
+
+WebContent/jsp/BCA/facility/Candg_Facility_Summary.jsp
+
+src/com/scb/cr/bca/action/FacilitySummaryAction.java
+1516172 
+
+==========
+09-21-2018
+==========
+CROP-37647
+
+1373563
+
+SELECT excp_code,
+  excp_desc,
+  excp_comments,
+  (
+  CASE
+    WHEN excp_code = 'GEX8'
+    THEN 'Y'
+    ELSE 'N'
+  END) comment_yn,
+  IS_DEFAULT
+FROM GCAP_APPROVAL_EXCP
+WHERE is_default='D'
+OR is_default   ='ALL'
+ORDER BY disp_order ASC; 
+
+select * from BCA_GRP_DETAILS;
+
+==========
+09-22-2018
+==========
+1516172
+SELECT GRP_DOMICILE_CNTRY FROM  BCA_GRP_DETAILS bca where bca.BCA_REF_NO = '10604507';
+ (  select  GAM_LOCATION from gam_view where to_char(group_id) = CR_CUST_CMP_ID and rownum = 1) GAMLOCATION
+groupdetails.search.list.view.select
+  SELECT CR_CUST_GROUP_NAME GRP_NAME,
+                                CR_CUST_CMP_ID GROUP_SCI_ID,
+                                CR_CUST_ID GROUP_CUST_ID,
+                                CR_CUST_GROUP_GAMCODE GAMCODE,
+                                CR_CUST_GROUP_GAMNAME GAMNAME,
+                                 (  select  GAM_LOCATION from gam_view where to_char(group_id) = CR_CUST_CMP_ID and rownum = 1) GAMLOCATION,
+                                CR_CUST_GROUP_SEGMENT GRP_SEGMENT,
+                                (select ctr_cntry_name from country where ctr_cntry_iso_code = CR_CUST_GROUP_DOMICILE) GRP_DOMICILE_CNTRY
+                                
+                        FROM V_CR_GROUP_TXN, country
+                        WHERE CR_CUST_CMP_ID = '0000041058'
+                        and   CR_CUST_GROUP_GAMCOUNTRY = country.CTR_CNTRY_ISO_CODE;
+						
+SELECT
+  (SELECT GAM_LOCATION
+  FROM gam_view
+  WHERE TO_CHAR(group_id) = CR_CUST_CMP_ID
+  AND rownum              = 1
+  ) GAMLOCATION,
+  BCAGROP.GRP_DOMICILE_CNTRY,
+  (SELECT ctr_cntry_name
+  FROM country
+  WHERE ctr_cntry_iso_code = CR_CUST_GROUP_DOMICILE
+  ) GRP_DOMICILE_CNTRY,
+  CR_CUST_GROUP_GAMCOUNTRY
+FROM V_CR_GROUP_TXN,
+  country,
+  BCA_GRP_DETAILS BCAGROP
+WHERE BCAGROP.BCA_REF_NO     = '10604507'
+AND BCAGROP.GROUP_SCI_ID     = CR_CUST_CMP_ID
+AND CR_CUST_GROUP_GAMCOUNTRY = country.CTR_CNTRY_ISO_CODE;
+
+==========
+09-24-2018
+==========
+	Nadakuditi, Venugopal
+
+CROP-38058	1208814 L NAME 11307876
+
+select ORIG_CNTRY
+FROM bca_clnt_grp_fclty_summary cgfs, gm_txn gm
+          WHERE cgfs.gm_id=gm.gm_id and
+          cgfs.bca_ref_no = 10604498;
+		  
+		  SOUTH KOREA
+		  
+		  CROP-38058 : PDF Changes
+		  
+delete from bca_attachments where bca_ref_no='10604498' and ATT_DOC_ID=122098477;
+commit;	
+
+==========
+09-25-2018
+==========
+1524385 -- L NAME 13722332
+1496625	L NAME 13610324
+1505412	L NAME 11175699
+1507676	L NAME 11303324
+
+270565+8116+1500
+
+==========
+09-26-2018
+==========
+CROP-38058
+BCA-PDF rleated changes
+CROP-38131
+
+==========
+09-27-2018
+==========
+Clarification for BCA-PDF
+1580869 -- L NAME 11044748
+
+==========
+09-28-2018
+==========
+CROP-38119
+1443659 -- 6000175970 
+		connection = DriverManager.getConnection("jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpdufmsa-scan.uk.standardchartered.com)(PORT=1622)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_UAT.uk.standardchartered.com))))",
+				"CRMATE_UAT_03", "crmate_uat_03_123"); 
+
+				
+==========
+10-01-2018
+==========
+GM PDF Issue
+ === inputMap.get(customerId) is 11771735
+[10/1/18 10:37:49:363 GMT] 000000bf SystemOut     O === DCFDAOImpl START ===
+[10/1/18 10:37:49:363 GMT] 000000bf SystemOut     O === docRefNo is 6000176009
+[10/1/18 10:37:49:363 GMT] 000000bf SystemOut     O === userId is 1368719
+[10/1/18 10:37:49:363 GMT] 000000bf SystemOut     O === docType is GM
+[10/1/18 10:37:49:406 GMT] 000000bf SystemOut     O Result is: FAILED				
+
+==========
+10-03-2018
+==========
+UAT TEST DATA
+
+SELECT CREATED_BY, CUSTOMER_NAME, BCA_REF_NO, CR_ID FROM BCA_DETAILS WHERE
+BCA_STATUS='APPROVED' AND
+SCORECARD_ID IN (SELECT SCORECARD_SEQ_ID FROM crms_scorecard) ORDER BY CREATED_DATE DESC;
+
+SELECT LEID  FROM V_CR_CUST_TXN WHERE CUSTID = '11943160' AND ROWNUM = 1;
+
+==========
+10-04-2018
+==========
+SELECT BCA.BCA_REF_NO, BCA.CREATED_BY, CRCUST.LEID FROM BCA_DETAILS BCA, CRMS_SCORECARD CRMS, V_CR_CUST_TXN CRCUST,
+GROUP_VIEW GRPV
+WHERE 
+BCA.SCORECARD_ID = CRMS.SCORECARD_SEQ_ID AND
+BCA.CR_ID = CRCUST.CUSTID AND
+GRPV.GLE_LE_ID = CRCUST.LEID AND 
+GRPV.GRP_DMCL_CNTRY_ISO_CODE != 'KR'
+AND ROWNUM <=10;
+
+==========
+10-05-2018
+==========
+WITH BCA_DATA AS(SELECT DOC_REF ,
+      ASSIGNED_TIMESTAMP,
+      COUNTRY,
+      DOCUMENT_TYPE
+    FROM APP_REQUEST_ACTIONS_H A ,
+      BCA_DETAILS B
+    WHERE A.DOC_REF    =B.BCA_REF_NO
+    AND ACTION         ='APPROVED'
+ --   AND B.DOCUMENT_TYPE IN ('BCA')
+    AND CR_ID         IN ('13077665')
+)
+select * from
+(SELECT DOC_REF,
+      ASSIGNED_TIMESTAMP,
+      COUNTRY,
+      DOCUMENT_TYPE
+ FROM BCA_DATA
+    GROUP BY DOC_REF,COUNTRY,ASSIGNED_TIMESTAMP, DOCUMENT_TYPE )
+    WHERE ASSIGNED_TIMESTAMP IN (SELECT MAX(ASSIGNED_TIMESTAMP) FROM BCA_DATA
+    GROUP BY COUNTRY);
+	
+	
+	ROW NO ========65===========
+	1191757	L NAME 11737500	10603893	13077665
+
+==========
+10-08-2018	
+==========
+SELECT CREATED_BY, CUSTOMER_NAME, BCA_REF_NO, CR_ID FROM BCA_DETAILS WHERE
+BCA_STATUS='APPROVED' and country = 'KR/SCFB-SOUTH KOREA' order by created_date desc;
+
+ROW NO =========108========
+1371897	L NAME 11094132	10617636	11960967
+
+==========
+10-09-2018
+==========
+SELECT bca.CREATED_BY, bca.CUSTOMER_NAME, bca.BCA_REF_NO, CR_ID FROM BCA_DETAILS bca,
+BCA_CLNT_GRP_FCLTY_SUMMARY bcaf
+WHERE
+bca.BCA_REF_NO=bcaf.BCA_REF_NO AND bcaf.CFS_GFS_TYPE = 'GFS' and
+bca.country != 'KR/SCFB-SOUTH KOREA' and
+bca.SCORECARD_ID IN (SELECT SCORECARD_SEQ_ID FROM crms_scorecard) and
+bca.BCA_STATUS='APPROVED' order by bca.created_date desc;
+
+
+SELECT bca.CREATED_BY, bca.CUSTOMER_NAME, bca.BCA_REF_NO, CR_ID FROM BCA_DETAILS bca,
+BCA_CLNT_GRP_FCLTY_SUMMARY bcaf
+WHERE
+bca.BCA_REF_NO!=bcaf.BCA_REF_NO --AND bcaf.CFS_GFS_TYPE = 'GFS' and
+--bca.country != 'KR' and
+and bca.SCORECARD_ID IN (SELECT SCORECARD_SEQ_ID FROM crms_scorecard) and
+bca.BCA_STATUS='APPROVED' order by bca.created_date asc;
+
+1300564
+1362828
+10617539 B2
+
+==========
+10-10-2018
+==========
+CROP-38550 TEST CASE EXECUTION
+
+==========
+10-11-2018
+==========
+CROP-38647
+============
+B6	Login Id : 1370135 -- LeId : 11267946 --	BCA Ref No : 10622402
+
+select * from BCA_FCLTY_DETAILS where CATEGORY is not null and CATEGORY='CAT3';
+Login Id : 1372905 LEID: 12610980 BCA Ref No : 10622715 Approver : 1373563 -- 
+first ctmu apprver 
+Please link the Collateral(s) not owned by main borrower to respective collateral owner(s). 
+Client & Group Facility Summary 
+Client & Group Faclity Summary: Please ensure Client limits do not exceed Group limits. 
+        
+https://confluence.global.standardchartered.com/display/CRO/17th+November+Code+Changes+Impact		
+
+B20
+=======
+login  : 1508100 
+LEID   : 13635913 
+BCA Ref : 10622718
+
+1373563
+
+1300564
+
+==========
+10-12-2018
+==========
+CROP : 38645
+10621756
+
+SET SERVEROUTPUT ON;
+DECLARE
+V_RETURN VARCHAR2(200);
+BEGIN
+V_RETURN := FN_GAV_BCA_RULE_TEST('10611252');
+END;
+
+==========
+10-15-2018
+==========
+1310334 -- 6000178030 -- 1241018
+
+1372905	12610980	10621556
+
+1369234 11181768 10299822
+1369234 11181768	10622768
+
+  SELECT * FROM GAV_BCA_RULE_TXN where BCA_REF_NO= '10622730' order by SCENARIO;
+  
+==========
+10-16-2018
+==========
+  CROP-38806
+  
+/* No EAF documents*/
+select created_by, customer_name from bca_details where cr_id not in(select distinct cust_id from ss_details) order by created_date desc;
+
+/*EAF With Related Accounts*/
+select s.author_id, r.ss_ref_no,s.cust_name,s.doc_status, s.last_modified_date from ss_details s,ss_related_accounts r where (s.ss_ref_no = r.ss_ref_no) and r.cust_le_id is not null and s.doc_status ='APPROVED' order by last_modified_date desc;
+
+/*EAF Without Related Accounts*/
+
+select s.author_id,s.ss_ref_no,s.cust_name,s.last_modified_date from ss_details s where s.ss_ref_no not in(select distinct ss_ref_no from ss_related_accounts)and s.cust_name is not null and s.doc_status ='APPROVED' order by s.last_modified_date desc;
+
+select r.ss_ref_no,r.cust_le_id, s.doc_status, s.last_modified_date from ss_details s,ss_related_accounts r where s.ss_ref_no = r.ss_ref_no;
+
+select r.ss_ref_no,r.cust_le_id, s.doc_status, s.last_modified_date from ss_details s,ss_related_accounts r where s.ss_ref_no NOT IN (SELECT SS_REF_NO FROM SS_RELATED_ACCOUNTS);
+
+SELECT DISTINCT(cust_name),ss_ref_no, last_modified_date FROM SS_DETAILS WHERE doc_status ='APPROVED' AND cust_name IS NOT NULL AND cust_name LIKE 'L%' AND cust_name IN(SELECT cust_name FROM SS_DETAILS gROUP BY cust_name HAVING COUNT(CUST_NAME)>1) ORDER BY CUST_NAME ASC;
+
+MAIN BORROWER LOGIN ID : 1540065	LEID : 11309906 BCA REF NO : 10622775  -- 1117372 EAF Approver BCA Apporver 1117085 ;;; 10065
+CO-BORROWER LOGIN ID : 1541749	LEID: 11004568 Co-Borrowers 
+
+==========
+10-17-2018
+==========
+MAIN BORROWER LOGIN ID : 1540065	LEID : 11309906 BCA REF NO : 10622775  -- 1117372 EAF Approver BCA Apporver 1117085 ;;; 10065
+CO-BORROWER LOGIN ID : 1541749	LEID: 11004568 Co-Borrowers 
+10614680
+
+CROP-38809
+==========
+LOGIN ID : 1312187 -- LEID :	13697214 BCA REF NO : --	10622790 BCA Apporver : 1103525 
+
+1460064	L NAME 11108258
+
+==========
+10-19-2018
+==========
+CROP-38807
+
+1300564 
+
+CROP-38807
+
+==========
+10-22-2018
+==========
+CROP-38806 CROP-38806
+CROP-38741 CROP-38741
+CROP-38741 CROP-38741
+
+==========
+10-23-2018
+==========
+login id : 	1378439 cust id : 11776129 : CUST GROUP GAMNAME OF 11776129
+			1410340						CUST GROUP GAMNAME OF 11768540
+		1208814	CUST GROUP GAMNAME OF 12273349 1583618
+		
+23-08-2015
+3 yrs 2 month
+1.56 lakhs		
+Creditmate User 1312187
+ L NAME 13697214
+10622826
+
+==========
+10-24-2018
+==========
+CROP-38750
+----------
+Negative check for GAV, EAF and Positive check on KTLO, Restart 3.2 Changes (Recall & Intuitive changes)
+1312187 	11028729	10622827
+
+CROP-38791
+----------
+1495226		L NAME 13377402 EAF  79123993 
+1562232		L NAME 11022318 FI 79123994
+
+1539816		L NAME 11459013		10622834
+
+https://jira.global.standardchartered.com/secure/Dashboard.jspa?selectPageId=54485
+
+
+==========
+10-25-2018
+==========
+CROP-39200: GAVR4SITRegression - Scorecard | RM can't recall the new scorecard that was proposed
+
+CROP-39130: GAVR4SITRegression - Scorecard | Upon 'Financial Statement Date' selection, Datepicker popup not getting closed and selected date not getting saved => unable to navigate further screens
+
+CROP-39377: GAVR4SITRegression - GM | Can't generate PDF
+
+https://uklpauwas01a.uk.standardchartered.com:1888/CreditRethinkSMEUAT/acl/index.action
+
+DEV_02
+
+1548676
+
+feature/creditrethink_projrestart3dot2_sep2018
+https://bitbucket.global.standardchartered.com/projects/CREDAPP/repos/creditrethinkncc/browse?at=refs%2Fheads%2Ffeature%2Fcreditrethink_projrestart3dot2_sep2018
+
+SELECT * FROM DOC_PDF_ORC_GEN WHERE doc_ref=  6000175452;
+
+/IBM/websphere/apps/UAT_SME_BCAWeb_DR.ear
+/IBM/websphere/apps/UAT_SME_CreditRethink_APP.ear
+128
+
+Document Status Updated. Please refresh.
+Login Id: 1208814
+Grp Name : GRP NAME 990067020
+select * FROM DOC_PDF_ORC_GEN WHERE doc_ref=  6000178013;--  6000178066;-- 60001780131440966;
+
+select * from DOC_ORC_PDF_EXCEP WHERE doc_ref=   6000178066;
+
+
+select * from gm_txn order by 1 desc;
+
+==========
+10-26-2018
+==========
+CROP-39151
+1506796	--	11130487
+
+COMPONENT	BRANCH NAME
+DB OBJECTS	feature/dbobjects_gav_oct2018 
+(New branch creation and merge pending)
+CREDITRETHINKNCC	feature/creditrethinkncc_dd_rel_nov2018
+OTHER PDF	feature/otherpdfgenerator_dd_rel_nov2018
+BCA WEB	feature/bca_db_ver2_dd_rel_nov2018
+BCA PDF	feature/oraclepdf_dd_rel_nov2018
+ select NAME,PEOPLEWISE_ID ,SIGNATORY_TYPE,COIN_NO,DESGINATION,CREDIT_TEAMC0DE,SANCTION_LEVEL,TES_AUTHORITY_DELEGATION,SEGMENT,CA_SEGMENTS,AREA_OF_REPOSNIBILITY,COUNTRY_CODE,REGION_CODE ,AUTHORIZED_FURTHER_DELEGATE,APPROVED_PENDING_SUPP,OLDCADID,CA_SEGMENT_VERSION,OTHERS_SEGMENT,OTHERS_AREA_OF_RESPONSIBILITY FROM GCAP_CAD_DELEGATEE_TXN where GCAP_CAD_ID =30000051235
+ 
+select *  FROM DOC_PDF_ORC_GEN WHERE doc_ref=  6000178081; -- 1208512
+
+select * from doc_attachments WHERE doc_ref=  6000177258;--6000178081;
+
+select * from DOC_ORC_PDF_EXCEP WHERE doc_ref=   6000178081;
+
+select * from app_req_workflow where doc_ref=6000177258;
+
+select * from gm_txn where gm_id=6000177258;
+
+==========
+10-29-2018
+==========
+1506796  990011945 1362828 6000179227 1147643
+
+Host Name : 10.193.106.128
+Port : 22
+User Name : crsupport
+Password : scb123
+
+path : /mpa_shared/PDF_BATCHES/CRMATE_ADF_UAT01/OTHERDOCS_PDF
+
+Run the Below Command to Check whether PDF job is up or not
+--> ps -ef | grep PDF
+result will be like this.
+45560      559     1 11 Oct14 ?        1-19:58:23 /IBM/websphere/was8.5/java/bin/java ConsolidatedPDFBatch B2 2 CRMATE_DEV_04_BCAPDF
+45560      694     1 11 Oct14 ?        1-17:36:50 /IBM/websphere/was8.5/java/bin/java ConsolidatedPDFBatch B3 3 CRMATE_DEV_04_BCAPDF
+45560      806     1 11 Oct14 ?        1-17:53:57 /IBM/websphere/was8.5/java/bin/java ConsolidatedPDFBatch B4 4 CRMATE_DEV_04_BCAPDF
+45560     7571     1 11 Oct17 ?        1-10:11:29 /IBM/websphere/was8.5/java/bin/java ConsolidatedPDFBatch B1 1 CRMATE_DEV_01_BCAPDF
+45560     8112     1  0 06:54 ?        00:00:20 /IBM/websphere/was8.5/java/bin/java ConsolidatedOthPDFBatch CRMATE_DEV_02_OTHERDOCS
+45560     8927     1  0 Oct19 ?        00:00:53 /IBM/websphere/was8.5/java/bin/java ConsolidatedOthPDFBatch CRMATE_DEV_01_OTHERDOCS
+45560     9078     1  0 Oct19 ?        00:00:53 /IBM/websphere/was8.5/java/bin/java ConsolidatedOthPDFBatch CRMATE_DEV_01_OTHERDOCS
+45560     9655     1 11 Oct26 ?        07:49:55 /IBM/websphere/was8.5/java/bin/java ConsolidatedPDFBatch B1 1 CRMATE_DR_01_BCAPDF
+45560    10099     1  0 Oct03 ?        00:02:12 /IBM/websphere/was8.5/java/bin/java ConsolidatedOthPDFBatch CRMATE_UAT_03_OTHERDOCS
+45560    13158     1  9 Oct09 ?        1-22:57:51 /IBM/websphere/was8.5/java/bin/java ConsolidatedPDFBatch B1 1 CRMATE_ADF_UAT01_BCAPDF
+45560    16077     1 11 Oct24 ?        13:38:16 /IBM/websphere/was8.5/java/bin/java ConsolidatedPDFBatch B1 1 CRMATE_UAT_04_BCAPDF
+45560    19691     1  9 Sep28 ?        3-01:29:28 /IBM/websphere/was8.5/java/bin/java ConsolidatedPDFBatch B1 1 CRMATE_ADF_DEV01_BCAPDF
+45560    20257     1 10 Sep28 ?        3-03:11:43 /IBM/websphere/was8.5/java/bin/java ConsolidatedPDFBatch B1 1 CRMATE_UAT_EDM_01_BCAPDF
+45560    21511     1 10 Oct10 ?        2-02:13:06 /IBM/websphere/was8.5/java/bin/java ConsolidatedPDFBatch B1 1 CRMATE_DEV_04_BCAPDF
+45560    21959     1  9 Sep26 ?        3-00:45:47 /IBM/websphere/was8.5/java/bin/java ConsolidatedPDFBatch B1 1 CRMATE_ADF_SIT01_BCAPDF
+45560    22568     1  0 Sep26 ?        00:36:27 /IBM/websphere/was8.5/java/bin/java ConsolidatedOthPDFBatch CRMATE_ADF_SIT01_OTHERDOCS
+45560    22970     1  0 Oct24 ?        00:13:09 /IBM/websphere/was8.5/java/bin/java ConsolidatedOthPDFBatch CRMATE_UAT_04_OTHERDOCS
+45560    23925     1  0 Oct24 ?        00:01:25 /IBM/websphere/was8.5/java/bin/java ConsolidatedOthPDFBatch CRMATE_DEV_04_OTHERDOCS
+45560    25147     1  0 09:31 pts/34   00:00:04 /IBM/websphere/was8.5/java/bin/java ConsolidatedOthPDFBatch CRMATE_ADF_UAT01_OTHERDOCS
+45560    26317 24978  0 09:43 pts/34   00:00:00 grep PDF
+45560    26593     1  0 Oct23 ?        00:00:36 /IBM/websphere/was8.5/java/bin/java ConsolidatedOthPDFBatch CRMATE_UAT_EDM_01_OTHERDOCS
+45560    27477     1  0 Sep27 ?        00:28:47 /IBM/websphere/was8.5/java/bin/java ConsolidatedOthPDFBatch CRMATE_ADF_DEV01_OTHERDOCS
+45560    27932     1  0 05:19 ?        00:00:34 /IBM/websphere/was8.5/java/bin/java ConsolidatedOthPDFBatch CRMATE_DEV_03_OTHERDOCS
+45560    29250     1  0 Oct25 ?        00:01:18 /IBM/websphere/was8.5/java/bin/java ConsolidatedOthPDFBatch CRMATE_DR_01_OTHERDOCS
+45560    30544     1  9 Sep28 ?        3-00:14:16 /IBM/websphere/was8.5/java/bin/java ConsolidatedPDFBatch B1 1 CRMATE_DEV_03_BCAPDF
+45560    31600     1 11 Oct12 ?        1-22:24:01 /IBM/websphere/was8.5/java/bin/java ConsolidatedPDFBatch B1 1 CRMATE_DEV_02_BCAPDF
+45560    32624     1 10 Oct04 ?        2-15:16:13 /IBM/websphere/was8.5/java/bin/java ConsolidatedPDFBatch B1 1 CRMATE_UAT_03_BCAPDF
+
+If our DB job is not displaying 
+
+Run the following command to make it up.
+
+--> ./Start_OtherDocs.sh
+
+connection = DriverManager.getConnection("jdbc:oracle:thin:@(DESCRIPTION_LIST=(LOAD_BALANCE=OFF)(FAILOVER=YES)(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=uklpdufmsa-scan.uk.standardchartered.com)(PORT=1622)))(CONNECT_DATA=(SERVICE_NAME=CRMATE_UAT.uk.standardchartered.com))))", "CRMATE_ADF_UAT01", "CRMATE_ADF_UAT01_123");
+
+==========
+10-30-2018
+==========
+
+SET SERVEROUTPUT ON;
+DECLARE
+V_RETURN VARCHAR2(200);
+BEGIN
+V_RETURN := FN_GAV_BCA_RULE_TEST('10611252');
+END;
+
+/home/crsupport/FUNDBCA/FUNDBCA_SPRINGBATCH
+
+==========
+10-31-2018
+==========
+Please Link Scoresheet with Valid Category in Client Details. 
+1572759 --`10567604 --
+
+select BD.cr_id,cust.custname, cust.leid,cust.SEGMENTCODE,
+cust.DOMICILECOUNTRY, cust.SUBSEGMENTCODE,BD.CREATED_BY, BD.BCA_REF_NO, 
+BD.DOCUMENT_TYPE,BD.BCA_STATUS, LC.LCA_STATUS,BD.Country,cust.GROUPNAME,
+BD.LAST_MOD_DATE, BD.CREATED_DATE,
+BD.BCA_TYPE, BD.document_type
+from  (select * from bca_details where BCA_STATUS ='APPROVED' ) BD 
+LEFT join 
+LCA_DETAILS LC on  BD.BCA_REF_NO = LC.BCA_REF_NO and LC.LCA_STATUS='APPROVED' 
+--and BD.VERSION='4.0'  
+join  v_cr_cust_txn cust  on bd.cr_id = cust.custid 
+and cust.SEGMENTCODE='HV'
+and cust.DOMICILECOUNTRY='MY'
+--and cust.SUBSEGMENTCODE='F3'
+--and BD.BCA_REF_NO=99000523
+and cust.GROUPNAME is  null 
+--and BD.BCA_REF_NO=10456575
+and cust.leid is not null
+order by BD.cr_id desc , BD.LAST_MOD_DATE desc ;
+Uday Kumar, Vellanki [3:24 PM]: 
+-------
+select BD.cr_id,cust.custname, cust.leid,cust.SEGMENTCODE,
+cust.DOMICILECOUNTRY, cust.SUBSEGMENTCODE,BD.CREATED_BY, BD.BCA_REF_NO, 
+BD.DOCUMENT_TYPE,BD.BCA_STATUS, LC.LCA_STATUS,BD.Country,cust.GROUPNAME,
+BD.LAST_MOD_DATE, BD.CREATED_DATE,
+BD.BCA_TYPE, BD.document_type
+from  (select *  from (select bd.* , bd2.cr_id as crd2 from BCA_details bd  LEFT join (select CR_ID from bca_details where BCA_STATUS ='APPROVED') bd2
+on bd.CR_id=bd2.cr_id ) where crd2 is null) BD 
+LEFT join 
+LCA_DETAILS LC on  BD.BCA_REF_NO = LC.BCA_REF_NO and LC.LCA_STATUS='APPROVED' 
+join  v_cr_cust_txn cust  on bd.cr_id = cust.custid 
+--and cust.SEGMENTCODE='K'
+--and cust.DOMICILECOUNTRY='US'
+--and cust.GROUPNAME is  null 
+--and cust.leid ='13480352'
+--and BD.cr_id ='22490983'
+order by BD.cr_id desc , BD.LAST_MOD_DATE desc ;
+this one
+you can get data
+
+
+
+===========
+11-01-2018
+==========
+CROP-38762
+CROP-38751 1154226
+
+
+==========
+11-02-2018
+==========
+TER Re-Testing for Justification 
+
+==========
+11-05-2018
+==========
+KTLO_Q4_NOV3
+
+can you check the fix done for CROP-35827 and CROP-39617 
+is it a same issue or different
+TER_Approval_Sqlmap.xml
+getGCAPValExceptionList		--		order by DISP_ORDER
+
+1142343 --  L NAME 13254015
+1370562 --  L NAME 12311845 -- 1147643
+
+
+==========
+11-07-2018
+==========
+WebContent\WEB-INF\jsp\activity\actManageClientDoc.jsp
+\jsp\activity\actSearchCustomerModal.jsp
+
+CROP-15810 : Nov 3 Code Merge
+CROP-31510 : Raptor URL Changes
+
+creditrethinkncc_dd_rel_nov2018
+
+
+==========
+11-08-2018
+==========
+SS Junit Merge
+
+==========
+11-09-2018
+==========
+SS JUNIT
+
+==========
+11-12-2018
+==========
+Junit KT to Vidhya
+CIBITO-GBTec-ProjCH-CrOrigRsk
+18000750 Project Id
+
+==========
+11-13-2018
+==========
+LWD in Scope
+
+
+Name	Apparao M
+Business title	Developer
+Date joined	17/06/2016
+Supervisor	Lakshmi Priya T A
+HR manager	Joel Vasanth S
+Cost centre	3399259800
